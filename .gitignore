@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated output files
+*_con_interpretacion.csv
+*_interpretada_individual.txt
+*_interpretada_narrativa.txt
+*_interpretada.txt 
+# (Adding the older pattern just in case)
+
+# VSCode specific
+.vscode/

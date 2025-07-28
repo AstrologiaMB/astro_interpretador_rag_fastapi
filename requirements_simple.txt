@@ -1,0 +1,23 @@
+# Requirements simplificados - versiones compatibles automáticas
+# Para resolver conflictos de dependencias
+
+# FastAPI y servidor
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+
+# OpenAI y LLM
+openai>=1.3.0
+
+# LlamaIndex - versiones más recientes
+llama-index-core
+llama-index-llms-openai
+llama-index-embeddings-openai
+
+# Dependencias base
+python-dotenv
+pandas
+requests
+httpx
+
+# Utilidades
+typing-extensions
