@@ -1,0 +1,24 @@
+[
+  {
+    "fecha_utc": "2025-07-29",
+    "hora_utc": "13:30",
+    "tipo_evento": "Aspecto",
+    "descripcion": "Urano (directo) por tránsito esta en Cuadratura a tu Saturno Natal",
+    "planeta1": "Urano",
+    "planeta2": "Saturno",
+    "posicion1": "0°50'53\" Géminis",
+    "posicion2": "0°50'54\" Piscis",
+    "tipo_aspecto": "Cuadratura",
+    "orbe": "0°00'00\"",
+    "es_aplicativo": "No",
+    "harmony": "Tensión",
+    "elevacion": "",
+    "azimut": "",
+    "signo": null,
+    "grado": "",
+    "posicion": null,
+    "casa_natal": null,
+    "house_transits": null,
+    "interpretacion": null
+  }
+]

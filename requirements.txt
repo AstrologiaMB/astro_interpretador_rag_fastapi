@@ -1,0 +1,16 @@
+# FastAPI y servidor
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# LlamaIndex y RAG
+llama-index==0.9.13
+openai==1.3.7
+
+# Utilidades
+python-dotenv==1.0.0
+pandas==2.1.4
+pathlib
+
+# Opcional para desarrollo
+python-multipart==0.0.6
