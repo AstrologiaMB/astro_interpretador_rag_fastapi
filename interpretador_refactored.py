@@ -10,6 +10,7 @@ import json
 import re
 import time
 import asyncio
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from dotenv import load_dotenv
@@ -112,7 +113,9 @@ class InterpretadorRAG:
         self.target_titles_set = self._load_target_titles_from_file(titles_file_path)
 
         if self.target_titles_set is None or not self.target_titles_set:
-            raise ValueError("No se pudieron cargar los títulos objetivo")
+            print("❌ ERROR CRÍTICO: No se pudieron cargar los títulos objetivo, inicializando con set vacío")
+            self.target_titles_set = set()
+            return
 
         print(f"🎯 Títulos objetivo cargados: {len(self.target_titles_set)}")
 
@@ -135,7 +138,12 @@ class InterpretadorRAG:
 
         if target_titles_set is None or not target_titles_set:
             print(f"⚠️ No se pudieron cargar los títulos para {chart_type}, usando títulos tropicales por defecto")
-            return self.target_titles_set
+            # Asegurar que siempre devolvemos un set válido, nunca None
+            if self.target_titles_set is not None:
+                return self.target_titles_set
+            else:
+                print(f"❌ ERROR CRÍTICO: target_titles_set también es None, devolviendo set vacío")
+                return set()
 
         print(f"🎯 Títulos {chart_type} cargados: {len(target_titles_set)}")
         return target_titles_set
@@ -212,6 +220,10 @@ class InterpretadorRAG:
             
         return processed_aspects
     
+    def _remove_accents(self, text: str) -> str:
+        """Remover acentos de un texto para matching más flexible"""
+        return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('ascii')
+    
     def _setup_base_prompt(self):
         """Configurar prompt base para RAG"""
         self.base_custom_prompt_template = PromptTemplate(
@@ -236,68 +248,89 @@ class InterpretadorRAG:
         Returns:
             Dict con interpretacion_narrativa, interpretaciones_individuales, tiempo_generacion
         """
-        start_time = time.time()
+        try:
+            start_time = time.time()
 
-        # Cargar títulos específicos para el tipo de carta
-        print(f"🔮 Configurando interpretación para carta {tipo_carta}")
-        target_titles_for_chart = self._load_target_titles_for_chart_type(tipo_carta)
+            # DEBUG: Ver qué datos recibe el RAG system
+            print(f"🔍 DEBUG PAYLOAD KEYS: {list(carta_natal_data.keys())}")
+            if 'cuspides_cruzadas' in carta_natal_data and carta_natal_data['cuspides_cruzadas'] is not None:
+                print(f"🔮 DEBUG: ¡Cúspides cruzadas encontradas! Cantidad: {len(carta_natal_data['cuspides_cruzadas'])}")
+            else:
+                print(f"❌ DEBUG: NO se encontraron cúspides cruzadas en el payload (None o ausente)")
 
-        # Adaptar datos del microservicio al formato RAG
-        carta_adaptada = self._adaptar_datos_microservicio(carta_natal_data)
+            # DEBUG: Verificar estado de target_titles_set
+            print(f"🔍 DEBUG: self.target_titles_set type = {type(self.target_titles_set)}")
+            print(f"🔍 DEBUG: self.target_titles_set is None = {self.target_titles_set is None}")
+            if self.target_titles_set is not None:
+                print(f"🔍 DEBUG: len(self.target_titles_set) = {len(self.target_titles_set)}")
 
-        # Extraer eventos de la carta natal
-        eventos = self._extract_events_from_carta(carta_adaptada)
+            # Cargar títulos específicos para el tipo de carta
+            print(f"🔮 Configurando interpretación para carta {tipo_carta}")
+            target_titles_for_chart = self._load_target_titles_for_chart_type(tipo_carta)
 
-        # Calcular planetas en casas
-        planets_in_houses = self._calculate_house_placements(
-            carta_adaptada.get('points', {}),
-            carta_adaptada.get('houses', {})
-        )
+            # Adaptar datos del microservicio al formato RAG
+            carta_adaptada = self._adaptar_datos_microservicio(carta_natal_data)
 
-        # Agregar eventos de planetas en casas
-        for planet, house in planets_in_houses.items():
-            eventos.append({
-                "tipo": "PlanetaEnCasa",
-                "planeta": planet,
-                "casa": house
-            })
+            # Extraer eventos de la carta natal
+            eventos = self._extract_events_from_carta(carta_adaptada)
 
-        # Evaluar aspectos complejos
-        complex_events = self._evaluate_complex_aspects(eventos, planets_in_houses, carta_adaptada)
-        eventos.extend(complex_events)
-        print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")
-        print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")        # Filtrar eventos según títulos objetivo específicos del tipo de carta
-        eventos_filtrados = self._filter_events_by_target_titles_for_chart(eventos, target_titles_for_chart, tipo_carta)
+            # Calcular planetas en casas
+            planets_in_houses = self._calculate_house_placements(
+                carta_adaptada.get('points', {}),
+                carta_adaptada.get('houses', {})
+            )
+
+            # Agregar eventos de planetas en casas
+            for planet, house in planets_in_houses.items():
+                eventos.append({
+                    "tipo": "PlanetaEnCasa",
+                    "planeta": planet,
+                    "casa": house
+                })
+
+            # Evaluar aspectos complejos
+            complex_events = self._evaluate_complex_aspects(eventos, planets_in_houses, carta_adaptada)
+            eventos.extend(complex_events)
+            print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")
+            print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")        # Filtrar eventos según títulos objetivo específicos del tipo de carta
+            eventos_filtrados = self._filter_events_by_target_titles_for_chart(eventos, target_titles_for_chart, tipo_carta)
+            
+            print(f"📊 Eventos filtrados para interpretar: {len(eventos_filtrados)} (de {len(eventos)} iniciales)")
+            
+            # Configurar prompt con género
+            final_prompt_template = self._create_gender_prompt(genero)
+            
+            # Crear motor de consulta RAG
+            query_engine_rag = self.index.as_query_engine(
+                similarity_top_k=1,
+                text_qa_template=final_prompt_template
+            )
+            
+            # Generar interpretaciones individuales usando concurrencia
+            interpretaciones_individuales = await self._generar_interpretaciones_concurrentes(
+                eventos_filtrados, query_engine_rag, tipo_carta
+            )
+            
+            # Generar interpretación narrativa
+            interpretacion_narrativa = await self._generar_interpretacion_narrativa(
+                interpretaciones_individuales, genero, carta_adaptada.get('nombre', 'Usuario')
+            )
+            
+            end_time = time.time()
+            tiempo_generacion = end_time - start_time
+            
+            return {
+                "interpretacion_narrativa": interpretacion_narrativa,
+                "interpretaciones_individuales": interpretaciones_individuales,
+                "tiempo_generacion": tiempo_generacion
+            }
         
-        print(f"📊 Eventos filtrados para interpretar: {len(eventos_filtrados)} (de {len(eventos)} iniciales)")
-        
-        # Configurar prompt con género
-        final_prompt_template = self._create_gender_prompt(genero)
-        
-        # Crear motor de consulta RAG
-        query_engine_rag = self.index.as_query_engine(
-            similarity_top_k=1,
-            text_qa_template=final_prompt_template
-        )
-        
-        # Generar interpretaciones individuales usando concurrencia
-        interpretaciones_individuales = await self._generar_interpretaciones_concurrentes(
-            eventos_filtrados, query_engine_rag, tipo_carta
-        )
-        
-        # Generar interpretación narrativa
-        interpretacion_narrativa = await self._generar_interpretacion_narrativa(
-            interpretaciones_individuales, genero, carta_adaptada.get('nombre', 'Usuario')
-        )
-        
-        end_time = time.time()
-        tiempo_generacion = end_time - start_time
-        
-        return {
-            "interpretacion_narrativa": interpretacion_narrativa,
-            "interpretaciones_individuales": interpretaciones_individuales,
-            "tiempo_generacion": tiempo_generacion
-        }
+        except Exception as e:
+            import traceback
+            print(f"❌ ERROR DETALLADO: {e}")
+            print(f"📍 STACK TRACE:")
+            traceback.print_exc()
+            raise e
     
     def _adaptar_datos_microservicio(self, datos_microservicio: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -382,6 +415,31 @@ class InterpretadorRAG:
                     "planeta2": aspect_details["point2"]
                 })
         
+        # Cúspides Cruzadas (solo para cartas dracónicas)
+        if "cuspides_cruzadas" in carta_natal_data and carta_natal_data["cuspides_cruzadas"] is not None:
+            print(f"🔮 DEBUG: Detectadas {len(carta_natal_data['cuspides_cruzadas'])} cúspides cruzadas")
+            for cuspide_cruzada in carta_natal_data["cuspides_cruzadas"]:
+                eventos.append({
+                    "tipo": "CuspideCruzada",
+                    "casa_draconica": cuspide_cruzada["casa_draconica"],
+                    "casa_tropical": cuspide_cruzada["casa_tropical_ubicacion"],
+                    "descripcion": cuspide_cruzada.get("descripcion", "")
+                })
+                print(f"🔮 DEBUG: Cúspide cruzada: Casa {cuspide_cruzada['casa_draconica']} dracónica → Casa {cuspide_cruzada['casa_tropical_ubicacion']} tropical")
+        
+        # Aspectos Cruzados (solo para cartas dracónicas)
+        if "aspectos_cruzados" in carta_natal_data and carta_natal_data["aspectos_cruzados"] is not None:
+            print(f"🔮 DEBUG: Detectados {len(carta_natal_data['aspectos_cruzados'])} aspectos cruzados")
+            for aspecto_cruzado in carta_natal_data["aspectos_cruzados"]:
+                eventos.append({
+                    "tipo": "AspectoCruzado",
+                    "planeta_draconico": aspecto_cruzado["punto_draconico"],
+                    "planeta_tropical": aspecto_cruzado["punto_tropical"],
+                    "tipo_aspecto": aspecto_cruzado["tipo_aspecto"],
+                    "orbe": aspecto_cruzado.get("orbe", 0)
+                })
+                print(f"🔮 DEBUG: Aspecto cruzado: {aspecto_cruzado['punto_draconico']} dracónico {aspecto_cruzado['tipo_aspecto']} {aspecto_cruzado['punto_tropical']} tropical")
+        
         return eventos
     
     def _calculate_house_placements(self, planets_data: Dict[str, Any], houses_data: Dict[str, Any]) -> Dict[str, int]:
@@ -454,20 +512,31 @@ class InterpretadorRAG:
         """
         Verificar si una consulta específica coincide con algún título objetivo usando lógica flexible.
         Maneja casos de aspectos simples y aspectos de tránsito complejos.
+        Incluye normalización de acentos para matching más robusto.
         """
+        # Verificar que target_titles_set no sea None
+        if self.target_titles_set is None:
+            print(f"❌ ERROR: target_titles_set es None en _flexible_title_match")
+            return False
+
+        # Normalizar la consulta removiendo acentos
+        consulta_sin_acentos = self._remove_accents(consulta)
+
         # 🔮 DEBUG LOG: Diagnóstico para Sol Dracónico en Libra
-        if "sol" in consulta and "libra" in consulta and "dracónico" in consulta:
-            print(f"🔮 DEBUG MATCH: Buscando '{consulta}' en títulos")
+        if "sol" in consulta and "libra" in consulta and "draconico" in consulta_sin_acentos:
+            print(f"🔮 DEBUG MATCH: Buscando '{consulta}' (sin acentos: '{consulta_sin_acentos}') en títulos")
             print(f"🔮 DEBUG MATCH: Total títulos disponibles: {len(self.target_titles_set)}")
             # Mostrar algunos títulos relevantes
             relevant_titles = [t for t in self.target_titles_set if "sol" in t and "libra" in t]
             print(f"🔮 DEBUG MATCH: Títulos relevantes encontrados: {relevant_titles}")
         
-        # 1. Coincidencia exacta (la más rápida)
-        if consulta in self.target_titles_set:
-            if "sol" in consulta and "libra" in consulta and "dracónico" in consulta:
-                print(f"✅ MATCH EXACTO encontrado para: '{consulta}'")
-            return True
+        # 1. Coincidencia exacta con normalización de acentos
+        for titulo_objetivo in self.target_titles_set:
+            titulo_sin_acentos = self._remove_accents(titulo_objetivo)
+            if consulta_sin_acentos == titulo_sin_acentos:
+                if "sol" in consulta and "libra" in consulta and "draconico" in consulta_sin_acentos:
+                    print(f"✅ MATCH EXACTO (sin acentos) encontrado: '{consulta}' → '{titulo_objetivo}'")
+                return True
 
         # 2. Lógica mejorada para aspectos de tránsito (ej: "urano en tránsito cuadratura a saturno natal")
         # La consulta generada siempre usa "a"
@@ -677,6 +746,27 @@ class InterpretadorRAG:
             draconico_suffix = " dracónico" if chart_type.lower() == "draco" else ""
             return f"{planeta_query}{draconico_suffix} retrógrado"
 
+        elif tipo == "CuspideCruzada":
+            casa_draconica = evento.get("casa_draconica")
+            casa_tropical = evento.get("casa_tropical")
+            
+            # Generar consulta según el patrón de los títulos
+            if casa_draconica == 1:
+                # Caso especial para Ascendente dracónico
+                return f"la cuspide del ascendente draconico superpuesto a la casa {casa_tropical} tropica"
+            else:
+                # Casos normales para casas 2-12
+                return f"la cuspide de la casa {casa_draconica} draconica superpuesta a la casa {casa_tropical} tropica"
+
+        elif tipo == "AspectoCruzado":
+            planeta_drac = self._translate_planet(evento.get("planeta_draconico")).lower()
+            planeta_trop = self._translate_planet(evento.get("planeta_tropical")).lower()
+            aspecto = evento.get("tipo_aspecto").lower()
+            
+            # Generar consulta según el patrón de los títulos dracónicos
+            # Ejemplo: "conjuncion de urano draconico con chiron tropico"
+            return f"{aspecto} de {planeta_drac} draconico con {planeta_trop} tropico"
+
         elif tipo == "AspectoComplejo":
             return evento.get("titulo_especifico", "").lower()
 
@@ -822,6 +912,34 @@ class InterpretadorRAG:
             if grados_formateados:
                 item["grados"] = grados_formateados
                 
+        elif tipo == "CuspideCruzada":
+            casa_draconica = evento.get("casa_draconica")
+            casa_tropical = evento.get("casa_tropical")
+            
+            # Crear título descriptivo para cúspides cruzadas
+            if casa_draconica == 1:
+                item["titulo"] = f"Tu Ascendente Dracónico superpuesto a tu Casa {casa_tropical} Tropical"
+            else:
+                item["titulo"] = f"Tu Casa {casa_draconica} Dracónica superpuesta a tu Casa {casa_tropical} Tropical"
+            
+            item["casa_draconica"] = casa_draconica
+            item["casa_tropical"] = casa_tropical
+            
+        elif tipo == "AspectoCruzado":
+            planeta_drac_es = self._translate_planet(evento.get("planeta_draconico"))
+            planeta_trop_es = self._translate_planet(evento.get("planeta_tropical"))
+            aspecto_es = self._translate_aspect(evento.get("tipo_aspecto"))
+            orbe = evento.get("orbe", 0)
+            
+            # Crear título descriptivo para aspectos cruzados
+            item["titulo"] = f"Tu {planeta_drac_es} Dracónico en {aspecto_es} con tu {planeta_trop_es} Tropical"
+            
+            item["planeta_draconico"] = planeta_drac_es
+            item["planeta_tropical"] = planeta_trop_es
+            item["aspecto"] = aspecto_es
+            if orbe:
+                item["orbe"] = f"{orbe:.1f}°"
+            
         elif tipo == "AspectoComplejo":
             titulo_especifico = evento.get("titulo_especifico", "")
             item["titulo"] = titulo_especifico

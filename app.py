@@ -52,6 +52,8 @@ class CartaNatalData(BaseModel):
     points: Dict[str, Any]
     houses: Dict[str, Any]
     aspects: List[Dict[str, Any]]
+    cuspides_cruzadas: Optional[List[Dict[str, Any]]] = None
+    aspectos_cruzados: Optional[List[Dict[str, Any]]] = None
 
 class InterpretacionRequest(BaseModel):
     """Request para generar interpretación"""
