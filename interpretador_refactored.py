@@ -41,6 +41,9 @@ class InterpretadorRAG:
         if not self.openai_key:
             raise ValueError("OPENAI_API_KEY no encontrada en variables de entorno")
         
+        # Feature flag para RAGs separados (False = sistema actual, True = RAGs separados)
+        self.USE_SEPARATE_ENGINES = False
+        
         # Configurar LLM y embeddings
         self._setup_llm_and_embeddings()
         
@@ -54,6 +57,7 @@ class InterpretadorRAG:
         self._setup_base_prompt()
         
         print("✅ InterpretadorRAG refactorizado inicializado correctamente")
+        print(f"🔧 Feature Flag - RAGs Separados: {'ACTIVADO' if self.USE_SEPARATE_ENGINES else 'DESACTIVADO (sistema actual)'}")
     
     def _setup_llm_and_embeddings(self):
         """Configurar LLM y embeddings según la versión de llama-index"""
@@ -83,29 +87,75 @@ class InterpretadorRAG:
             draco_files = sorted([f for f in draco_dir.glob("[0-9]*.md")])
             print(f"📄 Cargando {len(draco_files)} archivos dracónicos")
 
-            # Combine all files
-            all_files = tropical_files + draco_files
-            if not all_files:
+            if not tropical_files and not draco_files:
                 raise FileNotFoundError("No se encontraron archivos de interpretaciones en ninguna ubicación")
 
-            print(f"📄 Total archivos a cargar: {len(all_files)} (tropical: {len(tropical_files)}, draconic: {len(draco_files)})")
+            print(f"📄 Total archivos encontrados: tropical: {len(tropical_files)}, draconic: {len(draco_files)}")
 
-            documents = SimpleDirectoryReader(input_files=all_files).load_data()
-            if not documents:
-                raise ValueError("No se pudieron cargar los documentos desde los archivos modulares")
-
-            print(f"📊 Total de documentos cargados: {len(documents)}")
-
-            # Crear índice según la versión
-            if LLAMA_INDEX_NEW:
-                self.index = VectorStoreIndex.from_documents(documents)
-            else:
-                self.index = VectorStoreIndex.from_documents(documents, service_context=self.service_context_rag)
-
-            print("✅ Índice RAG creado exitosamente con contenido tropical y dracónico")
+            # Crear todos los engines (mixto + separados)
+            self._create_all_engines(tropical_files, draco_files)
 
         except Exception as e:
             raise Exception(f"Error al cargar o indexar los archivos Markdown de interpretaciones: {e}")
+    
+    def _create_all_engines(self, tropical_files: List[Path], draco_files: List[Path]):
+        """Crear todos los engines RAG: mixto (actual) + separados (nuevo)"""
+        try:
+            print("🔧 Creando engines RAG...")
+            
+            # 1. Crear índice mixto (sistema actual) - SIEMPRE se crea para compatibilidad
+            all_files = tropical_files + draco_files
+            if all_files:
+                documents_mixed = SimpleDirectoryReader(input_files=all_files).load_data()
+                if LLAMA_INDEX_NEW:
+                    self.index = VectorStoreIndex.from_documents(documents_mixed)
+                else:
+                    self.index = VectorStoreIndex.from_documents(documents_mixed, service_context=self.service_context_rag)
+                print(f"✅ Índice RAG MIXTO creado: {len(documents_mixed)} documentos")
+            else:
+                raise ValueError("No hay archivos para crear el índice mixto")
+            
+            # 2. Crear índices separados (solo si USE_SEPARATE_ENGINES está activado o para preparación)
+            # Los creamos siempre para estar listos, pero solo los usamos si el flag está activado
+            
+            # Índice tropical separado
+            if tropical_files:
+                documents_tropical = SimpleDirectoryReader(input_files=tropical_files).load_data()
+                if LLAMA_INDEX_NEW:
+                    self.tropical_index = VectorStoreIndex.from_documents(documents_tropical)
+                else:
+                    self.tropical_index = VectorStoreIndex.from_documents(documents_tropical, service_context=self.service_context_rag)
+                print(f"✅ Índice RAG TROPICAL creado: {len(documents_tropical)} documentos")
+            else:
+                self.tropical_index = None
+                print("⚠️ No se encontraron archivos tropicales, índice tropical = None")
+            
+            # Índice dracónico separado
+            if draco_files:
+                documents_draco = SimpleDirectoryReader(input_files=draco_files).load_data()
+                if LLAMA_INDEX_NEW:
+                    self.draco_index = VectorStoreIndex.from_documents(documents_draco)
+                else:
+                    self.draco_index = VectorStoreIndex.from_documents(documents_draco, service_context=self.service_context_rag)
+                print(f"✅ Índice RAG DRACÓNICO creado: {len(documents_draco)} documentos")
+            else:
+                self.draco_index = None
+                print("⚠️ No se encontraron archivos dracónicos, índice dracónico = None")
+            
+            # Resumen de engines creados
+            engines_created = []
+            if hasattr(self, 'index') and self.index:
+                engines_created.append("MIXTO")
+            if hasattr(self, 'tropical_index') and self.tropical_index:
+                engines_created.append("TROPICAL")
+            if hasattr(self, 'draco_index') and self.draco_index:
+                engines_created.append("DRACÓNICO")
+            
+            print(f"🎯 Engines RAG creados exitosamente: {', '.join(engines_created)}")
+            
+        except Exception as e:
+            print(f"❌ Error en _create_all_engines: {e}")
+            raise e
     
     def _load_target_titles(self):
         """Cargar títulos objetivo desde el archivo MD - por defecto tropical"""
@@ -224,6 +274,47 @@ class InterpretadorRAG:
         """Remover acentos de un texto para matching más flexible"""
         return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('ascii')
     
+    def _get_query_engine(self, chart_type: str = "tropical", **kwargs):
+        """
+        Obtener el motor de consulta RAG apropiado según el tipo de carta y feature flag
+        
+        Args:
+            chart_type: "tropical" o "draco"
+            **kwargs: Argumentos adicionales para as_query_engine()
+        
+        Returns:
+            Query engine configurado
+        """
+        try:
+            # Si el feature flag está desactivado, usar siempre el índice mixto (sistema actual)
+            if not self.USE_SEPARATE_ENGINES:
+                print(f"🔧 Usando índice MIXTO (feature flag desactivado)")
+                return self.index.as_query_engine(**kwargs)
+            
+            # Si el feature flag está activado, usar índices separados
+            print(f"🔧 Feature flag activado - seleccionando índice para carta {chart_type}")
+            
+            if chart_type.lower() == "draco":
+                if hasattr(self, 'draco_index') and self.draco_index is not None:
+                    print(f"✅ Usando índice DRACÓNICO separado")
+                    return self.draco_index.as_query_engine(**kwargs)
+                else:
+                    print(f"⚠️ Índice dracónico no disponible, fallback a índice mixto")
+                    return self.index.as_query_engine(**kwargs)
+            else:
+                # chart_type == "tropical" o cualquier otro valor
+                if hasattr(self, 'tropical_index') and self.tropical_index is not None:
+                    print(f"✅ Usando índice TROPICAL separado")
+                    return self.tropical_index.as_query_engine(**kwargs)
+                else:
+                    print(f"⚠️ Índice tropical no disponible, fallback a índice mixto")
+                    return self.index.as_query_engine(**kwargs)
+                    
+        except Exception as e:
+            print(f"❌ Error en _get_query_engine: {e}")
+            print(f"🔄 Fallback a índice mixto por error")
+            return self.index.as_query_engine(**kwargs)
+    
     def _setup_base_prompt(self):
         """Configurar prompt base para RAG"""
         self.base_custom_prompt_template = PromptTemplate(
@@ -300,8 +391,9 @@ class InterpretadorRAG:
             # Configurar prompt con género
             final_prompt_template = self._create_gender_prompt(genero)
             
-            # Crear motor de consulta RAG
-            query_engine_rag = self.index.as_query_engine(
+            # Crear motor de consulta RAG usando el método que selecciona el índice apropiado
+            query_engine_rag = self._get_query_engine(
+                chart_type=tipo_carta,
                 similarity_top_k=1,
                 text_qa_template=final_prompt_template
             )
