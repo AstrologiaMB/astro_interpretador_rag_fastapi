@@ -42,7 +42,7 @@ class InterpretadorRAG:
             raise ValueError("OPENAI_API_KEY no encontrada en variables de entorno")
         
         # Feature flag para RAGs separados (False = sistema actual, True = RAGs separados)
-        self.USE_SEPARATE_ENGINES = False
+        self.USE_SEPARATE_ENGINES = True
         
         # Configurar LLM y embeddings
         self._setup_llm_and_embeddings()
