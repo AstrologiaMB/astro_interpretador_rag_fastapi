@@ -855,6 +855,18 @@ class InterpretadorRAG:
             planeta_trop = self._translate_planet(evento.get("planeta_tropical")).lower()
             aspecto = evento.get("tipo_aspecto").lower()
             
+            # CORRECCIÓN: Agregar artículos gramaticales según el género de los planetas
+            # para que coincida con los títulos en el archivo dracónico
+    
+            # Determinar artículos según el género gramatical
+            #articulo_drac = "de la" if planeta_drac == "luna" else "del"
+            #articulo_trop = "el" if planeta_trop in ["sol", "nodo"] else "la"
+            
+            
+            # Generar consulta con artículos correctos
+            # Ejemplo: "conjuncion del sol draconico con la luna tropica"
+            #return f"{aspecto} {articulo_drac} {planeta_drac} draconico con {articulo_trop} {planeta_trop} tropico"
+            
             # Generar consulta según el patrón de los títulos dracónicos
             # Ejemplo: "conjuncion de urano draconico con chiron tropico"
             return f"{aspecto} de {planeta_drac} draconico con {planeta_trop} tropico"

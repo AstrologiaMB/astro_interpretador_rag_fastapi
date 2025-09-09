@@ -1182,11 +1182,26 @@ if __name__ == "__main__":
                 4 if x['tipo'] == 'PlanetaRetrogrado' else 5 # Asumiendo que estos tipos existen
             ))
 
+            # DEBUG: Crear archivo para logging del RAG
+            debug_rag_file = "/Users/apple/debug_rag_procesamiento.txt"
+            with open(debug_rag_file, 'w', encoding='utf-8') as f:
+                f.write("🔍 DEBUG PROCESAMIENTO RAG\n")
+                f.write(f"Fecha: {__import__('datetime').datetime.now().isoformat()}\n\n")
+                f.write(f"Total eventos a procesar: {len(eventos_filtrados)}\n\n")
+
             for i, evento in enumerate(eventos_filtrados): # <--- USAR EVENTOS FILTRADOS
                 # Generar la consulta para este evento
                 consulta = generar_consulta_estandarizada(evento)
 
                 print(f"🔍 Consultando RAG ({i+1}/{len(eventos_filtrados)}): {consulta}")
+
+                # DEBUG: Log de la consulta al RAG
+                with open(debug_rag_file, 'a', encoding='utf-8') as f:
+                    f.write(f"--- Consulta {i+1} ---\n")
+                    f.write(f"Consulta generada: {consulta}\n")
+                    f.write(f"Tipo evento: {evento.get('tipo', 'N/A')}\n")
+                    f.write(f"Evento completo: {evento}\n\n")
+
                 # Generar Header basado en el evento actual, no solo la consulta base
                 header = f"### {consulta}" # Default header
                 tipo = evento.get("tipo")
@@ -1224,9 +1239,23 @@ if __name__ == "__main__":
                 try:
                     respuesta = query_engine_rag.query(consulta)
                     interpretacion = respuesta.response.strip() if respuesta.response else "No se encontró interpretación específica."
+
+                    # DEBUG: Log de la respuesta del RAG
+                    with open(debug_rag_file, 'a', encoding='utf-8') as f:
+                        f.write(f"Respuesta RAG: {interpretacion[:500]}...\n")  # Primeros 500 caracteres
+                        f.write(f"Longitud respuesta: {len(interpretacion)} caracteres\n")
+                        if respuesta.source_nodes:
+                            f.write(f"Fuente utilizada: {respuesta.source_nodes[0].get_content()[:200]}...\n")
+                        f.write(f"--- Fin Consulta {i+1} ---\n\n")
+
                 except Exception as e:
                      print(f"⚠️ Error al consultar RAG para '{consulta}': {e}")
                      interpretacion = f"Error al obtener interpretación: {e}"
+
+                     # DEBUG: Log del error
+                     with open(debug_rag_file, 'a', encoding='utf-8') as f:
+                         f.write(f"ERROR: {str(e)}\n")
+                         f.write(f"--- Fin Consulta {i+1} (ERROR) ---\n\n")
 
                 report_content_individual += header + "\n" + interpretacion + "\n\n"
                 interpretaciones_individuales_con_header.append(f"{header}\n{interpretacion}")
