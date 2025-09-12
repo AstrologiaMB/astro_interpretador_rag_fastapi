@@ -855,21 +855,13 @@ class InterpretadorRAG:
             planeta_trop = self._translate_planet(evento.get("planeta_tropical")).lower()
             aspecto = evento.get("tipo_aspecto").lower()
             
-            # CORRECCIÓN: Agregar artículos gramaticales según el género de los planetas
-            # para que coincida con los títulos en el archivo dracónico
-    
-            # Determinar artículos según el género gramatical
-            #articulo_drac = "de la" if planeta_drac == "luna" else "del"
-            #articulo_trop = "el" if planeta_trop in ["sol", "nodo"] else "la"
+            # APLICAR GÉNERO CORRECTO usando función auxiliar
+            draconico_suffix = self._get_draconico_suffix(evento.get("planeta_draconico"))
             
-            
-            # Generar consulta con artículos correctos
-            # Ejemplo: "conjuncion del sol draconico con la luna tropica"
-            #return f"{aspecto} {articulo_drac} {planeta_drac} draconico con {articulo_trop} {planeta_trop} tropico"
-            
-            # Generar consulta según el patrón de los títulos dracónicos
-            # Ejemplo: "conjuncion de urano draconico con chiron tropico"
-            return f"{aspecto} de {planeta_drac} draconico con {planeta_trop} tropico"
+            # Generar consulta con género correcto
+            # Ejemplo: "oposicion de luna draconica con neptuno tropico" (femenino)
+            # Ejemplo: "conjuncion de mercurio draconico con neptuno tropico" (masculino)
+            return f"{aspecto} de {planeta_drac}{draconico_suffix} con {planeta_trop} tropico"
 
         elif tipo == "AspectoComplejo":
             return evento.get("titulo_especifico", "").lower()
@@ -905,6 +897,10 @@ class InterpretadorRAG:
             "Trígono": "Trígono", "Sextil": "Sextil"
         }
         return translations.get(aspect, aspect)
+    
+    def _get_draconico_suffix(self, planet: str) -> str:
+        """Obtener sufijo dracónico con género correcto (sin tildes para matching)"""
+        return " draconica" if planet == "Moon" else " draconico"
     
     def _format_degrees(self, decimal_degrees: Optional[float]) -> str:
         """Formatear grados decimales a grados y minutos"""
@@ -1091,7 +1087,7 @@ class InterpretadorRAG:
         
         return interpretaciones_individuales
     
-    async def _generar_interpretacion_narrativa(self, interpretaciones_individuales: List[Dict[str, Any]], genero: str, nombre: str) -> str:
+    async def _generar_interpretacion_narrativa(self, interpretaciones_individuales: List[Dict[str, Any]], genero: str, nombre: str, tipo_carta: str = "tropical") -> str:
         """Generar interpretación narrativa usando GPT-4"""
         try:
             # Crear LLM para reescritura narrativa
@@ -1121,23 +1117,11 @@ class InterpretadorRAG:
             persona_instruccion = "Instrucción adicional: Dirígete directamente a la persona usando la segunda persona singular (Tú)."
             instrucciones_adicionales = f"{genero_instruccion}\n{persona_instruccion}".strip()
             
-            # Crear prompt para reescritura narrativa
-            rewrite_prompt_str = (
-                f"{instrucciones_adicionales}\n"
-                f"Eres un astrólogo experto y un excelente escritor. Tu tarea es tomar las siguientes interpretaciones astrológicas individuales (separadas por '###') de una CARTA NATAL y re-escribirlas como un informe narrativo unificado, fluido y detallado, dirigido directamente a la persona (usando 'Tú').\n"
-                "**REGLAS CRÍTICAS:**\n"
-                "1.  **INCLUYE TODO:** Debes incorporar la información específica de CADA interpretación proporcionada. Esto incluye OBLIGATORIAMENTE: Planetas en Signo (con grados si están), Planetas en Casa, Cúspides de Casa en Signo, Aspectos (mencionando el tipo: Conjunción, Oposición, Cuadratura, Trígono, Sextil), Planetas Retrógrados, y otros puntos como Nodos, Lilith, Quirón, Parte de la Fortuna, Vertex.\n"
-                "2.  **MANTÉN DETALLE:** NO resumas excesivamente. Preserva los matices y detalles específicos de cada interpretación individual mientras los tejes en la narrativa.\n"
-                "3.  **ENFOQUE NATAL:** Todas las interpretaciones se refieren a la CARTA NATAL base. NO las describas como 'tránsitos' a menos que el texto original lo indique explícitamente.\n"
-                "4.  **FLUJO COHERENTE:** Conecta las ideas de forma lógica. Puedes agrupar temas (ej: identidad central, relaciones, carrera, desafíos) pero asegúrate de que todas las piezas individuales estén presentes en la narrativa final.\n"
-                "5.  **ESTILO:** Mantén un tono personal y empático. No repitas el nombre de la persona en el cuerpo del texto. Organiza en párrafos claros.\n"
-                "6.  **IDIOMA:** Responde EXCLUSIVAMENTE en idioma español.\n\n"
-                "Interpretaciones individuales NATALES a re-escribir:\n"
-                "--------------------------------------------------\n"
-                f"{interpretaciones_combinadas}\n"
-                "--------------------------------------------------\n"
-                "Informe Narrativo Detallado:"
-            )
+            # Seleccionar prompt según tipo de carta
+            if tipo_carta.lower() == "draco":
+                rewrite_prompt_str = self._get_draconian_narrative_prompt(instrucciones_adicionales, interpretaciones_combinadas)
+            else:
+                rewrite_prompt_str = self._get_tropical_narrative_prompt(instrucciones_adicionales, interpretaciones_combinadas)
             
             # Generar interpretación narrativa
             if LLAMA_INDEX_NEW:
@@ -1218,3 +1202,59 @@ class InterpretadorRAG:
                 return f"Error al obtener interpretación: {e}"
         else:
             return f"[SIN COINCIDENCIA]: {consulta_normalizada}"
+
+    def _get_tropical_narrative_prompt(self, instrucciones_adicionales: str, interpretaciones_combinadas: str) -> str:
+        """Crear prompt específico para cartas natales tropicales"""
+        return (
+            f"{instrucciones_adicionales}\n"
+            f"Eres un astrólogo experto especializado en CARTAS NATALES TROPICALES.\n"
+            f"Tu tarea es tomar las siguientes interpretaciones astrológicas individuales (separadas por '###') de una CARTA NATAL TROPICAL y re-escribirlas como un informe narrativo unificado, fluido y detallado, dirigido directamente a la persona (usando 'Tú').\n"
+            "**CONTEXTO IMPORTANTE:**\n"
+            "- Esta es una carta TROPICAL que representa la PERSONALIDAD, CARÁCTER y VIDA COTIDIANA del individuo\n"
+            "- Las posiciones tropicales muestran cómo el individuo se expresa en el mundo exterior\n"
+            "- Enfócate en aspectos psicológicos, comportamentales y experiencias de vida práctica\n"
+            "**REGLAS CRÍTICAS:**\n"
+            "1.  **INCLUYE TODA LA INFORMACIÓN ESPECÍFICA:** Incorpora OBLIGATORIAMENTE cada detalle de las interpretaciones individuales: Planetas en Signo (con grados si están), Planetas en Casa, Cúspides de Casa en Signo, Aspectos (mencionando el tipo: Conjunción, Oposición, Cuadratura, Trígono, Sextil), Planetas Retrógrados, y otros puntos como Nodos, Lilith, Quirón, Parte de la Fortuna, Vertex.\n"
+            "2.  **MANTÉN DETALLE:** NO resumas excesivamente. Preserva los matices y detalles específicos de cada interpretación individual mientras los tejes en la narrativa.\n"
+            "3.  **ENFOQUE PSICOLÓGICO:** Enfatiza el aspecto PERSONAL y COMPORTAMENTAL de las posiciones. Explica cómo influyen en la personalidad, las relaciones interpersonales y la vida cotidiana.\n"
+            "4.  **FLUJO COHERENTE:** Conecta las ideas de forma lógica. Puedes agrupar temas (ej: identidad central, relaciones, carrera, desafíos) pero asegúrate de que todas las piezas individuales estén presentes en la narrativa final.\n"
+            "5.  **ESTILO:** Mantén un tono personal y empático. Organiza en párrafos claros con transiciones suaves.\n"
+            "6.  **IDIOMA:** Responde EXCLUSIVAMENTE en idioma español.\n\n"
+            "Interpretaciones individuales NATALES TROPICALES a re-escribir:\n"
+            "--------------------------------------------------\n"
+            f"{interpretaciones_combinadas}\n"
+            "--------------------------------------------------\n"
+            "Informe Narrativo Personal Detallado:"
+        )
+
+    def _get_draconian_narrative_prompt(self, instrucciones_adicionales: str, interpretaciones_combinadas: str) -> str:
+        """Crear prompt específico para cartas natales dracónicas"""
+        return (
+            f"{instrucciones_adicionales}\n"
+            f"Eres un astrólogo experto especializado en CARTAS NATALES DRACÓNICAS.\n"
+            f"Tu tarea es tomar las siguientes interpretaciones astrológicas individuales (separadas por '###') de una CARTA NATAL DRACÓNICA y re-escribirlas como un informe narrativo unificado, fluido y detallado, dirigido directamente a la persona (usando 'Tú').\n"
+            "**CONTEXTO ESPIRITUAL IMPORTANTE:**\n"
+            "- Esta es una carta DRACÓNICA que representa el ALMA, el KARMA y los PATRONES INCONSCIENTES PROFUNDOS\n"
+            "- Las posiciones dracónicas revelan LECCIONES KÁRMICAS, PROPÓSITO ESPIRITUAL y PATRONES DEL ALMA\n"
+            "- Complementa la carta tropical (personalidad) mostrando el propósito espiritual del alma\n"
+            "- Enfócate en aspectos kármicos, espirituales y de evolución del alma\n"
+            "**REGLAS CRÍTICAS:**\n"
+            "1.  **INCLUYE TODA LA INFORMACIÓN ESPECÍFICA:** Incorpora OBLIGATORIAMENTE cada detalle de las interpretaciones dracónicas individuales: Planetas en Signo (con grados si están), Planetas en Casa, Cúspides de Casa en Signo, Aspectos (mencionando el tipo: Conjunción, Oposición, Cuadratura, Trígono, Sextil), Planetas Retrógrados, Nodos, Lilith, Quirón, Parte de la Fortuna, Vertex, cúspides cruzadas y aspectos cruzados.\n"
+            "2.  **MANTÉN DETALLE:** NO resumas excesivamente. Preserva los matices y detalles específicos de cada interpretación individual mientras los tejes en la narrativa.\n"
+            "3.  **ENFOQUE ESPIRITUAL/KÁRMICO:** Enfatiza el aspecto del ALMA y KARMA de las posiciones dracónicas. Explica cómo las posiciones tropicales (personalidad) interactúan con las dracónicas (alma). Interpreta aspectos cruzados como lecciones kármicas importantes.\n"
+            "4.  **ESTRUCTURA ESPIRITUAL SUGERIDA:**\n"
+            "   - **Introducción:** Explica brevemente el significado espiritual de la carta dracónica\n"
+            "   - **Identidad del Alma:** Sol, Luna, Ascendente dracónicos y su propósito espiritual\n"
+            "   - **Relaciones Karmáticas:** Venus, Marte dracónicos y lecciones de relación del alma\n"
+            "   - **Propósito de Vida:** Nodos, MC dracónico, casas 10-12 y propósito espiritual\n"
+            "   - **Lecciones y Desafíos:** Aspectos difíciles, posiciones retrógradas como oportunidades de crecimiento espiritual\n"
+            "   - **Potencial Espiritual:** Aspectos armoniosos, posiciones elevadas como dones del alma\n"
+            "5.  **FLUJO COHERENTE:** Conecta las ideas lógicamente, agrupando temas relacionados pero asegurando que toda la información individual esté presente.\n"
+            "6.  **ESTILO ESPIRITUAL:** Mantén un tono personal, empático y ESPIRITUALMENTE PROFUNDO. Organiza en párrafos claros con transiciones suaves.\n"
+            "7.  **IDIOMA:** Responde EXCLUSIVAMENTE en idioma español.\n\n"
+            "Interpretaciones individuales de la CARTA DRACÓNICA a re-escribir:\n"
+            "--------------------------------------------------\n"
+            f"{interpretaciones_combinadas}\n"
+            "--------------------------------------------------\n"
+            "Informe Narrativo Espiritual Detallado:"
+        )
