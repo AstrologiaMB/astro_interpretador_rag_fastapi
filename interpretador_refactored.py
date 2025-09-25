@@ -405,7 +405,7 @@ class InterpretadorRAG:
             
             # Generar interpretación narrativa
             interpretacion_narrativa = await self._generar_interpretacion_narrativa(
-                interpretaciones_individuales, genero, carta_adaptada.get('nombre', 'Usuario')
+                interpretaciones_individuales, genero, carta_adaptada.get('nombre', 'Usuario'), tipo_carta
             )
             
             end_time = time.time()
