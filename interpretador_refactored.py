@@ -75,9 +75,9 @@ class InterpretadorRAG:
     def _load_and_index_documents(self):
         """Cargar y indexar los archivos de interpretaciones (tropical y draconic)"""
         try:
-            # Paths to both tropical and draconic content
-            tropical_dir = Path("../calculo-carta-natal-api/src/services/data/tropical")
-            draco_dir = Path("../calculo-carta-natal-api/src/services/data/draco")
+            # Paths to both tropical and draconic content (Railway-compatible local paths)
+            tropical_dir = Path("data")
+            draco_dir = Path("data/draco")
 
             # Load tropical files
             tropical_files = sorted([f for f in tropical_dir.glob("[0-9]*.md")])
@@ -159,7 +159,7 @@ class InterpretadorRAG:
     
     def _load_target_titles(self):
         """Cargar títulos objetivo desde el archivo MD - por defecto tropical"""
-        titles_file_path = "../calculo-carta-natal-api/src/services/data/tropical/Títulos normalizados minusculas.txt"
+        titles_file_path = "data/Títulos normalizados minusculas.txt"
         self.target_titles_set = self._load_target_titles_from_file(titles_file_path)
 
         if self.target_titles_set is None or not self.target_titles_set:
@@ -178,10 +178,10 @@ class InterpretadorRAG:
     def _load_target_titles_for_chart_type(self, chart_type: str):
         """Cargar títulos objetivo según el tipo de carta"""
         if chart_type.lower() == "draco":
-            titles_file_path = "../calculo-carta-natal-api/src/services/data/draco/Títulos normalizados minusculas.txt"
+            titles_file_path = "data/draco/Títulos normalizados minusculas.txt"
             print(f"🔮 Cargando títulos dracónicos desde: {titles_file_path}")
         else:
-            titles_file_path = "../calculo-carta-natal-api/src/services/data/tropical/Títulos normalizados minusculas.txt"
+            titles_file_path = "data/Títulos normalizados minusculas.txt"
             print(f"🌞 Cargando títulos tropicales desde: {titles_file_path}")
 
         target_titles_set = self._load_target_titles_from_file(titles_file_path)
