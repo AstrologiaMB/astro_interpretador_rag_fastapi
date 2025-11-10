@@ -22,9 +22,10 @@ app = FastAPI(
 )
 
 # Configurar CORS para permitir requests desde Next.js
+# Railway-compatible: uses environment variable with localhost fallback
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Frontend Next.js
+    allow_origins=os.getenv("CORS_ORIGINS", "http://localhost:3000").split(","),  # Frontend Next.js
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -233,10 +234,12 @@ async def root():
     }
 
 if __name__ == "__main__":
+    # Railway-compatible: uses environment variable with local fallback
+    port = int(os.getenv("PORT", 8002))
     uvicorn.run(
         "app:app",
         host="0.0.0.0",
-        port=8002,
+        port=port,
         reload=True,
         log_level="info"
     )
