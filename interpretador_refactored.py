@@ -1093,9 +1093,9 @@ class InterpretadorRAG:
             # Crear LLM para reescritura narrativa
             if LLAMA_INDEX_NEW:
                 from llama_index.llms.openai import OpenAI as OpenAILLM
-                llm_rewriter = OpenAILLM(api_key=self.openai_key, temperature=0.7, model="gpt-4-turbo")
+                llm_rewriter = OpenAILLM(api_key=self.openai_key, temperature=0.7, model="gpt-4")
             else:
-                llm_rewriter = OpenAI(api_key=self.openai_key, temperature=0.7, model="gpt-4-turbo")
+                llm_rewriter = OpenAI(api_key=self.openai_key, temperature=0.7, model="gpt-4")
             
             # Combinar interpretaciones individuales
             interpretaciones_texto = []
