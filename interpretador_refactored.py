@@ -356,7 +356,7 @@ class InterpretadorRAG:
             #     print(f"🔍 DEBUG: len(self.target_titles_set) = {len(self.target_titles_set)}")
 
             # Cargar títulos específicos para el tipo de carta
-            print(f"🔮 Configurando interpretación para carta {tipo_carta}")
+            # print(f"🔮 Configurando interpretación para carta {tipo_carta}")
             target_titles_for_chart = self._load_target_titles_for_chart_type(tipo_carta)
 
             # Adaptar datos del microservicio al formato RAG
@@ -1056,9 +1056,9 @@ class InterpretadorRAG:
             consulta = self._generar_consulta_estandarizada(evento, chart_type)
             
             # DEBUG FASE 2: Verificar consultas generadas, especialmente "sol en capricornio"
-            if "capricornio" in consulta.lower():
-                print(f"✅ DEBUG FASE 2: Consulta con 'capricornio' generada: '{consulta}'")
-                print(f"🔍 DEBUG FASE 2: Evento que generó la consulta: {evento}")
+            # if "capricornio" in consulta.lower():
+            #     print(f"✅ DEBUG FASE 2: Consulta con 'capricornio' generada: '{consulta}'")
+            #     print(f"🔍 DEBUG FASE 2: Evento que generó la consulta: {evento}")
             
             # print(f"🔍 Consultando RAG ({i+1}/{len(eventos_filtrados)}): {consulta}")
             
