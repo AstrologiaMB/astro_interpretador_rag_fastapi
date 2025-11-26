@@ -468,7 +468,7 @@ class InterpretadorRAG:
                             "signo": details["sign"],
                             "grados": details.get("degrees")
                         })
-                        print(f"🔍 DEBUG: Ángulo detectado: {angulos[name]} en {details['sign']}")
+                        # print(f"🔍 DEBUG: Ángulo detectado: {angulos[name]} en {details['sign']}")
                     else:
                         # Es un planeta normal
                         eventos.append({
@@ -479,7 +479,7 @@ class InterpretadorRAG:
                         })
                         
                         if details.get("retrograde", False):
-                            print(f"🔍 DEBUG: Planeta retrógrado detectado: {name} (retrograde: {details.get('retrograde')})")
+                            # print(f"🔍 DEBUG: Planeta retrógrado detectado: {name} (retrograde: {details.get('retrograde')})")
                             eventos.append({
                                 "tipo": "PlanetaRetrogrado",
                                 "planeta": name,
@@ -509,7 +509,7 @@ class InterpretadorRAG:
         
         # Cúspides Cruzadas (solo para cartas dracónicas)
         if "cuspides_cruzadas" in carta_natal_data and carta_natal_data["cuspides_cruzadas"] is not None:
-            print(f"🔮 DEBUG: Detectadas {len(carta_natal_data['cuspides_cruzadas'])} cúspides cruzadas")
+            # print(f"🔮 DEBUG: Detectadas {len(carta_natal_data['cuspides_cruzadas'])} cúspides cruzadas")
             for cuspide_cruzada in carta_natal_data["cuspides_cruzadas"]:
                 eventos.append({
                     "tipo": "CuspideCruzada",
@@ -517,11 +517,11 @@ class InterpretadorRAG:
                     "casa_tropical": cuspide_cruzada["casa_tropical_ubicacion"],
                     "descripcion": cuspide_cruzada.get("descripcion", "")
                 })
-                print(f"🔮 DEBUG: Cúspide cruzada: Casa {cuspide_cruzada['casa_draconica']} dracónica → Casa {cuspide_cruzada['casa_tropical_ubicacion']} tropical")
+                # print(f"🔮 DEBUG: Cúspide cruzada: Casa {cuspide_cruzada['casa_draconica']} dracónica → Casa {cuspide_cruzada['casa_tropical_ubicacion']} tropical")
         
         # Aspectos Cruzados (solo para cartas dracónicas)
         if "aspectos_cruzados" in carta_natal_data and carta_natal_data["aspectos_cruzados"] is not None:
-            print(f"🔮 DEBUG: Detectados {len(carta_natal_data['aspectos_cruzados'])} aspectos cruzados")
+            # print(f"🔮 DEBUG: Detectados {len(carta_natal_data['aspectos_cruzados'])} aspectos cruzados")
             for aspecto_cruzado in carta_natal_data["aspectos_cruzados"]:
                 eventos.append({
                     "tipo": "AspectoCruzado",
@@ -530,7 +530,7 @@ class InterpretadorRAG:
                     "tipo_aspecto": aspecto_cruzado["tipo_aspecto"],
                     "orbe": aspecto_cruzado.get("orbe", 0)
                 })
-                print(f"🔮 DEBUG: Aspecto cruzado: {aspecto_cruzado['punto_draconico']} dracónico {aspecto_cruzado['tipo_aspecto']} {aspecto_cruzado['punto_tropical']} tropical")
+                # print(f"🔮 DEBUG: Aspecto cruzado: {aspecto_cruzado['punto_draconico']} dracónico {aspecto_cruzado['tipo_aspecto']} {aspecto_cruzado['punto_tropical']} tropical")
         
         return eventos
     
