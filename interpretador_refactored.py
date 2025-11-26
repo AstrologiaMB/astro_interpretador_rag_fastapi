@@ -1090,12 +1090,12 @@ class InterpretadorRAG:
     async def _generar_interpretacion_narrativa(self, interpretaciones_individuales: List[Dict[str, Any]], genero: str, nombre: str, tipo_carta: str = "tropical") -> str:
         """Generar interpretación narrativa usando GPT-4"""
         try:
-            # Crear LLM para reescritura narrativa
+            # Crear LLM para reescritura narrativa con timeout extendido para textos largos
             if LLAMA_INDEX_NEW:
                 from llama_index.llms.openai import OpenAI as OpenAILLM
-                llm_rewriter = OpenAILLM(api_key=self.openai_key, temperature=0.7, model="gpt-4")
+                llm_rewriter = OpenAILLM(api_key=self.openai_key, temperature=0.7, model="gpt-4", timeout=300.0)
             else:
-                llm_rewriter = OpenAI(api_key=self.openai_key, temperature=0.7, model="gpt-4")
+                llm_rewriter = OpenAI(api_key=self.openai_key, temperature=0.7, model="gpt-4", timeout=300.0)
             
             # Combinar interpretaciones individuales
             interpretaciones_texto = []
