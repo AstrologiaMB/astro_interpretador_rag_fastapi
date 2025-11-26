@@ -386,7 +386,7 @@ class InterpretadorRAG:
             # print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")        # Filtrar eventos según títulos objetivo específicos del tipo de carta
             eventos_filtrados = self._filter_events_by_target_titles_for_chart(eventos, target_titles_for_chart, tipo_carta)
             
-            print(f"📊 Eventos filtrados para interpretar: {len(eventos_filtrados)} (de {len(eventos)} iniciales)")
+            # print(f"📊 Eventos filtrados para interpretar: {len(eventos_filtrados)} (de {len(eventos)} iniciales)")
             
             # Configurar prompt con género
             final_prompt_template = self._create_gender_prompt(genero)
