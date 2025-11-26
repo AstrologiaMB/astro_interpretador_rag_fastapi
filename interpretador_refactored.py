@@ -81,16 +81,16 @@ class InterpretadorRAG:
 
             # Load tropical files
             tropical_files = sorted([f for f in tropical_dir.glob("[0-9]*.md")])
-            print(f"📄 Cargando {len(tropical_files)} archivos tropicales")
+            # print(f"📄 Cargando {len(tropical_files)} archivos tropicales")
 
             # Load draconic files
             draco_files = sorted([f for f in draco_dir.glob("[0-9]*.md")])
-            print(f"📄 Cargando {len(draco_files)} archivos dracónicos")
+            # print(f"📄 Cargando {len(draco_files)} archivos dracónicos")
 
             if not tropical_files and not draco_files:
                 raise FileNotFoundError("No se encontraron archivos de interpretaciones en ninguna ubicación")
 
-            print(f"📄 Total archivos encontrados: tropical: {len(tropical_files)}, draconic: {len(draco_files)}")
+            # print(f"📄 Total archivos encontrados: tropical: {len(tropical_files)}, draconic: {len(draco_files)}")
 
             # Crear todos los engines (mixto + separados)
             self._create_all_engines(tropical_files, draco_files)
@@ -101,7 +101,7 @@ class InterpretadorRAG:
     def _create_all_engines(self, tropical_files: List[Path], draco_files: List[Path]):
         """Crear todos los engines RAG: mixto (actual) + separados (nuevo)"""
         try:
-            print("🔧 Creando engines RAG...")
+            # print("🔧 Creando engines RAG...")
             
             # 1. Crear índice mixto (sistema actual) - SIEMPRE se crea para compatibilidad
             all_files = tropical_files + draco_files
@@ -111,7 +111,7 @@ class InterpretadorRAG:
                     self.index = VectorStoreIndex.from_documents(documents_mixed)
                 else:
                     self.index = VectorStoreIndex.from_documents(documents_mixed, service_context=self.service_context_rag)
-                print(f"✅ Índice RAG MIXTO creado: {len(documents_mixed)} documentos")
+                # print(f"✅ Índice RAG MIXTO creado: {len(documents_mixed)} documentos")
             else:
                 raise ValueError("No hay archivos para crear el índice mixto")
             
@@ -125,10 +125,10 @@ class InterpretadorRAG:
                     self.tropical_index = VectorStoreIndex.from_documents(documents_tropical)
                 else:
                     self.tropical_index = VectorStoreIndex.from_documents(documents_tropical, service_context=self.service_context_rag)
-                print(f"✅ Índice RAG TROPICAL creado: {len(documents_tropical)} documentos")
+                # print(f"✅ Índice RAG TROPICAL creado: {len(documents_tropical)} documentos")
             else:
                 self.tropical_index = None
-                print("⚠️ No se encontraron archivos tropicales, índice tropical = None")
+                # print("⚠️ No se encontraron archivos tropicales, índice tropical = None")
             
             # Índice dracónico separado
             if draco_files:
@@ -137,21 +137,21 @@ class InterpretadorRAG:
                     self.draco_index = VectorStoreIndex.from_documents(documents_draco)
                 else:
                     self.draco_index = VectorStoreIndex.from_documents(documents_draco, service_context=self.service_context_rag)
-                print(f"✅ Índice RAG DRACÓNICO creado: {len(documents_draco)} documentos")
+                # print(f"✅ Índice RAG DRACÓNICO creado: {len(documents_draco)} documentos")
             else:
                 self.draco_index = None
-                print("⚠️ No se encontraron archivos dracónicos, índice dracónico = None")
+                # print("⚠️ No se encontraron archivos dracónicos, índice dracónico = None")
             
             # Resumen de engines creados
-            engines_created = []
-            if hasattr(self, 'index') and self.index:
-                engines_created.append("MIXTO")
-            if hasattr(self, 'tropical_index') and self.tropical_index:
-                engines_created.append("TROPICAL")
-            if hasattr(self, 'draco_index') and self.draco_index:
-                engines_created.append("DRACÓNICO")
+            # engines_created = []
+            # if hasattr(self, 'index') and self.index:
+            #     engines_created.append("MIXTO")
+            # if hasattr(self, 'tropical_index') and self.tropical_index:
+            #     engines_created.append("TROPICAL")
+            # if hasattr(self, 'draco_index') and self.draco_index:
+            #     engines_created.append("DRACÓNICO")
             
-            print(f"🎯 Engines RAG creados exitosamente: {', '.join(engines_created)}")
+            # print(f"🎯 Engines RAG creados exitosamente: {', '.join(engines_created)}")
             
         except Exception as e:
             print(f"❌ Error en _create_all_engines: {e}")
@@ -167,27 +167,27 @@ class InterpretadorRAG:
             self.target_titles_set = set()
             return
 
-        print(f"🎯 Títulos objetivo cargados: {len(self.target_titles_set)}")
+        # print(f"🎯 Títulos objetivo cargados: {len(self.target_titles_set)}")
 
         # Debug: Mostrar títulos de planetas retrógrados específicos
-        retrograde_titles = [title for title in self.target_titles_set if "retrógrado" in title]
-        print(f"🔍 DEBUG: Títulos retrógrados en target_titles_set: {len(retrograde_titles)}")
-        for title in sorted(retrograde_titles):
-            print(f"🔍 DEBUG: - '{title}'")
+        # retrograde_titles = [title for title in self.target_titles_set if "retrógrado" in title]
+        # print(f"🔍 DEBUG: Títulos retrógrados en target_titles_set: {len(retrograde_titles)}")
+        # for title in sorted(retrograde_titles):
+        #     print(f"🔍 DEBUG: - '{title}'")
 
     def _load_target_titles_for_chart_type(self, chart_type: str):
         """Cargar títulos objetivo según el tipo de carta"""
         if chart_type.lower() == "draco":
             titles_file_path = "data/draco/Títulos normalizados minusculas.txt"
-            print(f"🔮 Cargando títulos dracónicos desde: {titles_file_path}")
+            # print(f"🔮 Cargando títulos dracónicos desde: {titles_file_path}")
         else:
             titles_file_path = "data/Títulos normalizados minusculas.txt"
-            print(f"🌞 Cargando títulos tropicales desde: {titles_file_path}")
+            # print(f"🌞 Cargando títulos tropicales desde: {titles_file_path}")
 
         target_titles_set = self._load_target_titles_from_file(titles_file_path)
 
         if target_titles_set is None or not target_titles_set:
-            print(f"⚠️ No se pudieron cargar los títulos para {chart_type}, usando títulos tropicales por defecto")
+            # print(f"⚠️ No se pudieron cargar los títulos para {chart_type}, usando títulos tropicales por defecto")
             # Asegurar que siempre devolvemos un set válido, nunca None
             if self.target_titles_set is not None:
                 return self.target_titles_set
@@ -195,7 +195,7 @@ class InterpretadorRAG:
                 print(f"❌ ERROR CRÍTICO: target_titles_set también es None, devolviendo set vacío")
                 return set()
 
-        print(f"🎯 Títulos {chart_type} cargados: {len(target_titles_set)}")
+        # print(f"🎯 Títulos {chart_type} cargados: {len(target_titles_set)}")
         return target_titles_set
     
     def _load_target_titles_from_file(self, filepath):
@@ -212,11 +212,11 @@ class InterpretadorRAG:
         except Exception as e:
             print(f"❌ Error cargando títulos desde {filepath}: {e}")
         
-        print(f"📊 DEBUG: Total de {len(target_titles)} títulos cargados desde '{filepath}'.")
+        # print(f"📊 DEBUG: Total de {len(target_titles)} títulos cargados desde '{filepath}'.")
         # Mostrar algunos ejemplos
-        sample_titles = list(target_titles)[:5]
-        for title in sample_titles:
-            print(f"   📝 Ejemplo: '{title}'")
+        # sample_titles = list(target_titles)[:5]
+        # for title in sample_titles:
+        #     print(f"   📝 Ejemplo: '{title}'")
                 
         return target_titles
     
