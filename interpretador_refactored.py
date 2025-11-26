@@ -288,31 +288,31 @@ class InterpretadorRAG:
         try:
             # Si el feature flag está desactivado, usar siempre el índice mixto (sistema actual)
             if not self.USE_SEPARATE_ENGINES:
-                print(f"🔧 Usando índice MIXTO (feature flag desactivado)")
+                # print(f"🔧 Usando índice MIXTO (feature flag desactivado)")
                 return self.index.as_query_engine(**kwargs)
             
             # Si el feature flag está activado, usar índices separados
-            print(f"🔧 Feature flag activado - seleccionando índice para carta {chart_type}")
+            # print(f"🔧 Feature flag activado - seleccionando índice para carta {chart_type}")
             
             if chart_type.lower() == "draco":
                 if hasattr(self, 'draco_index') and self.draco_index is not None:
-                    print(f"✅ Usando índice DRACÓNICO separado")
+                    # print(f"✅ Usando índice DRACÓNICO separado")
                     return self.draco_index.as_query_engine(**kwargs)
                 else:
-                    print(f"⚠️ Índice dracónico no disponible, fallback a índice mixto")
+                    # print(f"⚠️ Índice dracónico no disponible, fallback a índice mixto")
                     return self.index.as_query_engine(**kwargs)
             else:
                 # chart_type == "tropical" o cualquier otro valor
                 if hasattr(self, 'tropical_index') and self.tropical_index is not None:
-                    print(f"✅ Usando índice TROPICAL separado")
+                    # print(f"✅ Usando índice TROPICAL separado")
                     return self.tropical_index.as_query_engine(**kwargs)
                 else:
-                    print(f"⚠️ Índice tropical no disponible, fallback a índice mixto")
+                    # print(f"⚠️ Índice tropical no disponible, fallback a índice mixto")
                     return self.index.as_query_engine(**kwargs)
                     
         except Exception as e:
             print(f"❌ Error en _get_query_engine: {e}")
-            print(f"🔄 Fallback a índice mixto por error")
+            # print(f"🔄 Fallback a índice mixto por error")
             return self.index.as_query_engine(**kwargs)
     
     def _setup_base_prompt(self):
