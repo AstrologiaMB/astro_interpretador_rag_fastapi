@@ -1058,7 +1058,7 @@ class InterpretadorRAG:
                 print(f"✅ DEBUG FASE 2: Consulta con 'capricornio' generada: '{consulta}'")
                 print(f"🔍 DEBUG FASE 2: Evento que generó la consulta: {evento}")
             
-            print(f"🔍 Consultando RAG ({i+1}/{len(eventos_filtrados)}): {consulta}")
+            # print(f"🔍 Consultando RAG ({i+1}/{len(eventos_filtrados)}): {consulta}")
             
             try:
                 # Ejecutar consulta RAG de forma síncrona (llama-index es bloqueante)
