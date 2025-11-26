@@ -343,17 +343,17 @@ class InterpretadorRAG:
             start_time = time.time()
 
             # DEBUG: Ver qué datos recibe el RAG system
-            print(f"🔍 DEBUG PAYLOAD KEYS: {list(carta_natal_data.keys())}")
-            if 'cuspides_cruzadas' in carta_natal_data and carta_natal_data['cuspides_cruzadas'] is not None:
-                print(f"🔮 DEBUG: ¡Cúspides cruzadas encontradas! Cantidad: {len(carta_natal_data['cuspides_cruzadas'])}")
-            else:
-                print(f"❌ DEBUG: NO se encontraron cúspides cruzadas en el payload (None o ausente)")
+            # print(f"🔍 DEBUG PAYLOAD KEYS: {list(carta_natal_data.keys())}")
+            # if 'cuspides_cruzadas' in carta_natal_data and carta_natal_data['cuspides_cruzadas'] is not None:
+            #     print(f"🔮 DEBUG: ¡Cúspides cruzadas encontradas! Cantidad: {len(carta_natal_data['cuspides_cruzadas'])}")
+            # else:
+            #     print(f"❌ DEBUG: NO se encontraron cúspides cruzadas en el payload (None o ausente)")
 
             # DEBUG: Verificar estado de target_titles_set
-            print(f"🔍 DEBUG: self.target_titles_set type = {type(self.target_titles_set)}")
-            print(f"🔍 DEBUG: self.target_titles_set is None = {self.target_titles_set is None}")
-            if self.target_titles_set is not None:
-                print(f"🔍 DEBUG: len(self.target_titles_set) = {len(self.target_titles_set)}")
+            # print(f"🔍 DEBUG: self.target_titles_set type = {type(self.target_titles_set)}")
+            # print(f"🔍 DEBUG: self.target_titles_set is None = {self.target_titles_set is None}")
+            # if self.target_titles_set is not None:
+            #     print(f"🔍 DEBUG: len(self.target_titles_set) = {len(self.target_titles_set)}")
 
             # Cargar títulos específicos para el tipo de carta
             print(f"🔮 Configurando interpretación para carta {tipo_carta}")
