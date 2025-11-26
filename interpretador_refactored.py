@@ -615,19 +615,19 @@ class InterpretadorRAG:
         consulta_sin_acentos = self._remove_accents(consulta)
 
         # 🔮 DEBUG LOG: Diagnóstico para Sol Dracónico en Libra
-        if "sol" in consulta and "libra" in consulta and "draconico" in consulta_sin_acentos:
-            print(f"🔮 DEBUG MATCH: Buscando '{consulta}' (sin acentos: '{consulta_sin_acentos}') en títulos")
-            print(f"🔮 DEBUG MATCH: Total títulos disponibles: {len(self.target_titles_set)}")
-            # Mostrar algunos títulos relevantes
-            relevant_titles = [t for t in self.target_titles_set if "sol" in t and "libra" in t]
-            print(f"🔮 DEBUG MATCH: Títulos relevantes encontrados: {relevant_titles}")
+        # if "sol" in consulta and "libra" in consulta and "draconico" in consulta_sin_acentos:
+        #     print(f"🔮 DEBUG MATCH: Buscando '{consulta}' (sin acentos: '{consulta_sin_acentos}') en títulos")
+        #     print(f"🔮 DEBUG MATCH: Total títulos disponibles: {len(self.target_titles_set)}")
+        #     # Mostrar algunos títulos relevantes
+        #     relevant_titles = [t for t in self.target_titles_set if "sol" in t and "libra" in t]
+        #     print(f"🔮 DEBUG MATCH: Títulos relevantes encontrados: {relevant_titles}")
         
         # 1. Coincidencia exacta con normalización de acentos
         for titulo_objetivo in self.target_titles_set:
             titulo_sin_acentos = self._remove_accents(titulo_objetivo)
             if consulta_sin_acentos == titulo_sin_acentos:
-                if "sol" in consulta and "libra" in consulta and "draconico" in consulta_sin_acentos:
-                    print(f"✅ MATCH EXACTO (sin acentos) encontrado: '{consulta}' → '{titulo_objetivo}'")
+                # if "sol" in consulta and "libra" in consulta and "draconico" in consulta_sin_acentos:
+                #     print(f"✅ MATCH EXACTO (sin acentos) encontrado: '{consulta}' → '{titulo_objetivo}'")
                 return True
 
         # 2. Lógica mejorada para aspectos de tránsito (ej: "urano en tránsito cuadratura a saturno natal")
@@ -664,7 +664,7 @@ class InterpretadorRAG:
                             lista_aspectos_limpia = [a.strip() for a in lista_aspectos]
                             
                             if aspecto_consulta in lista_aspectos_limpia:
-                                print(f"✅ MATCH FLEXIBLE (TRÁNSITO): '{consulta}' coincide con '{titulo_objetivo}'")
+                                # print(f"✅ MATCH FLEXIBLE (TRÁNSITO): '{consulta}' coincide con '{titulo_objetivo}'")
                                 return True
             # Si la lógica de tránsito no encuentra nada, no retornamos False aún, dejamos que la lógica general actúe
 
@@ -697,7 +697,7 @@ class InterpretadorRAG:
                                         lista_aspectos_limpia = [a.strip() for a in lista_aspectos]
 
                                         if aspecto_consulta in lista_aspectos_limpia:
-                                            print(f"✅ MATCH FLEXIBLE (ASPECTO GENERAL): '{consulta}' coincide con '{titulo_objetivo}'")
+                                            # print(f"✅ MATCH FLEXIBLE (ASPECTO GENERAL): '{consulta}' coincide con '{titulo_objetivo}'")
                                             return True
         
         return False
@@ -714,21 +714,22 @@ class InterpretadorRAG:
                 consulta_normalizada = consulta_potencial.lower()
 
                 # Debug específico para planetas retrógrados
-                if evento.get("tipo") == "PlanetaRetrogrado":
-                    print(f"🔍 DEBUG FILTRO: Planeta retrógrado - {evento.get('planeta')}")
-                    print(f"🔍 DEBUG FILTRO: Consulta generada: '{consulta_normalizada}'")
+                # if evento.get("tipo") == "PlanetaRetrogrado":
+                #     print(f"🔍 DEBUG FILTRO: Planeta retrógrado - {evento.get('planeta')}")
+                #     print(f"🔍 DEBUG FILTRO: Consulta generada: '{consulta_normalizada}'")
 
                 # Debug específico para aspectos
-                if evento.get("tipo") == "Aspecto":
-                    print(f"🔍 DEBUG FILTRO: Aspecto - {evento.get('planeta1')} {evento.get('aspecto')} {evento.get('planeta2')}")
-                    print(f"🔍 DEBUG FILTRO: Consulta generada: '{consulta_normalizada}'")
+                # if evento.get("tipo") == "Aspecto":
+                #     print(f"🔍 DEBUG FILTRO: Aspecto - {evento.get('planeta1')} {evento.get('aspecto')} {evento.get('planeta2')}")
+                #     print(f"🔍 DEBUG FILTRO: Consulta generada: '{consulta_normalizada}'")
 
                 # Usar matching flexible
                 if self._flexible_title_match(consulta_normalizada):
                     eventos_filtrados.append(evento)
-                    print(f"✅ EVENTO APROBADO: '{consulta_normalizada}'")
+                    # print(f"✅ EVENTO APROBADO: '{consulta_normalizada}'")
                 else:
-                    print(f"❌ EVENTO RECHAZADO: '{consulta_normalizada}'")
+                    # print(f"❌ EVENTO RECHAZADO: '{consulta_normalizada}'")
+                    pass
 
         return eventos_filtrados
 
@@ -751,15 +752,16 @@ class InterpretadorRAG:
                     consulta_normalizada = consulta_potencial.lower()
 
                     # Debug específico para debugging
-                    if evento.get("tipo") == "PlanetaEnSigno":
-                        print(f"🔍 DEBUG DRACO: Buscando '{consulta_normalizada}' en títulos dracónicos")
+                    # if evento.get("tipo") == "PlanetaEnSigno":
+                    #     print(f"🔍 DEBUG DRACO: Buscando '{consulta_normalizada}' en títulos dracónicos")
 
                     # Usar matching flexible con los títulos específicos
                     if self._flexible_title_match(consulta_normalizada):
                         eventos_filtrados.append(evento)
-                        print(f"✅ EVENTO DRACO APROBADO: '{consulta_normalizada}'")
+                        # print(f"✅ EVENTO DRACO APROBADO: '{consulta_normalizada}'")
                     else:
-                        print(f"❌ EVENTO DRACO RECHAZADO: '{consulta_normalizada}'")
+                        # print(f"❌ EVENTO DRACO RECHAZADO: '{consulta_normalizada}'")
+                        pass
         finally:
             # Restaurar los títulos objetivo originales
             self.target_titles_set = original_titles
