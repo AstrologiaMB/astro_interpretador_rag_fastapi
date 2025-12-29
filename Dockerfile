@@ -10,13 +10,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application (including .md files for RAG)
 COPY . .
 
-# Expose port (Railway ignores this but good practice)
-EXPOSE 8080
+# Expose port for Fly.io
+EXPOSE 8002
 
-# CRITICAL: Uvicorn with longer timeout for OpenAI calls and Railway compatibility
+# CRITICAL: Uvicorn with longer timeout for OpenAI calls and Fly.io compatibility
 CMD uvicorn app:app \
     --host 0.0.0.0 \
-    --port $PORT \
+    --port 8002 \
     --timeout-keep-alive 300 \
     --access-log \
     --log-level info
