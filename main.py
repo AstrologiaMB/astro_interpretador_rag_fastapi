@@ -10,6 +10,7 @@ from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex, ServiceConte
 from llama_index.llms import OpenAI
 from llama_index.embeddings import OpenAIEmbedding
 from llama_index.prompts import PromptTemplate
+from prompts import get_rag_extraction_prompt_str, get_tropical_narrative_prompt_str
 
 # 🔐 Cargar las claves API desde el archivo .env
 load_dotenv()
@@ -79,16 +80,9 @@ except Exception as e:
     sys.exit(1)
 
 
-# 🧠 Definir prompt BASE en español (respuesta breve, clara y basada ESTRICTAMENTE en el texto proporcionado)
-base_custom_prompt_template = PromptTemplate(
-    "IMPORTANTE: Responde EXCLUSIVAMENTE en idioma español. Basa tu respuesta ÚNICAMENTE en la información proporcionada a continuación. No añadas información externa.\n"
-    "Contexto Astrológico:\n"
-    "---------------------\n"
-    "{context_str}\n"
-    "---------------------\n"
-    "Consulta Específica: {query_str}\n"
-    "Interpretación Breve (en español):"
-)
+# 🧠 Definir prompt BASE en español - Usando prompts.py centralizado
+prompt_str = get_rag_extraction_prompt_str()
+base_custom_prompt_template = PromptTemplate(prompt_str)
 
 # --- Carga y Procesamiento de Datos de Eventos ---
 
@@ -1366,7 +1360,8 @@ if __name__ == "__main__":
                 print(f"\n✍️ Iniciando re-escritura narrativa con {llm_name}...")
                 try:
                     if llm_choice == "1":
-                        llm_rewriter = OpenAI(api_key=openai_key, temperature=0.7, model="gpt-4-turbo-preview")
+                    if llm_choice == "1":
+                        llm_rewriter = OpenAI(api_key=openai_key, temperature=0.7, model="gpt-4o", context_window=128000, max_tokens=4096)
                     else:
                         llm_rewriter = OpenAI(
                             api_key=xai_key, 
@@ -1381,23 +1376,8 @@ if __name__ == "__main__":
                 interpretaciones_combinadas = "\n\n".join(interpretaciones_individuales_con_header)
                 instrucciones_adicionales_reescritura = f"{genero_instruccion}\n{persona_instruccion}".strip()
 
-                # Proposed new prompt string (replace the old one)
-                rewrite_prompt_str = (
-                    f"{instrucciones_adicionales_reescritura}\n" # Keep gender/persona instructions
-                    f"Eres un astrólogo experto y un excelente escritor. Tu tarea es tomar las siguientes interpretaciones astrológicas individuales (separadas por '###') de una CARTA NATAL y re-escribirlas como un informe narrativo unificado, fluido y detallado, dirigido directamente a la persona (usando 'Tú').\n"
-                    "**REGLAS CRÍTICAS:**\n"
-                    "1.  **INCLUYE TODO:** Debes incorporar la información específica de CADA interpretación proporcionada. Esto incluye OBLIGATORIAMENTE: Planetas en Signo (con grados si están), Planetas en Casa, Cúspides de Casa en Signo, Aspectos (mencionando el tipo: Conjunción, Oposición, Cuadratura, Trígono, Sextil), Planetas Retrógrados, y otros puntos como Nodos, Lilith, Quirón, Parte de la Fortuna, Vertex.\n"
-                    "2.  **MANTÉN DETALLE:** NO resumas excesivamente. Preserva los matices y detalles específicos de cada interpretación individual mientras los tejes en la narrativa.\n"
-                    "3.  **ENFOQUE NATAL:** Todas las interpretaciones se refieren a la CARTA NATAL base. NO las describas como 'tránsitos' a menos que el texto original lo indique explícitamente.\n"
-                    "4.  **FLUJO COHERENTE:** Conecta las ideas de forma lógica. Puedes agrupar temas (ej: identidad central, relaciones, carrera, desafíos) pero asegúrate de que todas las piezas individuales estén presentes en la narrativa final.\n"
-                    "5.  **ESTILO:** Mantén un tono personal y empático. No repitas el nombre de la persona en el cuerpo del texto. Organiza en párrafos claros.\n"
-                    "6.  **IDIOMA:** Responde EXCLUSIVAMENTE en idioma español.\n\n"
-                    "Interpretaciones individuales NATALES a re-escribir:\n"
-                    "--------------------------------------------------\n"
-                    f"{interpretaciones_combinadas}\n"
-                    "--------------------------------------------------\n"
-                    "Informe Narrativo Detallado:"
-                )
+                # Prompt para reescritura narrativa - Usando prompts.py centralizado
+                rewrite_prompt_str = get_tropical_narrative_prompt_str(instrucciones_adicionales_reescritura, interpretaciones_combinadas)
 
                 try:
                     print(f"🔄 Enviando solicitud de re-escritura al LLM ({llm_name})...")
