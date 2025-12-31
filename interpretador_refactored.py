@@ -74,7 +74,7 @@ class InterpretadorRAG:
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
             # 1. Configurar RAG con Claude Haiku
-            Settings.llm = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG)
+            Settings.llm = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
             
             # 2. Embeddings se mantienen con OpenAI (para no re-indexar vectores existentes)
             Settings.embed_model = OpenAIEmbedding(api_key=self.openai_key)
@@ -85,7 +85,7 @@ class InterpretadorRAG:
         else:
             # Usar ServiceContext (versión anterior)
             # 1. Configurar RAG con Claude Haiku
-            self.llm_rag = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG)
+            self.llm_rag = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
             
             # 2. Configurar Escritor con Claude Sonnet
             self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=8192)
