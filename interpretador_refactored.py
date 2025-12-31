@@ -20,14 +20,14 @@ from prompts import get_rag_extraction_prompt_str, get_tropical_narrative_prompt
 # Usar versiones actualizadas de llama-index
 try:
     from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Settings
-    from llama_index.llms.openai import OpenAI
+    from llama_index.llms.anthropic import Anthropic
     from llama_index.embeddings.openai import OpenAIEmbedding
     from llama_index.core.prompts import PromptTemplate
     LLAMA_INDEX_NEW = True
 except ImportError:
     # Fallback a versiones anteriores
     from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex as VectorStoreIndex, ServiceContext
-    from llama_index.llms import OpenAI
+    from llama_index.llms import OpenAI, Anthropic
     from llama_index.embeddings import OpenAIEmbedding
     from llama_index.prompts import PromptTemplate
     LLAMA_INDEX_NEW = False
@@ -38,9 +38,14 @@ class InterpretadorRAG:
         # Cargar variables de entorno
         load_dotenv()
         self.openai_key = os.getenv("OPENAI_API_KEY")
+        self.anthropic_key = os.getenv("ANTHROPIC_API_KEY")
         
         if not self.openai_key:
             raise ValueError("OPENAI_API_KEY no encontrada en variables de entorno")
+            
+        if not self.anthropic_key:
+            # Fallback opcional o error, para esta migración asumimos que es necesaria
+            print("⚠️ ANTHROPIC_API_KEY no encontrada. El stack de Claude fallará si se intenta usar.")
         
         # Feature flag para RAGs separados (False = sistema actual, True = RAGs separados)
         self.USE_SEPARATE_ENGINES = True
@@ -61,19 +66,31 @@ class InterpretadorRAG:
         print(f"🔧 Feature Flag - RAGs Separados: {'ACTIVADO' if self.USE_SEPARATE_ENGINES else 'DESACTIVADO (sistema actual)'}")
     
     def _setup_llm_and_embeddings(self):
-        """Configurar LLM y embeddings según la versión de llama-index"""
+        """Configurar LLM y embeddings: Stack 100% Anthropic (Haiku + Sonnet)"""
+        # Modelos
+        MODEL_RAG = "claude-3-haiku-20240307"    # RAG rápido y eficiente
+        MODEL_WRITER = "claude-3-5-sonnet-20240620" # Redacción humana y cálida
+        
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
-            Settings.llm = OpenAI(api_key=self.openai_key, temperature=0.0, model="gpt-3.5-turbo")
+            # 1. Configurar RAG con Claude Haiku
+            Settings.llm = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG)
+            
+            # 2. Embeddings se mantienen con OpenAI (para no re-indexar vectores existentes)
             Settings.embed_model = OpenAIEmbedding(api_key=self.openai_key)
-            self.service_context_rag = None  # No se usa en nueva versión
-            # Configurar LLM para re-escritura (Narrativa) - Usar GPT-4o con ventana explícita y max_tokens alto
-            self.llm_rewriter = OpenAI(api_key=self.openai_key, temperature=0.7, model="gpt-4o", context_window=128000, max_tokens=4096)
+            self.service_context_rag = None
+            
+            # 3. Configurar Escritor con Claude Sonnet
+            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=4096)
         else:
             # Usar ServiceContext (versión anterior)
-            self.llm_rag = OpenAI(api_key=self.openai_key, temperature=0.0, model="gpt-3.5-turbo")
-            # Configurar LLM para re-escritura (Narrativa) - Usar GPT-4o con ventana explícita y max_tokens alto
-            self.llm_rewriter = OpenAI(api_key=self.openai_key, temperature=0.7, model="gpt-4o", context_window=128000, max_tokens=4096)
+            # 1. Configurar RAG con Claude Haiku
+            self.llm_rag = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG)
+            
+            # 2. Configurar Escritor con Claude Sonnet
+            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=4096)
+            
+            # 3. Embeddings OpenAI
             self.embed_model = OpenAIEmbedding(api_key=self.openai_key)
             self.service_context_rag = ServiceContext.from_defaults(llm=self.llm_rag, embed_model=self.embed_model)
     
