@@ -69,7 +69,7 @@ class InterpretadorRAG:
         """Configurar LLM y embeddings: Stack 100% Anthropic (Haiku + Sonnet)"""
         # Modelos
         MODEL_RAG = "claude-3-haiku-20240307"    # RAG rápido y eficiente
-        MODEL_WRITER = "claude-3-5-sonnet-20241022" # Redacción humana y cálida (versión estable Oct 2024)
+        MODEL_WRITER = "claude-3-7-sonnet-20250219" # Redacción humana y cálida (Estándar 2025: Sonnet 3.7)
         
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
