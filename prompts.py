@@ -36,8 +36,15 @@ def get_rag_extraction_prompt_str() -> str:
     return (
         f"<sistema_instruccion>\n{MARIA_BLAQUIER_PERSONA}\n</sistema_instruccion>\n\n"
         "<contexto_astrologico>\n{context_str}\n</contexto_astrologico>\n\n"
+        "<instruccion_de_limpieza_y_fidelidad>\n"
+        "ATENCIÓN - REGLA DE CERO INTERACCIÓN SOCIAL:\n"
+        "1. NO saludes ni des la bienvenida. (Prohibido: 'Hola', 'Querida', 'Bienvenida').\n"
+        "2. El texto original NO tiene saludos, así que NO los inventes por educación.\n"
+        "3. Tu trabajo es extraer la información técnica y psicológica tal cual es.\n"
+        "4. Comienza la respuesta INMEDIATAMENTE con el concepto (Ej: 'La Luna en este signo indica...').\n"
+        "</instruccion_de_limpieza_y_fidelidad>\n\n"
         "Consulta: {query_str}\n"
-        "Interpretación Técnica (Fiel al contexto):"
+        "Interpretación Técnica (Cruda y Directa):"
     )
 
 def get_tropical_narrative_prompt_str(instrucciones_adicionales: str, interpretaciones_combinadas: str) -> str:
