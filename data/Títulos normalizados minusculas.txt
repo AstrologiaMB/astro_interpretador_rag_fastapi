@@ -420,6 +420,77 @@ sol en tránsito oposición a urano natal
 sol en tránsito oposición a neptuno natal
 sol en tránsito oposición a plutón natal
 sol en tránsito oposición al ascendente (ángulo) natal
+sol en tránsito sextil a sol natal
+sol en tránsito sextil a luna natal
+sol en tránsito sextil a mercurio natal
+sol en tránsito sextil a venus natal
+sol en tránsito sextil a marte natal
+sol en tránsito sextil a júpiter natal
+sol en tránsito sextil a saturno natal
+sol en tránsito sextil a urano natal
+sol en tránsito sextil a neptuno natal
+sol en tránsito sextil a plutón natal
+sol en tránsito trígono a sol natal
+sol en tránsito trígono a luna natal
+sol en tránsito trígono a mercurio natal
+sol en tránsito trígono a venus natal
+sol en tránsito trígono a marte natal
+sol en tránsito trígono a júpiter natal
+sol en tránsito trígono a saturno natal
+sol en tránsito trígono a urano natal
+sol en tránsito trígono a neptuno natal
+sol en tránsito trígono a plutón natal
+luna en tránsito
+luna en tránsito conjunción a júpiter natal
+luna en tránsito conjunción a luna natal
+luna en tránsito conjunción a marte natal
+luna en tránsito conjunción a mercurio natal
+luna en tránsito conjunción a neptuno natal
+luna en tránsito conjunción a plutón natal
+luna en tránsito conjunción a saturno natal
+luna en tránsito conjunción a sol natal
+luna en tránsito conjunción a urano natal
+luna en tránsito conjunción a venus natal
+luna en tránsito cuadratura a júpiter natal
+luna en tránsito cuadratura a luna natal
+luna en tránsito cuadratura a marte natal
+luna en tránsito cuadratura a mercurio natal
+luna en tránsito cuadratura a neptuno natal
+luna en tránsito cuadratura a plutón natal
+luna en tránsito cuadratura a saturno natal
+luna en tránsito cuadratura a sol natal
+luna en tránsito cuadratura a urano natal
+luna en tránsito cuadratura a venus natal
+luna en tránsito oposición a júpiter natal
+luna en tránsito oposición a luna natal
+luna en tránsito oposición a marte natal
+luna en tránsito oposición a mercurio natal
+luna en tránsito oposición a neptuno natal
+luna en tránsito oposición a plutón natal
+luna en tránsito oposición a saturno natal
+luna en tránsito oposición a sol natal
+luna en tránsito oposición a urano natal
+luna en tránsito oposición a venus natal
+luna en tránsito trígono a júpiter natal
+luna en tránsito trígono a luna natal
+luna en tránsito trígono a marte natal
+luna en tránsito trígono a mercurio natal
+luna en tránsito trígono a neptuno natal
+luna en tránsito trígono a plutón natal
+luna en tránsito trígono a saturno natal
+luna en tránsito trígono a sol natal
+luna en tránsito trígono a urano natal
+luna en tránsito trígono a venus natal
+luna en tránsito sextil a júpiter natal
+luna en tránsito sextil a luna natal
+luna en tránsito sextil a marte natal
+luna en tránsito sextil a mercurio natal
+luna en tránsito sextil a neptuno natal
+luna en tránsito sextil a plutón natal
+luna en tránsito sextil a saturno natal
+luna en tránsito sextil a sol natal
+luna en tránsito sextil a urano natal
+luna en tránsito sextil a venus natal
 mercurio en tránsito
 mercurio en tránsito conjunción al sol natal
 mercurio en tránsito conjunción a luna natal
@@ -454,6 +525,26 @@ mercurio en tránsito oposición a urano natal
 mercurio en tránsito oposición a neptuno natal
 mercurio en tránsito oposición a plutón natal
 mercurio en tránsito oposición a ascendente (ángulo) natal
+mercurio en tránsito sextil a sol natal
+mercurio en tránsito sextil a luna natal
+mercurio en tránsito sextil a mercurio natal
+mercurio en tránsito sextil a venus natal
+mercurio en tránsito sextil a marte natal
+mercurio en tránsito sextil a júpiter natal
+mercurio en tránsito sextil a saturno natal
+mercurio en tránsito sextil a urano natal
+mercurio en tránsito sextil a neptuno natal
+mercurio en tránsito sextil a plutón natal
+mercurio en tránsito trígono a sol natal
+mercurio en tránsito trígono a luna natal
+mercurio en tránsito trígono a mercurio natal
+mercurio en tránsito trígono a venus natal
+mercurio en tránsito trígono a marte natal
+mercurio en tránsito trígono a júpiter natal
+mercurio en tránsito trígono a saturno natal
+mercurio en tránsito trígono a urano natal
+mercurio en tránsito trígono a neptuno natal
+mercurio en tránsito trígono a plutón natal
 venus en tránsito
 venus en tránsito conjunción al sol natal
 venus en tránsito conjunción a luna natal
@@ -488,6 +579,25 @@ venus en tránsito oposición a urano natal
 venus en tránsito oposición a neptuno natal
 venus en tránsito oposición a plutón natal
 venus en tránsito oposición al ascendente (ángulo) natal
+venus en tránsito sextil a sol natal
+venus en tránsito sextil a luna natal
+venus en tránsito sextil a marte natal
+venus en tránsito sextil a júpiter natal
+venus en tránsito sextil a saturno natal
+venus en tránsito sextil a urano natal
+venus en tránsito sextil a plutón natal
+venus en tránsito sextil a venus natal
+venus en tránsito sextil a mercurio natal
+venus en tránsito sextil a neptuno natal
+venus en tránsito trígono a júpiter natal
+venus en tránsito trígono a mercurio natal
+venus en tránsito trígono a neptuno natal
+venus en tránsito trígono a saturno natal
+venus en tránsito trígono a sol natal
+venus en tránsito trígono a venus natal
+venus en tránsito trígono a urano natal
+venus en tránsito trígono a marte natal
+venus en tránsito trígono a plutón natal
 marte en tránsito
 marte en tránsito conjunción al sol natal
 marte en tránsito conjunción a luna natal
@@ -522,6 +632,11 @@ marte en tránsito oposición a urano natal
 marte en tránsito oposición a neptuno natal
 marte en tránsito oposición a plutón natal
 marte en tránsito oposición al ascendente (ángulo) natal
+marte en tránsito sextil a luna natal
+marte en tránsito sextil a marte natal
+marte en tránsito sextil a plutón natal
+marte en tránsito sextil a urano natal
+marte en tránsito trígono a júpiter natal
 júpiter en tránsito
 tránsitos de júpiter por las casas natales
 tránsito de júpiter por casa 1 natal
@@ -540,6 +655,8 @@ tránsitos de júpiter aspectos
 júpiter en tránsito conjunción al sol natal
 júpiter en tránsito cuadratura al sol natal
 júpiter en tránsito oposición al sol natal
+júpiter en tránsito sextil a júpiter natal
+júpiter en tránsito trígono a saturno natal
 saturno en tránsito
 tránsitos de saturno por las casas natales
 tránsito de saturno por casa 1 natal
@@ -563,6 +680,7 @@ saturno en tránsito por conjunción o cuadratura u oposición a júpiter natal
 saturno en tránsito por conjunción a saturno natal
 saturno en tránsito por oposición a saturno natal
 saturno en tránsito por conjunción o cuadratura u oposición a urano natal
+saturno en tránsito trígono a neptuno natal
 urano en tránsito
 tránsitos de urano por las casas natales
 tránsito de urano por casa 1 natal
@@ -625,63 +743,6 @@ plutón en tránsito a mercurio natal
 plutón en tránsito a venus natal
 plutón en tránsito a marte natal
 plutón en tránsito a saturno natal
-luna nueva en casas natales
-luna nueva en casa 1 natal
-luna nueva en casa 2 natal
-luna nueva en casa 3 natal
-luna nueva en casa 4 natal
-luna nueva en casa 5 natal
-luna nueva en casa 6 natal
-luna nueva en casa 7 natal
-luna nueva en casa 8 natal
-luna nueva en casa 9 natal
-luna nueva en casa 10 natal
-luna nueva en casa 11 natal
-luna nueva en casa 12 natal
-progresiones
-luna progresada en los signos natales
-luna progresada en aries natal
-luna progresada en tauro natal
-luna progresada en géminis natal
-luna progresada en cáncer natal
-luna progresada en leo natal
-luna progresada en virgo natal
-luna progresada en libra natal
-luna progresada en escorpio natal
-luna progresada en sagitario natal
-luna progresada en capricornio natal
-luna progresada en acuario natal
-luna progresada en piscis natal
-luna progresada en las casas natales
-luna progresada en casa 1 natal
-luna progresada en casa 2 natal
-luna progresada en casa 3 natal
-luna progresada en casa 4 natal
-luna progresada en casa 5 natal
-luna progresada en casa 6 natal
-luna progresada en casa 7 natal
-luna progresada en casa 8 natal
-luna progresada en casa 9 natal
-luna progresada en casa 10 natal
-luna progresada en casa 11 natal
-luna progresada en casa 12 natal
-aspectos luna progresada
-luna progresada conjunción al sol natal
-luna progresada conjunción a mercurio natal
-luna progresada conjunción a venus natal
-luna progresada conjunción a marte natal
-luna progresada conjunción a júpiter natal
-luna progresada conjunción a saturno natal
-luna progresada conjunción a urano natal
-luna progresada conjunción a neptuno natal
-luna progresada conjunción a plutón natal
-ciclo sol luna progresado
-la luna nueva progresada está en fase de semicuadratura creciente (45 grados)
-con la luna nueva progresada en fase de cuarto creciente (90 grados)
-con la luna nueva progresada en fase gibosa o de sesquicuadratura creciente (135 grados)
-la luna nueva progresada está en fase de luna llena u oposición (180 grados)
-la luna nueva progresada está en fase de luna menguante o sesquicuadratura menguante (225 grados)
-la luna nueva progresada está en fase balsámica, o de semicuadratura menguante (315 grados)
 proluna
 la proluna en los signos natales
 ingreso proluna en aries natal
@@ -709,114 +770,3 @@ proluna conjunción a mercurio natal
 proluna armónico a venus natal
 proluna armónico a marte natal
 proluna inarmónico a marte natal
-júpiter en tránsito sextil a júpiter natal
-júpiter en tránsito trígono a saturno natal
-luna en tránsito conjunción a júpiter natal
-luna en tránsito conjunción a luna natal
-luna en tránsito conjunción a marte natal
-luna en tránsito conjunción a mercurio natal
-luna en tránsito conjunción a neptuno natal
-luna en tránsito conjunción a plutón natal
-luna en tránsito conjunción a saturno natal
-luna en tránsito conjunción a sol natal
-luna en tránsito conjunción a urano natal
-luna en tránsito conjunción a venus natal
-luna en tránsito cuadratura a júpiter natal
-luna en tránsito cuadratura a luna natal
-luna en tránsito cuadratura a marte natal
-luna en tránsito cuadratura a mercurio natal
-luna en tránsito cuadratura a neptuno natal
-luna en tránsito cuadratura a plutón natal
-luna en tránsito cuadratura a saturno natal
-luna en tránsito cuadratura a sol natal
-luna en tránsito cuadratura a urano natal
-luna en tránsito cuadratura a venus natal
-luna en tránsito oposición a júpiter natal
-luna en tránsito oposición a luna natal
-luna en tránsito oposición a marte natal
-luna en tránsito oposición a mercurio natal
-luna en tránsito oposición a neptuno natal
-luna en tránsito oposición a plutón natal
-luna en tránsito oposición a saturno natal
-luna en tránsito oposición a sol natal
-luna en tránsito oposición a urano natal
-luna en tránsito oposición a venus natal
-luna en tránsito sextil a júpiter natal
-luna en tránsito sextil a luna natal
-luna en tránsito sextil a marte natal
-luna en tránsito sextil a mercurio natal
-luna en tránsito sextil a neptuno natal
-luna en tránsito sextil a plutón natal
-luna en tránsito sextil a saturno natal
-luna en tránsito sextil a sol natal
-luna en tránsito sextil a urano natal
-luna en tránsito sextil a venus natal
-luna en tránsito trígono a júpiter natal
-luna en tránsito trígono a luna natal
-luna en tránsito trígono a marte natal
-luna en tránsito trígono a mercurio natal
-luna en tránsito trígono a neptuno natal
-luna en tránsito trígono a plutón natal
-luna en tránsito trígono a saturno natal
-luna en tránsito trígono a sol natal
-luna en tránsito trígono a urano natal
-luna en tránsito trígono a venus natal
-marte en tránsito sextil a luna natal
-marte en tránsito sextil a marte natal
-marte en tránsito sextil a plutón natal
-marte en tránsito sextil a urano natal
-marte en tránsito trígono a júpiter natal
-mercurio en tránsito sextil a júpiter natal
-mercurio en tránsito sextil a luna natal
-mercurio en tránsito sextil a marte natal
-mercurio en tránsito sextil a mercurio natal
-mercurio en tránsito sextil a neptuno natal
-mercurio en tránsito sextil a plutón natal
-mercurio en tránsito sextil a saturno natal
-mercurio en tránsito sextil a sol natal
-mercurio en tránsito sextil a urano natal
-mercurio en tránsito sextil a venus natal
-mercurio en tránsito trígono a júpiter natal
-mercurio en tránsito trígono a luna natal
-mercurio en tránsito trígono a marte natal
-mercurio en tránsito trígono a mercurio natal
-mercurio en tránsito trígono a neptuno natal
-mercurio en tránsito trígono a plutón natal
-mercurio en tránsito trígono a saturno natal
-mercurio en tránsito trígono a sol natal
-mercurio en tránsito trígono a urano natal
-mercurio en tránsito trígono a venus natal
-saturno en tránsito trígono a neptuno natal
-sol en tránsito sextil a júpiter natal
-sol en tránsito sextil a luna natal
-sol en tránsito sextil a marte natal
-sol en tránsito sextil a mercurio natal
-sol en tránsito sextil a neptuno natal
-sol en tránsito sextil a plutón natal
-sol en tránsito sextil a saturno natal
-sol en tránsito sextil a sol natal
-sol en tránsito sextil a urano natal
-sol en tránsito sextil a venus natal
-sol en tránsito trígono a júpiter natal
-sol en tránsito trígono a luna natal
-sol en tránsito trígono a marte natal
-sol en tránsito trígono a mercurio natal
-sol en tránsito trígono a neptuno natal
-sol en tránsito trígono a plutón natal
-sol en tránsito trígono a saturno natal
-sol en tránsito trígono a sol natal
-sol en tránsito trígono a urano natal
-sol en tránsito trígono a venus natal
-venus en tránsito sextil a júpiter natal
-venus en tránsito sextil a luna natal
-venus en tránsito sextil a marte natal
-venus en tránsito sextil a plutón natal
-venus en tránsito sextil a saturno natal
-venus en tránsito sextil a sol natal
-venus en tránsito sextil a urano natal
-venus en tránsito trígono a júpiter natal
-venus en tránsito trígono a mercurio natal
-venus en tránsito trígono a neptuno natal
-venus en tránsito trígono a saturno natal
-venus en tránsito trígono a sol natal
-venus en tránsito trígono a venus natal
