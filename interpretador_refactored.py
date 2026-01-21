@@ -15,6 +15,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Dict, List, Any, Optional
+load_dotenv()
 from prompts import get_rag_extraction_prompt_str, get_tropical_narrative_prompt_str, get_draconian_narrative_prompt_str
 
 # Usar versiones actualizadas de llama-index
@@ -68,8 +69,9 @@ class InterpretadorRAG:
     def _setup_llm_and_embeddings(self):
         """Configurar LLM y embeddings: Stack 100% Anthropic (Haiku + Sonnet)"""
         # Modelos
-        MODEL_RAG = "claude-3-haiku-20240307"    # RAG rápido y eficiente
-        MODEL_WRITER = "claude-3-7-sonnet-20250219" # Redacción humana y cálida (Estándar 2025: Sonnet 3.7)
+        MODEL_RAG = "claude-haiku-4-5-20251001"    # RAG rápido y eficiente (Haiku 4.5)
+        # MODEL_WRITER = "claude-opus-4-5"           # Opción Premium ($5/$25)
+        MODEL_WRITER = "claude-sonnet-4-5"           # Estándar Recomendado (Sonnet 4.5)
         
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
