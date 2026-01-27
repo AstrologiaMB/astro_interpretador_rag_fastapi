@@ -15,8 +15,15 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Dict, List, Any, Optional
+from dotenv import load_dotenv
+from typing import Dict, List, Any, Optional
 load_dotenv()
 from prompts import get_rag_extraction_prompt_str, get_tropical_narrative_prompt_str, get_draconian_narrative_prompt_str
+try:
+    from interpretador_astrologico import InterpretadorAstrologico
+except ImportError:
+    from astro_interpretador_rag_fastapi.interpretador_astrologico import InterpretadorAstrologico
+
 
 # Usar versiones actualizadas de llama-index
 try:
@@ -56,6 +63,14 @@ class InterpretadorRAG:
         
         # Cargar e indexar documentos de interpretaciones
         self._load_and_index_documents()
+
+        # [NUEVO] Inicializar InterpretadorAstrologico (Motor JSON) para Calendario
+        try:
+            self.interpretador_json = InterpretadorAstrologico()
+            print("✅ InterpretadorAstrologico integrado en InterpretadorRAG")
+        except Exception as e:
+            print(f"❌ Error al inicializar InterpretadorAstrologico: {e}")
+            self.interpretador_json = None
         
         # Cargar títulos objetivo
         self._load_target_titles()
@@ -1154,9 +1169,42 @@ class InterpretadorRAG:
         """
         Busca la interpretación para un evento de calendario.
         Construye un título candidato basado en los datos del evento.
+        
+        [MODIFICADO] Implementa "Paranoid Switch":
+        1. Intenta buscar en JSON (Determinista/Rápido) usando InterpretadorAstrologico.
+        2. Si falla, cae en RAG (Legacy).
         """
         tipo_evento = evento.get("tipo_evento")
         descripcion = evento.get("descripcion", "")
+
+        # --- NIVEL 1: BÚSQUEDA JSON (Tránsitos) ---
+        if self.interpretador_json and tipo_evento == "Aspecto":
+            p1 = evento.get("planeta1", "")
+            p2 = evento.get("planeta2", "")
+            aspecto = evento.get("tipo_aspecto", "")
+            if p1 and p2 and aspecto:
+                try:
+                    # Extract year for formatting (default to current year or extracting from date)
+                    anio = "2025" 
+                    fecha = evento.get("fecha") or evento.get("start")
+                    if fecha:
+                        try:
+                            # Simple extraction for ISO format or similar
+                            match = re.search(r'(\d{4})', str(fecha))
+                            if match:
+                                anio = match.group(1)
+                        except:
+                            pass
+
+                    res_json = self.interpretador_json.get_transit_interpretation(p1, aspecto, p2, anio=anio)
+                    if res_json:
+                        print(f"⚡ [JSON HIT] Interpretación encontrada para: {p1} {aspecto} {p2}")
+                        return res_json
+                except Exception as e:
+                    print(f"⚠️ Error en búsqueda JSON: {e}")
+        
+        # --- NIVEL 2: Lógica Legacy (RAG) ---
+        # Si no se encontró en JSON, continuamos con la lógica original...
 
         # Lógica para construir el título candidato
         titulo_candidato = descripcion # Usar descripción como base por defecto
