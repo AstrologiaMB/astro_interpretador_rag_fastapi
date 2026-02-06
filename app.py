@@ -14,6 +14,16 @@ from pathlib import Path
 
 # Importar la lógica del interpretador RAG refactorizado
 from interpretador_refactored import InterpretadorRAG
+from strict_models import (
+    CartaNatalData,
+    InterpretacionRequest,
+    InterpretacionResponse,
+    InterpretacionItem,
+    EventoCalendario,
+    InterpretacionEventoRequest,
+    InterpretacionEventosResponse,
+    EventoInterpretado
+)
 
 app = FastAPI(
     title="Astro Interpretador RAG API",
@@ -45,83 +55,6 @@ async def startup_event():
     except Exception as e:
         print(f"❌ Error al inicializar Interpretador RAG: {e}")
         sys.exit(1)
-
-# Modelos Pydantic
-class CartaNatalData(BaseModel):
-    """Datos de carta natal recibidos del microservicio de cálculo"""
-    nombre: str
-    points: Dict[str, Any]
-    houses: Dict[str, Any]
-    aspects: List[Dict[str, Any]]
-    cuspides_cruzadas: Optional[List[Dict[str, Any]]] = None
-    aspectos_cruzados: Optional[List[Dict[str, Any]]] = None
-
-class InterpretacionRequest(BaseModel):
-    """Request para generar interpretación"""
-    carta_natal: CartaNatalData
-    genero: str  # "masculino" o "femenino"
-    tipo: str = "tropical"  # "tropical" o "draco" para determinar qué títulos usar
-
-class InterpretacionItem(BaseModel):
-    """Item individual de interpretación"""
-    titulo: str
-    tipo: str
-    interpretacion: str
-    planeta: Optional[str] = None
-    signo: Optional[str] = None
-    casa: Optional[str] = None
-    aspecto: Optional[str] = None
-    planeta1: Optional[str] = None
-    planeta2: Optional[str] = None
-    grados: Optional[str] = None
-
-class InterpretacionResponse(BaseModel):
-    """Respuesta con interpretaciones completas"""
-    interpretacion_narrativa: str
-    interpretaciones_individuales: List[InterpretacionItem]
-    tiempo_generacion: float
-
-# --- Modelos para Interpretación de Eventos de Calendario ---
-
-class EventoCalendario(BaseModel):
-    """
-    Representa un único evento de calendario que necesita interpretación.
-    Es un espejo del modelo AstroEventResponse del servicio de calendario.
-    """
-    fecha_utc: str
-    hora_utc: str
-    tipo_evento: str
-    descripcion: str
-    planeta1: Optional[str] = None
-    planeta2: Optional[str] = None
-    posicion1: Optional[str] = None
-    posicion2: Optional[str] = None
-    tipo_aspecto: Optional[str] = None
-    orbe: Optional[str] = None
-    es_aplicativo: Optional[str] = None
-    harmony: Optional[str] = None
-    elevacion: Optional[str] = ""
-    azimut: Optional[str] = ""
-    signo: Optional[str] = None
-    grado: Optional[str] = None
-    posicion: Optional[str] = None
-    casa_natal: Optional[int] = None
-    house_transits: Optional[List[Dict[str, Any]]] = None
-    interpretacion: Optional[str] = None
-
-class InterpretacionEventoRequest(BaseModel):
-    """Request para interpretar una lista de eventos de calendario."""
-    eventos: List[EventoCalendario]
-
-class EventoInterpretado(BaseModel):
-    """Representa un evento de calendario con su interpretación."""
-    descripcion: str
-    interpretacion: Optional[str] = None
-
-class InterpretacionEventosResponse(BaseModel):
-    """Respuesta con una lista de eventos y sus interpretaciones."""
-    interpretaciones: List[EventoInterpretado]
-    tiempo_generacion: float
 
 # --- Endpoints ---
 
