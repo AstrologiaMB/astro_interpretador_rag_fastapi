@@ -1,6 +1,9 @@
 # Dockerfile for astro_interpretador_rag_fastapi - Railway deployment
 FROM python:3.11-slim
 
+ARG COMMIT_SHA
+ENV COMMIT_SHA=$COMMIT_SHA
+
 WORKDIR /app
 
 # Install dependencies

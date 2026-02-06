@@ -136,7 +136,8 @@ async def health_check():
         "status": "healthy",
         "service": "astro-interpretador-rag",
         "version": "1.0.0",
-        "rag_initialized": interpretador is not None
+        "rag_initialized": interpretador is not None,
+        "commit_sha": os.getenv("COMMIT_SHA")
     }
 
 @app.post("/interpretar", response_model=InterpretacionResponse)
