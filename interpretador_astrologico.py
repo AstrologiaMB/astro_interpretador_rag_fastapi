@@ -8,8 +8,14 @@ class InterpretadorAstrologico:
     Nuevo motor de interpretación basado en búsquedas deterministas en JSON.
     Diseñado para Phase 3.1 (Personal Calendar) y extensible para fases futuras.
     """
-    def __init__(self, data_dir: str = "/Users/apple/astrochat/astro_interpretador_rag_fastapi/data"):
-        self.data_dir = data_dir
+    def __init__(self, data_dir: str = None):
+        if data_dir is None:
+            # Use path relative to the current file
+            import pathlib
+            self.data_dir = str(pathlib.Path(__file__).parent / "data")
+        else:
+            self.data_dir = data_dir
+            
         # Cargar mapa de tránsitos
         self.transits_map = self._load_json("transitos.json")
         print(f"✅ InterpretadorAstrologico: Cargadas {len(self.transits_map)} interpretaciones de Tránsitos.")
