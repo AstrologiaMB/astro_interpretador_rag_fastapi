@@ -1,0 +1,1051 @@
+{
+  "points": {
+    "Sun": {
+      "longitude": 275.2790566846995,
+      "latitude": 0.00017771466453609904,
+      "distance": 0.9834135219327464,
+      "sign": "Capricorn",
+      "degrees": 5.279056684699526,
+      "retrograde": false
+    },
+    "Moon": {
+      "longitude": 199.53227302599836,
+      "latitude": 4.736786723956479,
+      "distance": 0.0026119555692543086,
+      "sign": "Libra",
+      "degrees": 19.532273025998364,
+      "retrograde": false
+    },
+    "Mercury": {
+      "longitude": 258.9291936923152,
+      "latitude": 3.071962516157012,
+      "distance": 0.761017635765542,
+      "sign": "Sagittarius",
+      "degrees": 18.92919369231521,
+      "retrograde": true
+    },
+    "Venus": {
+      "longitude": 249.61140477913966,
+      "latitude": 1.136645356396565,
+      "distance": 1.4696353195025544,
+      "sign": "Sagittarius",
+      "degrees": 9.611404779139662,
+      "retrograde": false
+    },
+    "Mars": {
+      "longitude": 172.33091387199593,
+      "latitude": 2.7071923855675,
+      "distance": 1.131723038175452,
+      "sign": "Virgo",
+      "degrees": 22.330913871995932,
+      "retrograde": false
+    },
+    "Jupiter": {
+      "longitude": 46.462628987791106,
+      "latitude": -1.076815677292538,
+      "distance": 4.307020369018136,
+      "sign": "Taurus",
+      "degrees": 16.462628987791106,
+      "retrograde": true
+    },
+    "Saturn": {
+      "longitude": 330.8485315752386,
+      "latitude": -1.5882984375773617,
+      "distance": 10.271669089745348,
+      "sign": "Pisces",
+      "degrees": 0.84853157523861,
+      "retrograde": false
+    },
+    "Uranus": {
+      "longitude": 164.82650780039882,
+      "latitude": 0.7877916176863692,
+      "distance": 17.923145879588994,
+      "sign": "Virgo",
+      "degrees": 14.826507800398815,
+      "retrograde": true
+    },
+    "Neptune": {
+      "longitude": 229.18302985539094,
+      "latitude": 1.7235398222777736,
+      "distance": 30.99630211093702,
+      "sign": "Scorpio",
+      "degrees": 19.18302985539094,
+      "retrograde": false
+    },
+    "Pluto": {
+      "longitude": 166.31234268179165,
+      "latitude": 14.291513942156467,
+      "distance": 32.3690691074575,
+      "sign": "Virgo",
+      "degrees": 16.312342681791648,
+      "retrograde": true
+    },
+    "Asc": {
+      "longitude": 112.50937527305906,
+      "latitude": 0.0,
+      "distance": 0.0,
+      "sign": "Cancer",
+      "degrees": 22.509375273059064,
+      "retrograde": false
+    },
+    "MC": {
+      "longitude": 42.57923708420909,
+      "latitude": 0.0,
+      "distance": 0.0,
+      "sign": "Taurus",
+      "degrees": 12.57923708420909,
+      "retrograde": false
+    },
+    "True North Node": {
+      "longitude": 82.957871128658,
+      "latitude": 0.0,
+      "distance": 0.0,
+      "sign": "Gemini",
+      "degrees": 22.957871128658,
+      "retrograde": false
+    },
+    "Lilith": {
+      "longitude": 278.6017353607465,
+      "latitude": -1.4531518119799105,
+      "distance": 0.0,
+      "sign": "Capricorn",
+      "degrees": 8.601735360746488,
+      "retrograde": false
+    },
+    "Chiron": {
+      "longitude": 344.6437061141823,
+      "latitude": 4.512772552605912,
+      "distance": 18.437853539461102,
+      "sign": "Pisces",
+      "degrees": 14.643706114182294,
+      "retrograde": false
+    },
+    "Part of Fortune": {
+      "longitude": 188.2561589317602,
+      "latitude": 0.0,
+      "distance": 0.0,
+      "sign": "Libra",
+      "degrees": 8.256158931760211,
+      "retrograde": false
+    },
+    "Vertex": {
+      "longitude": 326.7910790177496,
+      "latitude": 0.0,
+      "distance": 0.0,
+      "sign": "Aquarius",
+      "degrees": 26.79107901774961,
+      "retrograde": false
+    }
+  },
+  "houses": {
+    "1": {
+      "longitude": 112.50937527305906,
+      "sign": "Cancer",
+      "degrees": 22.509375273059064
+    },
+    "2": {
+      "longitude": 153.43007211748937,
+      "sign": "Virgo",
+      "degrees": 3.430072117489374
+    },
+    "3": {
+      "longitude": 192.2295353517127,
+      "sign": "Libra",
+      "degrees": 12.229535351712713
+    },
+    "4": {
+      "longitude": 222.5792370842091,
+      "sign": "Scorpio",
+      "degrees": 12.579237084209097
+    },
+    "5": {
+      "longitude": 246.73603240968887,
+      "sign": "Sagittarius",
+      "degrees": 6.736032409688875
+    },
+    "6": {
+      "longitude": 268.6507050910601,
+      "sign": "Sagittarius",
+      "degrees": 28.650705091060104
+    },
+    "7": {
+      "longitude": 292.50937527305905,
+      "sign": "Capricorn",
+      "degrees": 22.50937527305905
+    },
+    "8": {
+      "longitude": 333.4300721174894,
+      "sign": "Pisces",
+      "degrees": 3.430072117489374
+    },
+    "9": {
+      "longitude": 12.229535351712684,
+      "sign": "Aries",
+      "degrees": 12.229535351712684
+    },
+    "10": {
+      "longitude": 42.57923708420909,
+      "sign": "Taurus",
+      "degrees": 12.57923708420909
+    },
+    "11": {
+      "longitude": 66.73603240968887,
+      "sign": "Gemini",
+      "degrees": 6.736032409688875
+    },
+    "12": {
+      "longitude": 88.6507050910601,
+      "sign": "Gemini",
+      "degrees": 28.650705091060104
+    }
+  },
+  "angles": {
+    "Asc": {
+      "longitude": 112.50937527305906,
+      "sign": "Cancer",
+      "degrees": 22.509375273059064
+    },
+    "Dsc": {
+      "longitude": 292.50937527305905,
+      "sign": "Capricornio",
+      "degrees": 22.50937527305905
+    },
+    "MC": {
+      "longitude": 42.57923708420909,
+      "sign": "Taurus",
+      "degrees": 12.57923708420909
+    },
+    "Ic": {
+      "longitude": 222.5792370842091,
+      "sign": "Escorpio",
+      "degrees": 12.579237084209097
+    }
+  },
+  "aspects": [
+    {
+      "point1": "MC",
+      "point2": "Jupiter",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 3.883391903582016,
+        "formatted": "03°53'00\"",
+        "direction": "+",
+        "degrees": 3,
+        "minutes": 53,
+        "seconds": 0
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mars",
+      "point2": "Pluto",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 6.018571190204284,
+        "formatted": "06°01'07\"",
+        "direction": "+",
+        "degrees": 6,
+        "minutes": 1,
+        "seconds": 7
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mars",
+      "point2": "Uranus",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 7.5044060715971455,
+        "formatted": "07°30'16\"",
+        "direction": "+",
+        "degrees": 7,
+        "minutes": 30,
+        "seconds": 16
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Sun",
+      "point2": "Lilith",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 3.322678676046962,
+        "formatted": "03°19'22\"",
+        "direction": "+",
+        "degrees": 3,
+        "minutes": 19,
+        "seconds": 22
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Uranus",
+      "point2": "Pluto",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 1.485834881392833,
+        "formatted": "01°29'09\"",
+        "direction": "+",
+        "degrees": 1,
+        "minutes": 29,
+        "seconds": 9
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Venus",
+      "point2": "Mercury",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 9.317788913175548,
+        "formatted": "09°19'04\"",
+        "direction": "+",
+        "degrees": 9,
+        "minutes": 19,
+        "seconds": 4
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Vertex",
+      "point2": "Saturn",
+      "aspect": "Conjunción",
+      "difference": {
+        "raw": 4.057452557489,
+        "formatted": "04°03'27\"",
+        "direction": "+",
+        "degrees": 4,
+        "minutes": 3,
+        "seconds": 27
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": false,
+        "dissociate": true,
+        "formatted": "Dissociate"
+      }
+    },
+    {
+      "point1": "Chiron",
+      "point2": "Pluto",
+      "aspect": "Oposición",
+      "difference": {
+        "raw": -1.6686365676093544,
+        "formatted": "-01°40'07\"",
+        "direction": "-",
+        "degrees": 1,
+        "minutes": 40,
+        "seconds": 7
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Chiron",
+      "point2": "Uranus",
+      "aspect": "Oposición",
+      "difference": {
+        "raw": -0.18280168621652138,
+        "formatted": "-00°10'58\"",
+        "direction": "-",
+        "degrees": 0,
+        "minutes": 10,
+        "seconds": 58
+      },
+      "movement": {
+        "applicative": false,
+        "exact": true,
+        "separative": false,
+        "formatted": "Exact"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Jupiter",
+      "point2": "Neptune",
+      "aspect": "Oposición",
+      "difference": {
+        "raw": -2.7204008675998352,
+        "formatted": "-02°43'13\"",
+        "direction": "-",
+        "degrees": 2,
+        "minutes": 43,
+        "seconds": 13
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mercury",
+      "point2": "True North Node",
+      "aspect": "Oposición",
+      "difference": {
+        "raw": -4.028677436342775,
+        "formatted": "-04°01'43\"",
+        "direction": "-",
+        "degrees": 4,
+        "minutes": 1,
+        "seconds": 43
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mars",
+      "point2": "True North Node",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -0.6269572566620809,
+        "formatted": "-00°37'37\"",
+        "direction": "-",
+        "degrees": 0,
+        "minutes": 37,
+        "seconds": 37
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mercury",
+      "point2": "Chiron",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -4.285487578132916,
+        "formatted": "-04°17'08\"",
+        "direction": "-",
+        "degrees": 4,
+        "minutes": 17,
+        "seconds": 8
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mercury",
+      "point2": "Mars",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -3.4017201796807512,
+        "formatted": "-03°24'06\"",
+        "direction": "-",
+        "degrees": 3,
+        "minutes": 24,
+        "seconds": 6
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mercury",
+      "point2": "Pluto",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": 2.6168510105235328,
+        "formatted": "02°37'01\"",
+        "direction": "+",
+        "degrees": 2,
+        "minutes": 37,
+        "seconds": 1
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mercury",
+      "point2": "Uranus",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": 4.102685891916394,
+        "formatted": "04°06'10\"",
+        "direction": "+",
+        "degrees": 4,
+        "minutes": 6,
+        "seconds": 10
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Sun",
+      "point2": "Part of Fortune",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -2.9771022470606567,
+        "formatted": "-02°58'38\"",
+        "direction": "-",
+        "degrees": 2,
+        "minutes": 58,
+        "seconds": 38
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Venus",
+      "point2": "Chiron",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": 5.032301335042632,
+        "formatted": "05°01'56\"",
+        "direction": "+",
+        "degrees": 5,
+        "minutes": 1,
+        "seconds": 56
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Venus",
+      "point2": "Pluto",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -6.700937902651958,
+        "formatted": "-06°42'03\"",
+        "direction": "-",
+        "degrees": 6,
+        "minutes": 42,
+        "seconds": 3
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Venus",
+      "point2": "Saturn",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -8.762873203901052,
+        "formatted": "-08°45'46\"",
+        "direction": "-",
+        "degrees": 8,
+        "minutes": 45,
+        "seconds": 46
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Venus",
+      "point2": "Uranus",
+      "aspect": "Cuadratura",
+      "difference": {
+        "raw": -5.215103021259154,
+        "formatted": "-05°12'54\"",
+        "direction": "-",
+        "degrees": 5,
+        "minutes": 12,
+        "seconds": 54
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Chiron",
+      "point2": "Neptune",
+      "aspect": "Trígono",
+      "difference": {
+        "raw": -4.539323741208648,
+        "formatted": "-04°32'22\"",
+        "direction": "-",
+        "degrees": 4,
+        "minutes": 32,
+        "seconds": 22
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Jupiter",
+      "point2": "Pluto",
+      "aspect": "Trígono",
+      "difference": {
+        "raw": -0.15028630599945814,
+        "formatted": "-00°09'01\"",
+        "direction": "-",
+        "degrees": 0,
+        "minutes": 9,
+        "seconds": 1
+      },
+      "movement": {
+        "applicative": false,
+        "exact": true,
+        "separative": false,
+        "formatted": "Exact"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Jupiter",
+      "point2": "Uranus",
+      "aspect": "Trígono",
+      "difference": {
+        "raw": -1.6361211873922912,
+        "formatted": "-01°38'10\"",
+        "direction": "-",
+        "degrees": 1,
+        "minutes": 38,
+        "seconds": 10
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mars",
+      "point2": "Jupiter",
+      "aspect": "Trígono",
+      "difference": {
+        "raw": 5.868284884204826,
+        "formatted": "05°52'06\"",
+        "direction": "+",
+        "degrees": 5,
+        "minutes": 52,
+        "seconds": 6
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Moon",
+      "point2": "True North Node",
+      "aspect": "Trígono",
+      "difference": {
+        "raw": -3.4255981026596487,
+        "formatted": "-03°25'32\"",
+        "direction": "-",
+        "degrees": 3,
+        "minutes": 25,
+        "seconds": 32
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Sun",
+      "point2": "Uranus",
+      "aspect": "Trígono",
+      "difference": {
+        "raw": -9.547451115699289,
+        "formatted": "-09°32'51\"",
+        "direction": "-",
+        "degrees": 9,
+        "minutes": 32,
+        "seconds": 51
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Jupiter",
+      "point2": "Chiron",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": 1.8189228736088126,
+        "formatted": "01°49'08\"",
+        "direction": "+",
+        "degrees": 1,
+        "minutes": 49,
+        "seconds": 8
+      },
+      "movement": {
+        "applicative": true,
+        "exact": false,
+        "separative": false,
+        "formatted": "Applicative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Mars",
+      "point2": "Neptune",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": -3.1478840166049906,
+        "formatted": "-03°08'52\"",
+        "direction": "-",
+        "degrees": 3,
+        "minutes": 8,
+        "seconds": 52
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Moon",
+      "point2": "Mercury",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": -0.603079333683155,
+        "formatted": "-00°36'11\"",
+        "direction": "-",
+        "degrees": 0,
+        "minutes": 36,
+        "seconds": 11
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Neptune",
+      "point2": "Pluto",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": 2.870687173599322,
+        "formatted": "02°52'14\"",
+        "direction": "+",
+        "degrees": 2,
+        "minutes": 52,
+        "seconds": 14
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Neptune",
+      "point2": "Uranus",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": 4.356522054992126,
+        "formatted": "04°21'23\"",
+        "direction": "+",
+        "degrees": 4,
+        "minutes": 21,
+        "seconds": 23
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Sun",
+      "point2": "Saturn",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": -4.430525109460916,
+        "formatted": "-04°25'50\"",
+        "direction": "-",
+        "degrees": 4,
+        "minutes": 25,
+        "seconds": 50
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    },
+    {
+      "point1": "Venus",
+      "point2": "Part of Fortune",
+      "aspect": "Sextil",
+      "difference": {
+        "raw": 1.3552458473794786,
+        "formatted": "01°21'19\"",
+        "direction": "+",
+        "degrees": 1,
+        "minutes": 21,
+        "seconds": 19
+      },
+      "movement": {
+        "applicative": false,
+        "exact": false,
+        "separative": true,
+        "formatted": "Separative"
+      },
+      "condition": {
+        "associate": true,
+        "dissociate": false,
+        "formatted": "Associate"
+      }
+    }
+  ],
+  "location": {
+    "latitude": -34.6037,
+    "longitude": -58.3816,
+    "name": "Buenos Aires, Argentina",
+    "timezone": "America/Argentina/Buenos_Aires"
+  },
+  "fecha_hora_natal": "1964-12-26 21:12",
+  "nombre": "Caso Real Buenos Aires",
+  "tipo": "Tropical"
+}

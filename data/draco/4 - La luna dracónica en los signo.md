@@ -16,7 +16,7 @@ Con tu luna dracónica en Tauro, a nivel emocional sientes una marcada necesidad
 
 En un nivel interno y subjetivo, te resistes a los cambios porque sientes que amenazan tu bienestar, y muchas veces, sin darte cuenta, tomas decisiones que surgen de miedo a la pobreza. El desafío es no confundir la verdadera seguridad emocional con el apego a posesiones o situaciones. Tu crecimiento viene de aprender que la estabilidad real surge de tu capacidad interna de crear valor, no de lo que acumulas externamente.
 
-## Luna Dracónica en Géminis
+### Luna Dracónica en Géminis
 
 Con tu luna dracónica en Géminis, a nivel emocional sientes una marcada necesidad de variedad y estimulación mental. En un nivel interno y subjetivo, eres curioso y adaptable, con un profundo amor por el intercambio de ideas, y tu seguridad afectiva más esencial se asocia a la comunicación y el aprendizaje constante. Es posible que disfrutes escribiendo o tengas talento para conectar con diferentes tipos de personas. Esta luna te da una capacidad natural para nutrir a través de las palabras y crear ambientes emocionales dinámicos y estimulantes, con un talento especial para manifestar amor a través de la conversación y el intercambio intelectual.
 
@@ -72,13 +72,13 @@ Con tu luna dracónica en Capricornio, a nivel emocional sientes una marcada nec
 
 En un nivel interno y subjetivo, muchas veces, sin darte cuenta, tomas decisiones que surgen de tu miedo a no ser amado, como si en lo más profundo sintieras que para merecer amor, debes cumplir con requisitos. El desafío es no confundir la verdadera seguridad emocional con la necesidad constante de demostrar tu valía a través de logros.
 
-## Luna Dracónica en Acuario
+### Luna Dracónica en Acuario
 
 Con tu luna dracónica en Acuario, a nivel emocional sientes una marcada necesidad de independencia y originalidad. Eres innovador y rebelde, con un profundo amor por la libertad. Es posible que disfrutes experimentando con ideas de avanzada o tengas talento para conectar con grupos diversos de personas. Esta luna te da una capacidad natural para manejarte en la diversidad, para pertenecer a comunidades poco convencionales.
 
 En un nivel interno y subjetivo, te resistes a la intimidad y muchas veces, sin darte cuenta, tomas decisiones que surgen de tu necesidad subjetiva de mantener distancia emocional para preservar tu individualidad. El desafío es no confundir la verdadera seguridad emocional con el desapego o la necesidad constante de ser diferente. Tu crecimiento viene de aprender a no desconectarte tanto de las emociones que pierdas la capacidad de intimidad real, de aprender a ser libre emocionalmente sin aislarte de los vínculos profundos.
 
-## Luna Dracónica en Piscis
+### Luna Dracónica en Piscis
 
 Con la luna dracónica en Piscis, necesitas profundamente conectar con el mundo de las emociones, los sueños y la espiritualidad. Eres muy sensible e imaginativo, con una rica vida interior llena de símbolos y fantasías. Tu seguridad emocional más esencial se basa en sentirte conectado con algo más grande que tú - ya sea el arte, la música, la naturaleza o lo espiritual.
 

@@ -1,0 +1,138 @@
+INFO:     Will watch for changes in these directories: ['/Users/apple/astrochat/astro_interpretador_rag_fastapi']
+INFO:     Uvicorn running on http://0.0.0.0:8006 (Press CTRL+C to quit)
+INFO:     Started reloader process [97173] using WatchFiles
+INFO:     Started server process [97175]
+INFO:     Waiting for application startup.
+2026-02-09 11:53:42,444 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:53:43,977 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:53:44,810 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:53:46,294 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:53:47,135 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:53:48,631 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:53:49,513 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97175]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+🔧 Configurando LLMs: RAG=claude-haiku-4-5-20251001, WRITER=claude-sonnet-4-5-20250929
+🔧 LLAMA_INDEX_NEW: True
+⚙️ Configurando Settings (LlamaIndex New)...
+⚙️ Instanciando WRITER claude-sonnet-4-5-20250929...
+✅ Escritor instanciado OK.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [97201]
+INFO:     Waiting for application startup.
+2026-02-09 11:54:30,897 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:54:32,274 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:54:33,001 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:54:34,271 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:54:35,012 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:54:35,984 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:54:37,032 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+2026-02-09 11:55:45,529 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+🔧 Configurando LLMs: RAG=claude-haiku-4-5-20251001, WRITER=claude-sonnet-4-5-20250929
+🔧 LLAMA_INDEX_NEW: True
+⚙️ Configurando Settings (LlamaIndex New)...
+⚙️ Instanciando WRITER claude-sonnet-4-5-20250929...
+✅ Escritor instanciado OK.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+🔍 Generando interpretación para: Test User
+👤 Género: femenino
+🚀 Usando InterpretadorAstrologico (JSON) para carta tropical...
+✅ Se obtuvieron 5 interpretaciones deterministas.
+✅ Interpretación generada en 41.59 segundos
+❌ Error al generar interpretación: 5 validation errors for InterpretacionResponse
+interpretaciones_individuales.0.interpretacion
+  Input should be a valid string [type=string_type, input_value={'titulo': 'sol en aries'...l sol_ la identidad.md'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+interpretaciones_individuales.1.interpretacion
+  Input should be a valid string [type=string_type, input_value={'titulo': 'luna en tauro...luna_ las emociones.md'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+interpretaciones_individuales.2.interpretacion
+  Input should be a valid string [type=string_type, input_value={'titulo': 'ascendente (...te_ el modo en que .md'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+interpretaciones_individuales.3.interpretacion
+  Input should be a valid string [type=string_type, input_value={'titulo': 'sol en casa 1...l sol_ la identidad.md'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+interpretaciones_individuales.4.interpretacion
+  Input should be a valid string [type=string_type, input_value={'titulo': 'luna en casa ...luna_ las emociones.md'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+INFO:     127.0.0.1:55988 - "POST /interpretar HTTP/1.1" 500 Internal Server Error
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97201]
+INFO:     Started server process [97380]
+INFO:     Waiting for application startup.
+2026-02-09 11:57:41,400 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:42,808 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:43,486 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:44,457 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:45,118 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:46,335 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:46,973 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97380]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+🔧 Configurando LLMs: RAG=claude-haiku-4-5-20251001, WRITER=claude-sonnet-4-5-20250929
+🔧 LLAMA_INDEX_NEW: True
+⚙️ Configurando Settings (LlamaIndex New)...
+⚙️ Instanciando WRITER claude-sonnet-4-5-20250929...
+✅ Escritor instanciado OK.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [97397]
+INFO:     Waiting for application startup.
+2026-02-09 11:57:51,434 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:53,226 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:54,028 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:55,369 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:56,160 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:57,776 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:57:58,553 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97397]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+🔧 Configurando LLMs: RAG=claude-haiku-4-5-20251001, WRITER=claude-sonnet-4-5-20250929
+🔧 LLAMA_INDEX_NEW: True
+⚙️ Configurando Settings (LlamaIndex New)...
+⚙️ Instanciando WRITER claude-sonnet-4-5-20250929...
+✅ Escritor instanciado OK.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Stopping reloader process [97173]

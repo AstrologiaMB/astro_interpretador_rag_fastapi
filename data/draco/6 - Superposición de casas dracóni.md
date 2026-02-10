@@ -10,72 +10,6 @@ En este informe usaremos exclusivamente las posiciones de las cúspides de las c
 
 La Casa 1 Dracónica o ascendente dracónico representa la identidad ancestral, la esencia de quienes somos a nivel del alma. Mientras que la Casa 1 trópica muestra cómo nos presentamos al mundo, la Casa 1 dracónica revela la naturaleza espiritual y la motivación más profunda.
 
-## Significado de la casa 2 dracónica
-
-La Casa 2 Dracónica se relaciona con los valores del alma y los recursos espirituales. Mientras que la Casa 2 trópica se enfoca en las posesiones materiales, la Casa 2 dracónica muestra qué talentos y capacidades internas se han desarrollado como tesoros permanentes de tu ser. Indica lo que realmente nos nutre a nivel profundo.
-
-La superposición de la casa 2 dracónica con las casas trópicas puede ofrecer una visión única sobre cómo la búsqueda interna de seguridad y los valores que pulsan en lo más recóndito de nuestro ser, se manifiestan en diferentes áreas de la vida cotidiana.
-
-## Significado de la casa 3 dracónica
-
-La Casa 3 Dracónica está asociada con la sabiduría ancestral y los conocimientos del alma. Mientras que la Casa 3 trópica trata sobre la comunicación cotidiana, la Casa 3 dracónica revela cómo se transmite la comprensión más profunda de la vida y sus enseñanzas eternas.
-
-La superposición de la casa 3 dracónica con las casas trópicas describe el modo en que las relaciones cercanas y el impulso interno por aprender y comunicarnos influyen en nuestra vida.
-
-## Significado de la casa 4 dracónica
-
-La Casa 4 Dracónica representa el hogar del alma y las raíces espirituales más profundas. Mientras que la Casa 4 trópica muestra la familia actual, la Casa 4 dracónica revela los patrones ancestrales que el alma viene a sanar o continuar.
-
-La superposición de la casa 4 dracónica con las casas trópicas puede ofrecer una visión sobre cómo las motivaciones inconscientes vinculadas al hogar, la familia y las raíces emocionales influyen en la vida cotidiana.
-
-## Significado de la casa 5 dracónica
-
-La Casa 5 Dracónica se vincula con la creatividad más profunda y la expresión de la esencia divina única. Mientras que la Casa 5 trópica habla de placeres y romances actual, la Casa 5 dracónica muestra cómo el alma busca expresar su naturaleza creativa y qué tipo de belleza anhela crear en el mundo.
-
-La superposición de la casa 5 dracónica con las casas trópicas permite vislumbrar como la expresividad más auténtica se manifiesta en diferentes ámbitos de la vida.
-
-## Significado de la casa 6 dracónica
-
-La Casa 6 Dracónica se relaciona con el servicio sagrado y la forma en que el alma busca contribuir al bienestar colectivo. Mientras que la Casa 6 trópica trata sobre rutinas diarias, la Casa 6 dracónica revela qué tipo de sanación o servicio uno ha venido a ofrecer como parte de su propósito espiritual.
-
-La superposición de la casa 6 dracónica con las casas trópicas puede ofrecer una visión sobre cómo los patrones inconscientes asociados al servicio, o las actitudes internas vinculadas a la enfermedad, afectan nuestro comportamiento.
-
-## Significado de la casa 7 dracónica
-
-La Casa 7 Dracónica representa las relaciones del alma y la necesidad vincular más profunda. Mientras que la Casa 7 trópica muestra asociaciones actuales, la Casa 7 dracónica revela qué tipo de encuentros y aprendizajes relacionales el alma necesita para su evolución espiritual.
-
-La superposición de la casa 7 dracónica con las casas trópicas da claves acerca de cómo las relaciones y asociaciones inconscientes influyen en diferentes áreas de la vida.
-
-## Significado de la casa 8 dracónica
-
-La Casa 8 Dracónica se asocia con las crisis evolutivas del alma y los procesos de muerte-renacimiento necesitamos experimentar para nuestro crecimiento espiritual. Mientras que la Casa 8 trópica trata sobre transformaciones actuales, la Casa 8 dracónica revela qué patrones profundos el alma necesita transmutar.
-
-La superposición de la casa 8 dracónica con las casas trópicas da una perspectiva novedosa acerca de cómo las transformaciones, los recursos compartidos y las dinámicas de poder inconscientes influyen en diferentes áreas de la vida.
-
-## Significado de la casa 9 dracónica
-
-La Casa 9 Dracónica está relacionada con la búsqueda de verdades universales que el alma ha desarrollado a través de múltiples experiencias. Mientras que la Casa 9 trópica muestra la educación presente y el sistema filosófico con el que nos identificamos, la Casa 9 dracónica se relaciona con las creencias espirituales.
-
-La superposición de la casa 9 dracónica con las casas trópicas ayuda a entender cómo la búsqueda de conocimiento y las aspiraciones espirituales inconscientes influyen en diferentes áreas de la vida.
-
-## Significado de la casa 10 dracónica
-
-La Casa 10 Dracónica representa la contribución que nuestro alma ha venido a hacer en el mundo. Mientras que la Casa 10 trópica muestra la carrera actual, la Casa 10 dracónica revela la misión espiritual más elevada y cómo tu alma busca dejar un legado que trascienda esta vida específica.
-
-La superposición de esta casa con las casas trópicas permite vislumbrar el modo en que el impulso subjetivo por ocupar un lugar en el mundo o ser reconocido afecta los diferentes escenarios de la cotidianeidad.
-
-## Significado de la casa 11 dracónica
-
-La Casa 11 Dracónica se vincula con la hermandad espiritual y las conexiones de alma. Mientras que la Casa 11 trópica trata sobre amistades actuales, la Casa 11 dracónica muestra las aspiraciones más elevadas.
-
-La superposición con las casas trópicas aporta luz sobre como las amistades, los grupos y las aspiraciones más recónditas influyen en la vida del día a día.
-
-## Significado de la casa 12 dracónica
-
-La Casa 12 Dracónica está asociada con la memoria del sufrimiento y las experiencias dolorosas que el alma ha atravesado para desarrollar compasión universal. Mientras que la Casa 12 trópica se relaciona con limitaciones actuales, la Casa 12 dracónica revela los patrones de dolor ancestral que se manifiestan como experiencias aparentemente inevitables en el destino presente.
-
-La casa 12 se considera un área difícil de la vida y el sector de la carta trópica que se le superpone suele estar sujeto a experiencias de sufrimiento que se vivencian como inevitables, como parte ineludible del destino.
-
 ### La cúspide del Ascendente dracónico en relación con la carta trópica
 
 #### La cúspide del Ascendente dracónico superpuesto a la casa 1 trópica
@@ -125,6 +59,12 @@ El foco interno se dirige hacia la manifestación de la identidad más auténtic
 #### La cúspide del Ascendente dracónico superpuesto a la casa 12 trópica
 
 Suscita la exploración de la identidad más trascendente a través de la indagación de uno mismo, de la autoexploración profunda.
+
+## Significado de la casa 2 dracónica
+
+La Casa 2 Dracónica se relaciona con los valores del alma y los recursos espirituales. Mientras que la Casa 2 trópica se enfoca en las posesiones materiales, la Casa 2 dracónica muestra qué talentos y capacidades internas se han desarrollado como tesoros permanentes de tu ser. Indica lo que realmente nos nutre a nivel profundo.
+
+La superposición de la casa 2 dracónica con las casas trópicas puede ofrecer una visión única sobre cómo la búsqueda interna de seguridad y los valores que pulsan en lo más recóndito de nuestro ser, se manifiestan en diferentes áreas de la vida cotidiana.
 
 ### La cúspide de la casa 2 dracónica en relación con la carta trópica
 
@@ -176,6 +116,12 @@ Las amistades conscientemente elegidas y la participación en grupos afines prop
 
 Los valores internos del alma están profundamente conectados con la necesidad de retiros espirituales, la conexión con lo trascendente y el encuentro con la seguridad que proviene de disolverse conscientemente en lo universal.
 
+## Significado de la casa 3 dracónica
+
+La Casa 3 Dracónica está asociada con la sabiduría ancestral y los conocimientos del alma. Mientras que la Casa 3 trópica trata sobre la comunicación cotidiana, la Casa 3 dracónica revela cómo se transmite la comprensión más profunda de la vida y sus enseñanzas eternas.
+
+La superposición de la casa 3 dracónica con las casas trópicas describe el modo en que las relaciones cercanas y el impulso interno por aprender y comunicarnos influyen en nuestra vida.
+
 ### La cuspide de la casa 3 dracónica en relación con la carta trópica
 
 #### La cuspide de la casa 3 draconica superpuesta a la casa 1 trópica
@@ -225,6 +171,12 @@ El talento innato del alma para comunicar se expresa a través de grupos conscie
 #### La cuspide de la casa 3 draconica superpuesta a la casa 12 trópica
 
 Las habilidades comunicativas del alma están profundamente conectadas con retiros espirituales y la conexión con lo trascendente. Se aprende y escribe acerca de lo inconsciente colectivo. La expresión de los pensamientos más recónditos fluye en el aislamiento consciente.
+
+## Significado de la casa 4 dracónica
+
+La Casa 4 Dracónica representa el hogar del alma y las raíces espirituales más profundas. Mientras que la Casa 4 trópica muestra la familia actual, la Casa 4 dracónica revela los patrones ancestrales que el alma viene a sanar o continuar.
+
+La superposición de la casa 4 dracónica con las casas trópicas puede ofrecer una visión sobre cómo las motivaciones inconscientes vinculadas al hogar, la familia y las raíces emocionales influyen en la vida cotidiana.
 
 ### La cuspide de la casa 4 draconica en relación con la carta trópica
 
@@ -276,6 +228,12 @@ Anhelo profundo de encontrar familia en los grupos sociales. Buscas amistades y 
 
 Tu sentido interno de hogar está conectado con espacios de retiro espiritual y soledad consciente. Te sientes en casa en lugares que permiten la conexión profunda contigo mismo y lo trascendente o en lugares de encierro, tales como hospitales.
 
+## Significado de la casa 5 dracónica
+
+La Casa 5 Dracónica se vincula con la creatividad más profunda y la expresión de la esencia divina única. Mientras que la Casa 5 trópica habla de placeres y romances actual, la Casa 5 dracónica muestra cómo el alma busca expresar su naturaleza creativa y qué tipo de belleza anhela crear en el mundo.
+
+La superposición de la casa 5 dracónica con las casas trópicas permite vislumbrar como la expresividad más auténtica se manifiesta en diferentes ámbitos de la vida.
+
 ### La cuspide de la casa 5 dracónica en relación con la carta trópica
 
 #### La cuspide de la casa 5 draconica superpuesta a la casa 1 trópica
@@ -325,6 +283,12 @@ Te sientes atraído hacia grupos dedicados al arte y la expresión creativa. Uti
 #### La cuspide de la casa 5 draconica superpuesta a la casa 12 trópica
 
 Tu creatividad más profunda se despliega en espacios de retiro y soledad consciente. Tienes la capacidad de llevar alegría y expresión artística a lugares de recogimiento, transformando el aislamiento en creatividad; un ejemplo que ilustra esta superposición sería el caso de los payasos hospitalarios que entretienen a niños durante su internación.
+
+## Significado de la casa 6 dracónica
+
+La Casa 6 Dracónica se relaciona con el servicio sagrado y la forma en que el alma busca contribuir al bienestar colectivo. Mientras que la Casa 6 trópica trata sobre rutinas diarias, la Casa 6 dracónica revela qué tipo de sanación o servicio uno ha venido a ofrecer como parte de su propósito espiritual.
+
+La superposición de la casa 6 dracónica con las casas trópicas puede ofrecer una visión sobre cómo los patrones inconscientes asociados al servicio, o las actitudes internas vinculadas a la enfermedad, afectan nuestro comportamiento.
 
 ### La cuspide de la casa 6 dracónica en relación con la carta trópica
 
@@ -376,6 +340,12 @@ Afinidad natural por grupos que promueven el bienestar comunitario. Existe una c
 
 Impulso interno por brindar servicio en espacios de retiro, instituciones de cuidado o lugares donde las personas necesitan atención especial. Tu servicio se orienta hacia quienes están en situaciones de vulnerabilidad.
 
+## Significado de la casa 7 dracónica
+
+La Casa 7 Dracónica representa las relaciones del alma y la necesidad vincular más profunda. Mientras que la Casa 7 trópica muestra asociaciones actuales, la Casa 7 dracónica revela qué tipo de encuentros y aprendizajes relacionales el alma necesita para su evolución espiritual.
+
+La superposición de la casa 7 dracónica con las casas trópicas da claves acerca de cómo las relaciones y asociaciones inconscientes influyen en diferentes áreas de la vida.
+
 ### La cuspide de la casa 7 dracónica en relación con la carta trópica
 
 #### La cuspide de la casa 7 draconica superpuesta a la casa 1 trópica
@@ -425,6 +395,12 @@ Tiendes a desarrollar relaciones íntimas y significativas que surgen naturalmen
 #### La cuspide de la casa 7 draconica superpuesta a la casa 12 trópica
 
 Te sientes atraído hacia relaciones que tienen un componente de secreto, sacrificio o que no pueden manifestarse completamente en lo social. Experimentas vínculos que requieren retiro del mundo externo, tendencia hacia los amores imposibles o prohibidos.
+
+## Significado de la casa 8 dracónica
+
+La Casa 8 Dracónica se asocia con las crisis evolutivas del alma y los procesos de muerte-renacimiento necesitamos experimentar para nuestro crecimiento espiritual. Mientras que la Casa 8 trópica trata sobre transformaciones actuales, la Casa 8 dracónica revela qué patrones profundos el alma necesita transmutar.
+
+La superposición de la casa 8 dracónica con las casas trópicas da una perspectiva novedosa acerca de cómo las transformaciones, los recursos compartidos y las dinámicas de poder inconscientes influyen en diferentes áreas de la vida.
 
 ### La cuspide de la casa 8 dracónica en relación con la carta trópica
 
@@ -476,6 +452,12 @@ Las dinámicas internas del alma en relación con el poder influyen en tu elecci
 
 Entras en contacto con tu propio poder transformador en la soledad y retiro. Necesitas aislarte conscientemente para elaborar crisis profundas y conectar con tu capacidad regenerativa más esencial.
 
+## Significado de la casa 9 dracónica
+
+La Casa 9 Dracónica está relacionada con la búsqueda de verdades universales que el alma ha desarrollado a través de múltiples experiencias. Mientras que la Casa 9 trópica muestra la educación presente y el sistema filosófico con el que nos identificamos, la Casa 9 dracónica se relaciona con las creencias espirituales.
+
+La superposición de la casa 9 dracónica con las casas trópicas ayuda a entender cómo la búsqueda de conocimiento y las aspiraciones espirituales inconscientes influyen en diferentes áreas de la vida.
+
 ### La cuspide de la casa 9 dracónica en relación con la carta trópica
 
 #### La cuspide de la casa 9 draconica superpuesta a la casa 1 trópica
@@ -525,6 +507,12 @@ Te sientes atraído hacia grupos que promueven el bienestar espiritual y la expa
 #### La cuspide de la casa 9 draconica superpuesta a la casa 12 trópica
 
 Los retiros espirituales y el aislamiento consciente refuerzan significativamente tu desarrollo filosófico. Encuentras en la soledad el espacio ideal para conectar con la sabiduría universal y profundizar en tu búsqueda espiritual.
+
+## Significado de la casa 10 dracónica
+
+La Casa 10 Dracónica representa la contribución que nuestro alma ha venido a hacer en el mundo. Mientras que la Casa 10 trópica muestra la carrera actual, la Casa 10 dracónica revela la misión espiritual más elevada y cómo tu alma busca dejar un legado que trascienda esta vida específica.
+
+La superposición de esta casa con las casas trópicas permite vislumbrar el modo en que el impulso subjetivo por ocupar un lugar en el mundo o ser reconocido afecta los diferentes escenarios de la cotidianeidad.
 
 ### La cuspide de la casa 10 dracónica en relación con la carta trópica
 
@@ -576,6 +564,12 @@ Las amistades y grupos de pertenencia surgen naturalmente de tu actividad profes
 
 La concreción de tus metas más subjetivas y profundas se lleva a cabo en lugares de retiro, aislamiento o trabajo interno. Tu verdadero reconocimiento puede venir del servicio silencioso o la contribución trascendente.
 
+## Significado de la casa 11 dracónica
+
+La Casa 11 Dracónica se vincula con la hermandad espiritual y las conexiones de alma. Mientras que la Casa 11 trópica trata sobre amistades actuales, la Casa 11 dracónica muestra las aspiraciones más elevadas.
+
+La superposición con las casas trópicas aporta luz sobre como las amistades, los grupos y las aspiraciones más recónditas influyen en la vida del día a día.
+
 ### La cuspide de la casa 11 dracónica en relación con la carta trópica
 
 #### La cuspide de la casa 11 draconica superpuesta a la casa 1 trópica
@@ -625,6 +619,12 @@ Resonancia directa que intensifica profundamente el impulso por pertenecer a gru
 #### La cuspide de la casa 11 draconica superpuesta a la casa 12 trópica
 
 Interés profundo del alma por grupos o comunidades que viven en situación de desventaja social. Te sientes llamado hacia el servicio con los marginados, incluyendo acción social en instituciones como cárceles u hospitales.
+
+## Significado de la casa 12 dracónica
+
+La Casa 12 Dracónica está asociada con la memoria del sufrimiento y las experiencias dolorosas que el alma ha atravesado para desarrollar compasión universal. Mientras que la Casa 12 trópica se relaciona con limitaciones actuales, la Casa 12 dracónica revela los patrones de dolor ancestral que se manifiestan como experiencias aparentemente inevitables en el destino presente.
+
+La casa 12 se considera un área difícil de la vida y el sector de la carta trópica que se le superpone suele estar sujeto a experiencias de sufrimiento que se vivencian como inevitables, como parte ineludible del destino.
 
 ### La cuspide de la casa 12 dracónica en relación con la carta trópica
 

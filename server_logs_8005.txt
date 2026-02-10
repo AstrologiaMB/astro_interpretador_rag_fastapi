@@ -1,0 +1,2 @@
+INFO:     Will watch for changes in these directories: ['/Users/apple/astrochat/astro_interpretador_rag_fastapi']
+ERROR:    [Errno 48] Address already in use

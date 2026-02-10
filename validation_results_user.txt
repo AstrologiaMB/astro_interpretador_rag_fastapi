@@ -1,0 +1,24 @@
+🚀 Iniciando validación fehaciente de modelos Anthropic...
+🔑 API Key detectada (primeros 10 chars): sk-ant-api...
+
+Probrando ID: 'claude-3-5-haiku-latest' ...
+✅ ÉXITO: El modelo 'claude-3-5-haiku-latest' ES VÁLIDO.
+
+Probrando ID: 'claude-sonnet-4-5-20250929' ...
+✅ ÉXITO: El modelo 'claude-sonnet-4-5-20250929' ES VÁLIDO.
+
+Probrando ID: 'claude-haiku-4-5-20251001' ...
+✅ ÉXITO: El modelo 'claude-haiku-4-5-20251001' ES VÁLIDO.
+
+Probrando ID: 'claude-4-5-sonnet-20250929' ...
+⚠️ ERROR DISTINTO: 404 - model: claude-4-5-sonnet-20250929
+
+Probrando ID: 'claude-4-5-haiku-20251001' ...
+⚠️ ERROR DISTINTO: 404 - model: claude-4-5-haiku-20251001
+
+==================================================
+📊 RESUMEN FINAL DE MODELOS VÁLIDOS
+==================================================
+✅ claude-3-5-haiku-latest
+✅ claude-sonnet-4-5-20250929
+✅ claude-haiku-4-5-20251001

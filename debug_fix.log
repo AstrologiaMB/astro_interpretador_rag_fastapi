@@ -1,0 +1,1623 @@
+INFO:     Will watch for changes in these directories: ['/Users/apple/astrochat/astro_interpretador_rag_fastapi']
+INFO:     Uvicorn running on http://0.0.0.0:8006 (Press CTRL+C to quit)
+INFO:     Started reloader process [97680] using WatchFiles
+INFO:     Started server process [97682]
+INFO:     Waiting for application startup.
+2026-02-09 11:58:38,273 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:58:39,594 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:58:40,382 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:58:41,388 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:58:42,247 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:58:43,450 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 11:58:44,215 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+2026-02-09 11:59:35,778 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+🔧 Configurando LLMs: RAG=claude-haiku-4-5-20251001, WRITER=claude-sonnet-4-5-20250929
+🔧 LLAMA_INDEX_NEW: True
+⚙️ Configurando Settings (LlamaIndex New)...
+⚙️ Instanciando WRITER claude-sonnet-4-5-20250929...
+✅ Escritor instanciado OK.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+🔍 Generando interpretación para: Test User
+👤 Género: femenino
+🚀 Usando InterpretadorAstrologico (JSON) para carta tropical...
+✅ Se obtuvieron 5 interpretaciones deterministas.
+✅ Interpretación generada en 37.03 segundos
+INFO:     127.0.0.1:56169 - "POST /interpretar HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97682]
+INFO:     Started server process [97865]
+INFO:     Waiting for application startup.
+2026-02-09 12:00:06,478 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:00:08,012 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:00:08,894 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:00:09,988 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:00:11,058 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:00:12,282 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:00:12,890 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97865]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [99593]
+INFO:     Waiting for application startup.
+2026-02-09 12:18:36,550 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:37,918 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:38,919 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:40,153 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:41,044 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:42,070 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:43,074 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99593]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [99608]
+INFO:     Waiting for application startup.
+2026-02-09 12:18:54,673 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:56,676 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:57,874 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:18:59,426 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:19:00,945 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:19:02,471 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:19:03,812 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+2026-02-09 12:20:07,479 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+🔍 Generando interpretación para: Test User
+👤 Género: femenino
+🚀 Usando InterpretadorAstrologico (JSON) para carta tropical...
+✅ Se obtuvieron 8 interpretaciones deterministas.
+✅ Interpretación generada en 43.65 segundos
+INFO:     127.0.0.1:57012 - "POST /interpretar HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99608]
+INFO:     Started server process [99998]
+INFO:     Waiting for application startup.
+2026-02-09 12:21:53,182 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:21:54,830 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:21:55,693 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:21:56,923 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:21:57,791 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:21:59,013 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:21:59,914 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+2026-02-09 12:22:50,435 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+🔍 Generando interpretación para: Test User
+👤 Género: femenino
+🚀 Usando InterpretadorAstrologico (JSON) para carta tropical...
+✅ Se obtuvieron 8 interpretaciones deterministas.
+📄 INPUT LLM (Primeros 500 chars): ### Sol en Aries
+Por tener el Sol en Aries, eres vigoroso y fogoso. Sueles ser impulsivo, dinámico e inquieto, pero también franco y directo en tu accionar. Aries está asociado con Marte, el dios romano de la guerra, lo que hace que te veas atraído por las aventuras y los desafíos. Tienes gran potencial e iniciativa para ser un emprendedor entusiasta, y tu capacidad natural para abordar todo tipo de proyectos y actividades en general te convierten en un líder natural.
+
+### Luna en Tauro
+Al momen
+📄 INPUT LLM (Total chars): 5284
+✅ 'Nodo' encontrado en el input del LLM.
+🔍 Contexto Nodo: ...través de  (nombrar significado de la casa).
+
+### Nodo en Géminis
+Con el nodo norte en Géminis y el nodo sur en Sagitario, tienes un fuerte sentido in...
+✅ Interpretación generada en 39.44 segundos
+INFO:     127.0.0.1:57126 - "POST /interpretar HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99998]
+INFO:     Started server process [751]
+INFO:     Waiting for application startup.
+2026-02-09 12:29:08,637 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:09,944 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:11,040 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:13,127 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:14,165 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:15,301 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:16,185 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [751]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [770]
+INFO:     Waiting for application startup.
+2026-02-09 12:29:38,210 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:39,436 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:40,467 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:41,632 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:42,610 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:43,547 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:29:44,266 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+2026-02-09 12:38:24,941 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+🔍 Generando interpretación para: Test User
+👤 Género: femenino
+🚀 Usando InterpretadorAstrologico (JSON) para carta tropical...
+✅ Se obtuvieron 8 interpretaciones deterministas.
+📄 INPUT LLM (Primeros 500 chars): ### Sol en Aries
+Por tener el Sol en Aries, eres vigoroso y fogoso. Sueles ser impulsivo, dinámico e inquieto, pero también franco y directo en tu accionar. Aries está asociado con Marte, el dios romano de la guerra, lo que hace que te veas atraído por las aventuras y los desafíos. Tienes gran potencial e iniciativa para ser un emprendedor entusiasta, y tu capacidad natural para abordar todo tipo de proyectos y actividades en general te convierten en un líder natural.
+
+### Luna en Tauro
+Al momen
+📄 INPUT LLM (Total chars): 5284
+✅ 'Nodo' encontrado en el input del LLM.
+🔍 Contexto Nodo: ...través de  (nombrar significado de la casa).
+
+### Nodo en Géminis
+Con el nodo norte en Géminis y el nodo sur en Sagitario, tienes un fuerte sentido in...
+✅ Interpretación generada en 46.26 segundos
+INFO:     127.0.0.1:58369 - "POST /interpretar HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [770]
+INFO:     Started server process [1437]
+INFO:     Waiting for application startup.
+2026-02-09 12:38:53,701 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:38:55,280 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:38:56,197 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:38:57,377 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:38:58,306 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:38:59,725 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:39:00,641 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1437]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [1896]
+INFO:     Waiting for application startup.
+2026-02-09 12:56:22,093 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:56:23,545 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:56:24,577 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:56:25,865 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:56:26,737 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:56:27,728 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 12:56:28,738 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+2026-02-09 13:00:01,437 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+🔍 Generando interpretación para: Test User
+👤 Género: femenino
+🚀 Usando InterpretadorAstrologico (JSON) para carta tropical...
+✅ Se obtuvieron 8 interpretaciones deterministas.
+✅ Interpretación generada en 48.41 segundos
+INFO:     127.0.0.1:60472 - "POST /interpretar HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1896]
+INFO:     Started server process [2128]
+INFO:     Waiting for application startup.
+2026-02-09 13:00:43,152 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 13:00:44,619 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 13:00:45,506 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 13:00:46,624 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 13:00:47,304 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 13:00:48,570 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 13:00:49,538 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'audit_draco.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2128]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [4090]
+INFO:     Waiting for application startup.
+2026-02-09 14:23:30,353 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:23:31,607 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:23:32,291 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:23:33,331 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:23:33,971 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:23:35,245 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:23:36,019 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'audit_draco.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4090]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [4306]
+INFO:     Waiting for application startup.
+2026-02-09 14:29:46,544 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:29:48,365 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:29:49,412 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:29:50,877 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:29:52,280 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:29:53,628 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:29:54,478 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'audit_draco.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4306]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [4464]
+INFO:     Waiting for application startup.
+2026-02-09 14:32:09,671 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:32:11,091 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:32:12,244 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:32:13,179 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:32:13,929 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:32:15,033 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:32:15,962 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'fix_draco_markdown.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4464]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [4604]
+INFO:     Waiting for application startup.
+2026-02-09 14:33:09,354 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:33:11,897 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:33:13,335 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:33:14,940 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:33:16,076 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:33:18,011 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:33:19,093 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'generate_draco_json.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4604]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [4727]
+INFO:     Waiting for application startup.
+2026-02-09 14:34:00,237 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:34:01,709 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:34:02,399 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:34:04,093 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:34:05,172 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:34:06,504 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:34:07,574 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'fix_draco_markdown.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4727]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [4915]
+INFO:     Waiting for application startup.
+2026-02-09 14:35:52,265 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:35:53,757 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:35:54,459 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:35:55,700 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:35:56,908 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:35:58,185 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:35:59,522 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4915]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [5218]
+INFO:     Waiting for application startup.
+2026-02-09 14:39:01,234 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:02,531 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:03,455 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:04,913 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:05,398 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:06,388 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:06,877 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5218]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [5243]
+INFO:     Waiting for application startup.
+2026-02-09 14:39:22,498 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:24,349 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:25,533 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:27,158 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:28,168 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:32,430 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:39:33,837 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5243]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [5267]
+INFO:     Waiting for application startup.
+2026-02-09 14:40:14,732 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:15,782 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:17,957 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:19,283 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:20,794 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:22,120 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:23,110 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_draco_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5267]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [5281]
+INFO:     Waiting for application startup.
+2026-02-09 14:40:32,562 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:34,166 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:35,168 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:36,285 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:37,099 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:38,509 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:40:39,646 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_draco_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5281]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [5921]
+INFO:     Waiting for application startup.
+2026-02-09 14:59:13,613 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:59:15,175 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:59:16,136 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:59:17,362 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:59:18,056 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:59:19,723 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 14:59:20,402 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_draco_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5921]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [6060]
+INFO:     Waiting for application startup.
+2026-02-09 15:00:19,503 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:00:21,771 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:00:22,729 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:00:24,748 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:00:26,589 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:00:28,637 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:00:29,674 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6060]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+Process SpawnProcess-23:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/server.py", line 68, in serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/config.py", line 467, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/app.py", line 16, in <module>
+    from interpretador_refactored import InterpretadorRAG
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/interpretador_refactored.py", line 23, in <module>
+    from interpretador_astrologico import InterpretadorAstrologico
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/interpretador_astrologico.py", line 56
+    Normaliza texto para coincidir con las llaves del JSON.
+IndentationError: unexpected indent
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Started server process [6496]
+INFO:     Waiting for application startup.
+2026-02-09 15:03:05,387 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:03:07,998 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:03:09,088 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:03:10,530 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:03:11,649 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:03:13,423 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:03:14,537 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6496]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [6599]
+INFO:     Waiting for application startup.
+2026-02-09 15:05:56,330 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:05:58,115 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:05:59,517 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:00,896 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:01,807 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:03,204 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:04,163 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'fix_draco_markdown.py', 'test_draco_endpoint.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6599]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [6898]
+INFO:     Waiting for application startup.
+2026-02-09 15:06:46,909 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:48,491 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:50,039 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:51,475 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:52,727 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:54,189 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:06:54,966 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6898]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [7434]
+INFO:     Waiting for application startup.
+2026-02-09 15:10:27,123 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:10:28,463 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:10:32,261 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:10:33,487 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:10:35,128 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:10:37,554 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:10:38,321 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7434]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [7507]
+INFO:     Waiting for application startup.
+2026-02-09 15:11:02,635 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:11:04,346 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:11:05,729 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:11:07,189 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:11:08,252 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:11:09,610 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:11:10,462 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7507]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [7678]
+INFO:     Waiting for application startup.
+2026-02-09 15:12:02,307 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:04,152 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:05,189 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:06,462 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:07,555 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:08,809 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:09,944 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7678]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [7917]
+INFO:     Waiting for application startup.
+2026-02-09 15:12:52,183 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:53,307 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:54,187 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:55,937 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:56,541 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:12:59,211 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:13:00,588 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7917]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8052]
+INFO:     Waiting for application startup.
+2026-02-09 15:16:20,086 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:21,930 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:25,156 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:28,798 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:30,009 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:31,119 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:31,613 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8052]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8248]
+INFO:     Waiting for application startup.
+2026-02-09 15:16:52,493 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:54,395 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:55,184 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:56,379 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:57,161 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:58,129 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:16:58,622 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8248]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Started server process [8397]
+INFO:     Waiting for application startup.
+2026-02-09 15:19:28,842 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:19:31,268 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:19:32,345 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:19:33,972 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:19:34,949 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:19:36,192 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:19:37,029 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8397]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8481]
+INFO:     Waiting for application startup.
+2026-02-09 15:20:11,770 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:13,032 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:13,822 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:18,648 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+2026-02-09 15:20:19,474 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:20,815 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:21,468 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8481]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8502]
+INFO:     Waiting for application startup.
+2026-02-09 15:20:24,868 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:27,067 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:29,367 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+2026-02-09 15:20:31,206 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:32,542 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:33,717 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:35,523 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8502]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8522]
+INFO:     Waiting for application startup.
+2026-02-09 15:20:39,189 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:42,071 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:43,582 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:45,621 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:46,619 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:47,942 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:20:48,635 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8522]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8534]
+INFO:     Waiting for application startup.
+2026-02-09 15:21:17,289 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:19,472 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:20,677 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:22,465 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+2026-02-09 15:21:23,941 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:25,418 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:26,504 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8534]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8561]
+INFO:     Waiting for application startup.
+2026-02-09 15:21:30,404 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:31,967 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:33,152 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:34,651 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:36,020 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:37,504 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:21:38,321 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8561]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [8788]
+INFO:     Waiting for application startup.
+2026-02-09 15:24:01,407 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:24:03,018 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:24:04,058 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:24:05,360 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:24:06,059 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:24:07,244 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:24:07,996 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8788]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [9258]
+INFO:     Waiting for application startup.
+2026-02-09 15:26:39,841 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:26:41,995 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:26:43,172 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:26:44,647 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:26:45,592 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:26:46,880 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:26:47,626 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_user_claims.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9258]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [10478]
+INFO:     Waiting for application startup.
+2026-02-09 15:30:39,682 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:30:41,334 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:30:42,430 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:30:43,766 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:30:45,663 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:30:47,188 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:30:48,521 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10478]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [10871]
+INFO:     Waiting for application startup.
+2026-02-09 15:54:55,033 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:54:56,348 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:54:57,097 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:54:58,229 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:54:59,071 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:55:00,375 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 15:55:01,252 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10871]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [11865]
+INFO:     Waiting for application startup.
+2026-02-09 16:00:08,180 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:00:10,022 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:00:11,167 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:00:12,620 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:00:13,591 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:00:14,481 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:00:15,099 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'verify_draconic_buenos_aires.py', 'verify_user_claims.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11865]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [12652]
+INFO:     Waiting for application startup.
+2026-02-09 16:03:48,987 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:03:50,576 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:03:51,534 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:03:52,957 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:03:53,906 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:03:55,411 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:03:56,537 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12652]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [13881]
+INFO:     Waiting for application startup.
+2026-02-09 16:31:36,411 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:31:41,461 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:31:42,861 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:31:44,600 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:31:46,238 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:31:47,880 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:31:48,923 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_translation_fix.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13881]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+WARNING:  WatchFiles detected changes in 'test_translation_fix.py'. Reloading...
+INFO:     Started server process [14030]
+INFO:     Waiting for application startup.
+2026-02-09 16:32:16,530 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:32:17,958 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:32:18,602 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:32:19,631 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:32:20,243 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:32:21,757 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:32:22,893 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_translation_fix.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14030]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [14198]
+INFO:     Waiting for application startup.
+2026-02-09 16:34:59,950 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:01,607 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:02,740 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:04,187 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:05,304 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:07,119 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:08,171 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_translation_fix.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14198]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [14326]
+INFO:     Waiting for application startup.
+2026-02-09 16:35:35,083 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:36,986 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:38,134 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:39,885 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:40,890 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:41,762 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:35:42,424 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14326]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [14464]
+INFO:     Waiting for application startup.
+2026-02-09 16:36:49,721 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:36:51,800 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:36:53,393 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:36:55,380 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:36:57,177 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:36:59,051 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+2026-02-09 16:37:00,156 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14464]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [14473]
+INFO:     Waiting for application startup.
+2026-02-09 16:37:03,974 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:37:05,426 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:37:06,447 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:37:07,761 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:37:09,563 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:37:10,885 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:37:11,877 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14473]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [15372]
+INFO:     Waiting for application startup.
+2026-02-09 16:45:33,412 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:45:34,468 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:45:35,228 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:45:36,880 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:45:38,233 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:45:40,199 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:45:40,801 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15372]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [15895]
+INFO:     Waiting for application startup.
+2026-02-09 16:48:47,908 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:48:50,111 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:48:51,216 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:48:52,496 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:48:53,537 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:48:54,817 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:48:55,611 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15895]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [15919]
+INFO:     Waiting for application startup.
+2026-02-09 16:49:00,857 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:49:02,384 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:49:03,399 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:49:04,475 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:49:05,933 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:49:07,296 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:49:08,550 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15919]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+Process SpawnProcess-56:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/server.py", line 68, in serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/config.py", line 467, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/venv/lib/python3.13/site-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/app.py", line 16, in <module>
+    from interpretador_refactored import InterpretadorRAG
+  File "/Users/apple/astrochat/astro_interpretador_rag_fastapi/interpretador_refactored.py", line 409
+    elif tipo_carta == "draco" and hasattr(self, 'interpretador_astrologico') and self.interpretador_astrologico and getattr(self.interpretador_astrologico, 'draco_map', None):
+    ^^^^
+SyntaxError: invalid syntax
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Started server process [16133]
+INFO:     Waiting for application startup.
+2026-02-09 16:51:07,585 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:51:09,136 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:51:10,176 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:51:13,473 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:51:14,689 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:51:16,203 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:51:17,094 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'check_draco_map.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16133]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [16407]
+INFO:     Waiting for application startup.
+2026-02-09 16:52:39,001 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:52:40,777 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:52:41,915 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:52:43,410 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:52:44,434 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:52:45,520 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:52:46,482 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_translation_fix.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16407]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [16539]
+INFO:     Waiting for application startup.
+2026-02-09 16:53:47,621 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:53:49,055 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:53:49,865 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:53:50,943 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:53:52,019 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:53:52,946 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:53:53,629 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'direct_draco_test.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16539]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+WARNING:  WatchFiles detected changes in 'direct_draco_test.py'. Reloading...
+INFO:     Started server process [16885]
+INFO:     Waiting for application startup.
+2026-02-09 16:56:33,449 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:56:35,076 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:56:36,145 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:56:37,616 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:56:38,381 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:56:39,559 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 16:56:40,601 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16885]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [17081]
+INFO:     Waiting for application startup.
+2026-02-09 17:00:29,193 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:00:33,204 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:00:34,486 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:00:35,900 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:00:36,606 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:00:37,561 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:00:38,084 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17081]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [17259]
+INFO:     Waiting for application startup.
+2026-02-09 17:01:25,991 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:01:27,419 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:01:28,423 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:01:29,441 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:01:30,461 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:01:31,748 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:01:32,538 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_astrologico.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17259]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [17601]
+INFO:     Waiting for application startup.
+2026-02-09 17:02:50,835 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:02:52,370 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:02:53,409 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:02:54,466 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:02:55,117 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:02:56,226 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:02:56,782 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'interpretador_refactored.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17601]
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     Started server process [17784]
+INFO:     Waiting for application startup.
+2026-02-09 17:12:55,395 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:12:57,108 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:12:58,665 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:13:00,251 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:13:01,733 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:13:02,811 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-02-09 17:13:03,581 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+🚀 Inicializando Interpretador RAG...
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico: Cargadas 660 interpretaciones natales.
+✅ InterpretadorAstrologico: Cargadas 611 interpretaciones de Tránsitos.
+✅ InterpretadorAstrologico: Cargadas 441 interpretaciones Dracónicas.
+✅ InterpretadorAstrologico integrado en InterpretadorRAG
+✅ InterpretadorRAG refactorizado inicializado correctamente
+🔧 Feature Flag - RAGs Separados: ACTIVADO
+✅ Interpretador RAG inicializado correctamente
+INFO:     127.0.0.1:64914 - "GET /health HTTP/1.1" 200 OK

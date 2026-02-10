@@ -55,15 +55,21 @@ class InterpretadorRAG:
         print("✅ InterpretadorRAG refactorizado inicializado correctamente")
     
     def _setup_llm_and_embeddings(self):
-        """Configurar LLM y embeddings según la versión de llama-index"""
+        """Configurar LLM y embeddings: Stack 100% Anthropic (Claude 4.5 Sonnet + Haiku)"""
+        # VALIDACIÓN FEHACIENTE DE USUARIO (2026):
+        MODEL_RAG = "claude-haiku-4-5-20251001"
+        MODEL_WRITER = "claude-sonnet-4-5-20250929"
+        
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
-            Settings.llm = OpenAI(api_key=self.openai_key, temperature=0.0, model="gpt-3.5-turbo")
+            Settings.llm = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
             Settings.embed_model = OpenAIEmbedding(api_key=self.openai_key)
-            self.service_context_rag = None  # No se usa en nueva versión
+            self.service_context_rag = None
+            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=8192)
         else:
             # Usar ServiceContext (versión anterior)
-            self.llm_rag = OpenAI(api_key=self.openai_key, temperature=0.0, model="gpt-3.5-turbo")
+            self.llm_rag = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
+            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=8192)
             self.embed_model = OpenAIEmbedding(api_key=self.openai_key)
             self.service_context_rag = ServiceContext.from_defaults(llm=self.llm_rag, embed_model=self.embed_model)
     

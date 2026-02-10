@@ -28,7 +28,9 @@ REGLA_FORMATO_Y_EXTENSION = (
     "- MARKDOWN: Usa negritas (**) ÚNICAMENTE para el dato técnico al inicio de cada párrafo.\n"
     "- ESTRUCTURA: Sin títulos ni listas. Los párrafos deben fluir de forma narrativa.\n"
     "- PROFUNDIDAD: Desarrolla cada aspecto con 5 a 7 oraciones extensas.\n"
-    "- ARRANQUE: La primera frase del reporte debe seguir este formato: **Tu [Planeta] en [Signo] a [Grados]**...\n"
+    "- COBERTURA TOTAL: Debes incluir una interpretación para CADA UNO de los elementos listados en los datos de entrada. No omitas ninguno. Si hay Nodos, inclúyelos.\n"
+    "- ARRANQUE: La primera frase del reporte debe mencionar el dato técnico (Ej: **Tu Sol en Aries**...) y luego profundizar.\n"
+    "- VALIDACIÓN: NO inventes grados ni minutos si no se proporcionan en el texto original.\n"
     "- CIERRE: Termina el informe directamente tras el último análisis, sin frases de cierre, invitaciones al foro o despedidas."
 )
 
