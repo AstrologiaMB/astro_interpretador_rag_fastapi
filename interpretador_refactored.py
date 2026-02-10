@@ -56,7 +56,7 @@ class InterpretadorRAG:
             print("⚠️ ANTHROPIC_API_KEY no encontrada. El stack de Claude fallará si se intenta usar.")
         
         # Feature flag para RAGs separados (False = sistema actual, True = RAGs separados)
-        self.USE_SEPARATE_ENGINES = True
+        self.USE_SEPARATE_ENGINES = os.getenv("USE_SEPARATE_ENGINES", "true").lower() == "true"
         
         # Inicializar Interpretador Astrológico Determinista (Phase 3.2)
         try:
