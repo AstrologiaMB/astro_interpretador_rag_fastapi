@@ -107,14 +107,14 @@ class InterpretadorRAG:
             self.service_context_rag = None
             
             # 3. Configurar Escritor 
-            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=8192)
+            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=16000)
         else:
             # Usar ServiceContext (versión anterior)
             # 1. Configurar RAG con Claude Haiku
             self.llm_rag = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
             
             # 2. Configurar Escritor con Claude Sonnet
-            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=8192)
+            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=16000)
             
             # 3. Embeddings OpenAI
             self.embed_model = OpenAIEmbedding(api_key=self.openai_key)
