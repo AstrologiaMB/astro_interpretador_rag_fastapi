@@ -58,6 +58,14 @@ class InterpretadorRAG:
         # Feature flag para RAGs separados (False = sistema actual, True = RAGs separados)
         self.USE_SEPARATE_ENGINES = True
         
+        # Inicializar Interpretador Astrológico Determinista (Phase 3.2)
+        try:
+            self.interpretador_astrologico = InterpretadorAstrologico()
+            self.interpretador_astrologico.load_natal_map("natal_map.json")
+        except Exception as e:
+            print(f"⚠️ Error inicializando InterpretadorAstrologico: {e}")
+            self.interpretador_astrologico = None
+
         # Configurar LLM y embeddings
         self._setup_llm_and_embeddings()
         
@@ -82,22 +90,23 @@ class InterpretadorRAG:
         print(f"🔧 Feature Flag - RAGs Separados: {'ACTIVADO' if self.USE_SEPARATE_ENGINES else 'DESACTIVADO (sistema actual)'}")
     
     def _setup_llm_and_embeddings(self):
-        """Configurar LLM y embeddings: Stack 100% Anthropic (Haiku + Sonnet)"""
-        # Modelos
-        MODEL_RAG = "claude-haiku-4-5-20251001"    # RAG rápido y eficiente (Haiku 4.5)
-        # MODEL_WRITER = "claude-opus-4-5"           # Opción Premium ($5/$25)
-        MODEL_WRITER = "claude-sonnet-4-5"           # Estándar Recomendado (Sonnet 4.5)
+        """Configurar LLM y embeddings: Stack 100% Anthropic (Claude 4.5 Sonnet + Haiku)"""
+        # VALIDACIÓN FEHACIENTE DE USUARIO (2026):
+        # IDs específicos confirmados por script de validación.
+        
+        MODEL_RAG = "claude-haiku-4-5-20251001"      # Haiku 4.5 para RAG (Velocidad)
+        MODEL_WRITER = "claude-sonnet-4-5-20250929"  # Sonnet 4.5 para Narrativa (Inteligencia)
         
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
-            # 1. Configurar RAG con Claude Haiku
+            # 1. Configurar RAG 
             Settings.llm = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
             
-            # 2. Embeddings se mantienen con OpenAI (para no re-indexar vectores existentes)
+            # 2. Embeddings se mantienen con OpenAI
             Settings.embed_model = OpenAIEmbedding(api_key=self.openai_key)
             self.service_context_rag = None
             
-            # 3. Configurar Escritor con Claude Sonnet
+            # 3. Configurar Escritor 
             self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=8192)
         else:
             # Usar ServiceContext (versión anterior)
@@ -374,74 +383,95 @@ class InterpretadorRAG:
         try:
             start_time = time.time()
 
-            # DEBUG: Ver qué datos recibe el RAG system
-            # print(f"🔍 DEBUG PAYLOAD KEYS: {list(carta_natal_data.keys())}")
-            # if 'cuspides_cruzadas' in carta_natal_data and carta_natal_data['cuspides_cruzadas'] is not None:
-            #     print(f"🔮 DEBUG: ¡Cúspides cruzadas encontradas! Cantidad: {len(carta_natal_data['cuspides_cruzadas'])}")
-            # else:
-            #     print(f"❌ DEBUG: NO se encontraron cúspides cruzadas en el payload (None o ausente)")
+            # --- FASE 3.2: INTERPRETACIÓN DETERMINISTA (TROPICAL) ---
+            # Si es carta tropical y tenemos el interpretador cargado, usamos lógica directa (JSON)
+            if tipo_carta == "tropical" and hasattr(self, 'interpretador_astrologico') and self.interpretador_astrologico and getattr(self.interpretador_astrologico, 'natal_map', None):
+                print(f"🚀 Usando InterpretadorAstrologico (JSON) para carta {tipo_carta}...")
+                
+                # 1. Obtener interpretaciones directas (incluye lógica compleja)
+                interpretaciones_raw = self.interpretador_astrologico.get_natal_interpretations(carta_natal_data)
+                
+                # 2. Adaptar al formato que espera el generador narrativo
+                interpretaciones_individuales = []
+                for item in interpretaciones_raw:
+                    interpretaciones_individuales.append({
+                        "titulo": item["titulo"],
+                        "interpretacion": item["texto"],
+                        "tipo": item["tipo"],
+                        # "planeta": "", # Campos opcionales
+                        # "signo": ""
+                    })
+                
+                print(f"✅ Se obtuvieron {len(interpretaciones_individuales)} interpretaciones deterministas (Tropical).")
+                
+            # --- FASE 3.3: INTERPRETACIÓN DETERMINISTA (DRACÓNICA) ---
+            elif tipo_carta == "draco" and hasattr(self, 'interpretador_astrologico') and self.interpretador_astrologico and getattr(self.interpretador_astrologico, 'draco_map', None):
+                print(f"🚀 Usando InterpretadorAstrologico (JSON) para carta {tipo_carta} en modo Determinista...")
+                
+                # 0. Adaptar datos (cuspides_cruzadas -> house_overlaps, etc.)
+                draco_data = carta_natal_data.copy()
+                
+                if "cuspides_cruzadas" in carta_natal_data and carta_natal_data["cuspides_cruzadas"]:
+                    overlaps = {}
+                    for item in carta_natal_data["cuspides_cruzadas"]:
+                        d = str(item.get("casa_draconica"))
+                        t = item.get("casa_tropical_ubicacion")
+                        if d and t: overlaps[d] = t
+                    draco_data["house_overlaps"] = overlaps
+                    
+                if "aspectos_cruzados" in carta_natal_data and carta_natal_data["aspectos_cruzados"]:
+                    contacts = []
+                    for item in carta_natal_data["aspectos_cruzados"]:
+                        contacts.append({
+                            "p1": item.get("punto_draconico"),
+                            "p2": item.get("punto_tropical"),
+                            "aspect": item.get("tipo_aspecto")
+                        })
+                    draco_data["contacts"] = contacts
 
-            # DEBUG: Verificar estado de target_titles_set
-            # print(f"🔍 DEBUG: self.target_titles_set type = {type(self.target_titles_set)}")
-            # print(f"🔍 DEBUG: self.target_titles_set is None = {self.target_titles_set is None}")
-            # if self.target_titles_set is not None:
-            #     print(f"🔍 DEBUG: len(self.target_titles_set) = {len(self.target_titles_set)}")
+                # 1. Obtener interpretaciones
+                interpretaciones_raw = self.interpretador_astrologico.get_draconic_interpretations(draco_data)
+                
+                # 2. Adaptar formato
+                interpretaciones_individuales = []
+                for item in interpretaciones_raw:
+                    interpretaciones_individuales.append({
+                        "titulo": item["titulo"],
+                        "interpretacion": item["texto"],
+                        "tipo": "Draconica " + str(item.get("etiquetas", [])),
+                    })
+                
+                print(f"✅ Se obtuvieron {len(interpretaciones_individuales)} interpretaciones deterministas (Dracónica).")
 
-            # Cargar títulos específicos para el tipo de carta
-            # print(f"🔮 Configurando interpretación para carta {tipo_carta}")
-            target_titles_for_chart = self._load_target_titles_for_chart_type(tipo_carta)
+            else:
+                # --- FALLBACK RAG (Lógica Original) ---
+                print(f"⚠️ Usando RAG Fallback para carta {tipo_carta} (Interpretador inexistente o tipo no soportado)")
 
-            # Adaptar datos del microservicio al formato RAG
-            carta_adaptada = self._adaptar_datos_microservicio(carta_natal_data)
-
-            # Extraer eventos de la carta natal
-            eventos = self._extract_events_from_carta(carta_adaptada)
-
-            # Calcular planetas en casas
-            planets_in_houses = self._calculate_house_placements(
-                carta_adaptada.get('points', {}),
-                carta_adaptada.get('houses', {})
-            )
-
-            # Agregar eventos de planetas en casas
-            for planet, house in planets_in_houses.items():
-                eventos.append({
-                    "tipo": "PlanetaEnCasa",
-                    "planeta": planet,
-                    "casa": house
-                })
-
-            # Evaluar aspectos complejos
-            complex_events = self._evaluate_complex_aspects(eventos, planets_in_houses, carta_adaptada)
-            eventos.extend(complex_events)
-            # print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")
-            # print(f"🐛 DEBUG: tipo_carta = {repr(tipo_carta)} antes de llamar _filter_events_by_target_titles_for_chart")        # Filtrar eventos según títulos objetivo específicos del tipo de carta
-            eventos_filtrados = self._filter_events_by_target_titles_for_chart(eventos, target_titles_for_chart, tipo_carta)
+                # DEBUG: Ver qué datos recibe el RAG system
+                # print(f"🔍 DEBUG PAYLOAD KEYS: {list(carta_natal_data.keys())}")
+                
+                # Cargar títulos específicos para el tipo de carta
+                target_titles_for_chart = self._load_target_titles_for_chart_type(tipo_carta)
+                
+                # 1. Adaptar datos del microservicio
+                carta_adaptada = self._adaptar_datos_microservicio(carta_natal_data)
+                
+                # 2. Extraer eventos de la carta
+                eventos = self._extract_events_from_carta(carta_adaptada)
+                
+                # 3. Filtrar eventos según títulos objetivo
+                eventos_filtrados = self._filter_events_by_target_titles(eventos)
+                
+                # 4. Obtener query engine
+                query_engine_rag = self._get_query_engine(chart_type=tipo_carta)
+                
+                # 5. Generar interpretaciones concurrentes
+                interpretaciones_individuales = await self._generar_interpretaciones_concurrentes(eventos_filtrados, query_engine_rag, tipo_carta)
             
-            # print(f"📊 Eventos filtrados para interpretar: {len(eventos_filtrados)} (de {len(eventos)} iniciales)")
+            # --- GENERACIÓN DE NARRATIVA (COMÚN) ---
+            interpretacion_narrativa = await self._generar_interpretacion_narrativa(interpretaciones_individuales, genero, "Usuario", tipo_carta)
             
-            # Configurar prompt con género
-            final_prompt_template = self._create_gender_prompt(genero)
-            
-            # Crear motor de consulta RAG usando el método que selecciona el índice apropiado
-            query_engine_rag = self._get_query_engine(
-                chart_type=tipo_carta,
-                similarity_top_k=1,
-                text_qa_template=final_prompt_template
-            )
-            
-            # Generar interpretaciones individuales usando concurrencia
-            interpretaciones_individuales = await self._generar_interpretaciones_concurrentes(
-                eventos_filtrados, query_engine_rag, tipo_carta
-            )
-            
-            # Generar interpretación narrativa
-            interpretacion_narrativa = await self._generar_interpretacion_narrativa(
-                interpretaciones_individuales, genero, carta_adaptada.get('nombre', 'Usuario'), tipo_carta
-            )
-            
-            end_time = time.time()
-            tiempo_generacion = end_time - start_time
+            tiempo_generacion = time.time() - start_time
             
             return {
                 "interpretacion_narrativa": interpretacion_narrativa,
