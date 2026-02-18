@@ -1,67 +1,58 @@
+#!/usr/bin/env python3
+"""
+Script de validación para el modelo Baseten (Kimi-K2.5)
+Valida que la conexión funcione correctamente.
+"""
+
 import os
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv("ANTHROPIC_API_KEY")
+api_key = os.getenv("BASETEN_API_KEY")
 
 if not api_key:
-    print("❌ Error: ANTHROPIC_API_KEY not found.")
+    print("❌ Error: BASETEN_API_KEY not found.")
     exit(1)
 
-# Lista larga de candidatos potenciales para 2026
-candidates = [
-    # --- Validated working (Control) ---
-    "claude-3-5-haiku-latest",
-    
-    # --- User Provided Specific IDs (Testing these!) ---
-    "claude-sonnet-4-5-20250929",
-    "claude-haiku-4-5-20251001",
-    
-    # --- Variations just in case (Standard Anthropic format vs User format) ---
-    "claude-4-5-sonnet-20250929", 
-    "claude-4-5-haiku-20251001",
-]
+# Modelo a validar
+model_id = "moonshotai/Kimi-K2.5"
 
-print(f"🚀 Iniciando validación fehaciente de modelos Anthropic...")
+print(f"🚀 Iniciando validación del modelo Baseten...")
 print(f"🔑 API Key detectada (primeros 10 chars): {api_key[:10]}...")
+print(f"🤖 Modelo: {model_id}")
 
-headers = {
-    "x-api-key": api_key,
-    "anthropic-version": "2023-06-01",
-    "content-type": "application/json"
-}
+# Usar el endpoint compatible con OpenAI de Baseten
+from openai import OpenAI
 
-valid_models = []
+print(f"\n🛠️ Intentando conectar con Baseten...")
 
-for model in candidates:
-    print(f"\nProbrando ID: '{model}' ...")
+try:
+    client = OpenAI(
+        api_key=api_key,
+        base_url="https://inference.baseten.co/v1"
+    )
     
-    # Payload mínimo
-    data = {
-        "model": model,
-        "max_tokens": 1,
-        "messages": [{"role": "user", "content": "Hi"}]
-    }
+    print("📨 Enviando mensaje de prueba...")
+    response = client.chat.completions.create(
+        model=model_id,
+        messages=[{"role": "user", "content": "Hola, responde brevemente 'Conexión exitosa'"}],
+        max_tokens=50,
+        temperature=0.0
+    )
     
-    try:
-        response = requests.post("https://api.anthropic.com/v1/messages", json=data, headers=headers, timeout=5)
-        
-        if response.status_code == 200:
-            print(f"✅ ÉXITO: El modelo '{model}' ES VÁLIDO.")
-            valid_models.append(model)
-        else:
-            err_msg = response.json().get('error', {}).get('message', 'Unknown error')
-            if "not found" in err_msg or "multimodal" in err_msg: 
-               print(f"❌ FALLÓ: {err_msg}")
-            else:
-               print(f"⚠️ ERROR DISTINTO: {response.status_code} - {err_msg}")
-               
-    except Exception as e:
-        print(f"❌ EXCEPCIÓN: {e}")
-
-print("\n" + "="*50)
-print("📊 RESUMEN FINAL DE MODELOS VÁLIDOS")
-print("="*50)
-for m in valid_models:
-    print(f"✅ {m}")
+    result = response.choices[0].message.content
+    print(f"✅ ÉXITO: Conexión establecida!")
+    print(f"📨 Respuesta: {result}")
+    
+    print("\n" + "="*50)
+    print("📊 RESUMEN")
+    print("="*50)
+    print(f"✅ Modelo '{model_id}' válido y funcionando")
+    print(f"✅ API Key correcta")
+    print(f"✅ Endpoint accesible")
+    
+except Exception as e:
+    print(f"❌ ERROR CRÍTICO: {e}")
+    import traceback
+    traceback.print_exc()
