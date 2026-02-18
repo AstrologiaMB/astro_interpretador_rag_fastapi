@@ -1,7 +1,7 @@
 """
 Centralized Prompts for Astro Interpretador RAG - V3 (Final Polish 2026)
 -----------------------------------------------
-Optimizado para extensión profunda (Claude 3.7), inicio directo y renderizado MD.
+Optimizado para extensión profunda (Kimi-K2.5), inicio directo y renderizado MD.
 """
 
 MARIA_STYLE_SNIPPET = (
@@ -24,7 +24,7 @@ MARIA_BLAQUIER_PERSONA = (
 )
 
 REGLA_FORMATO_Y_EXTENSION = (
-    "REGLAS DE FORMATO Y PROFUNDIDAD PARA CLAUDE 3.7:\n"
+    "REGLAS DE FORMATO Y PROFUNDIDAD PARA KIMI-K2.5:\n"
     "- MARKDOWN: Usa negritas (**) ÚNICAMENTE para el dato técnico al inicio de cada párrafo.\n"
     "- ESTRUCTURA: Sin títulos ni listas. Los párrafos deben fluir de forma narrativa.\n"
     "- PROFUNDIDAD: Desarrolla cada aspecto con 5 a 7 oraciones extensas.\n"

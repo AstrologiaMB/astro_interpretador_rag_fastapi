@@ -14,7 +14,3 @@ pathlib
 
 # Opcional para desarrollo
 python-multipart==0.0.6
-
-# Anthropic
-anthropic>=0.18.0
-llama-index-llms-anthropic>=0.1.0

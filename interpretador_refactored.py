@@ -1,6 +1,6 @@
 """
 InterpretadorRAG Refactorizado - Versión API sin interactividad
-- LLM fijo: OpenAI
+- LLM: Baseten (Kimi-K2.5)
 - Datos directos del microservicio (no archivos)
 - Dependencias actualizadas y compatibles
 """
@@ -15,8 +15,6 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Dict, List, Any, Optional
-from dotenv import load_dotenv
-from typing import Dict, List, Any, Optional
 load_dotenv()
 from prompts import get_rag_extraction_prompt_str, get_tropical_narrative_prompt_str, get_draconian_narrative_prompt_str
 try:
@@ -28,17 +26,107 @@ except ImportError:
 # Usar versiones actualizadas de llama-index
 try:
     from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Settings
-    from llama_index.llms.anthropic import Anthropic
     from llama_index.embeddings.openai import OpenAIEmbedding
     from llama_index.core.prompts import PromptTemplate
+    from llama_index.core.llms import LLM, ChatMessage, CompletionResponse
     LLAMA_INDEX_NEW = True
 except ImportError:
     # Fallback a versiones anteriores
     from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex as VectorStoreIndex, ServiceContext
-    from llama_index.llms import OpenAI, Anthropic
     from llama_index.embeddings import OpenAIEmbedding
     from llama_index.prompts import PromptTemplate
+    from llama_index.llms import LLM, ChatMessage, CompletionResponse
     LLAMA_INDEX_NEW = False
+
+# Importar OpenAI client para Baseten
+from openai import OpenAI
+
+
+class BasetenLLM(LLM):
+    """
+    Wrapper para usar Baseten (Kimi-K2.5) con llama-index.
+    Baseten usa una API compatible con OpenAI.
+    """
+    
+    api_key: str
+    model: str
+    temperature: float
+    max_tokens: int
+    
+    def __init__(self, api_key: str, model: str = "moonshotai/Kimi-K2.5", temperature: float = 0.7, max_tokens: int = 4096, **kwargs):
+        super().__init__(api_key=api_key, model=model, temperature=temperature, max_tokens=max_tokens, **kwargs)
+    
+    def _get_client(self):
+        """Obtener o crear cliente OpenAI para Baseten."""
+        return OpenAI(
+            api_key=self.api_key,
+            base_url="https://inference.baseten.co/v1"
+        )
+    
+    @property
+    def metadata(self):
+        return {"model": self.model}
+    
+    def complete(self, prompt: str, **kwargs) -> CompletionResponse:
+        """Método sincrónico para completar un prompt."""
+        try:
+            client = self._get_client()
+            response = client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=self.temperature,
+                max_tokens=self.max_tokens
+            )
+            return CompletionResponse(text=response.choices[0].message.content)
+        except Exception as e:
+            print(f"❌ Error en BasetenLLM.complete: {e}")
+            return CompletionResponse(text=f"Error: {e}")
+    
+    async def acomplete(self, prompt: str, **kwargs) -> CompletionResponse:
+        """Método asíncrono para completar un prompt."""
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, self.complete, prompt)
+    
+    def chat(self, messages: List[ChatMessage], **kwargs) -> CompletionResponse:
+        """Método para chat con múltiples mensajes."""
+        try:
+            formatted_messages = []
+            for msg in messages:
+                role = "assistant" if msg.role.value == "assistant" else "user"
+                formatted_messages.append({"role": role, "content": msg.content})
+            
+            client = self._get_client()
+            response = client.chat.completions.create(
+                model=self.model,
+                messages=formatted_messages,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens
+            )
+            return CompletionResponse(text=response.choices[0].message.content)
+        except Exception as e:
+            print(f"❌ Error en BasetenLLM.chat: {e}")
+            return CompletionResponse(text=f"Error: {e}")
+    
+    async def achat(self, messages: List[ChatMessage], **kwargs) -> CompletionResponse:
+        """Método asíncrono para chat."""
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, self.chat, messages)
+    
+    def stream_chat(self, messages: List[ChatMessage], **kwargs):
+        """Streaming de chat no implementado - delega a chat."""
+        yield self.chat(messages, **kwargs)
+    
+    async def astream_chat(self, messages: List[ChatMessage], **kwargs):
+        """Streaming asíncrono de chat no implementado - delega a achat."""
+        yield await self.achat(messages, **kwargs)
+    
+    def stream_complete(self, prompt: str, **kwargs):
+        """Streaming no implementado - delega a complete."""
+        yield self.complete(prompt, **kwargs)
+    
+    async def astream_complete(self, prompt: str, **kwargs):
+        """Streaming asíncrono no implementado - delega a acomplete."""
+        yield await self.acomplete(prompt, **kwargs)
 
 class InterpretadorRAG:
     def __init__(self):
@@ -46,14 +134,13 @@ class InterpretadorRAG:
         # Cargar variables de entorno
         load_dotenv()
         self.openai_key = os.getenv("OPENAI_API_KEY")
-        self.anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+        self.baseten_key = os.getenv("BASETEN_API_KEY")
         
         if not self.openai_key:
             raise ValueError("OPENAI_API_KEY no encontrada en variables de entorno")
             
-        if not self.anthropic_key:
-            # Fallback opcional o error, para esta migración asumimos que es necesaria
-            print("⚠️ ANTHROPIC_API_KEY no encontrada. El stack de Claude fallará si se intenta usar.")
+        if not self.baseten_key:
+            raise ValueError("BASETEN_API_KEY no encontrada en variables de entorno")
         
         # Feature flag para RAGs separados (False = sistema actual, True = RAGs separados)
         self.USE_SEPARATE_ENGINES = os.getenv("USE_SEPARATE_ENGINES", "true").lower() == "true"
@@ -90,31 +177,54 @@ class InterpretadorRAG:
         print(f"🔧 Feature Flag - RAGs Separados: {'ACTIVADO' if self.USE_SEPARATE_ENGINES else 'DESACTIVADO (sistema actual)'}")
     
     def _setup_llm_and_embeddings(self):
-        """Configurar LLM y embeddings: Stack 100% Anthropic (Claude 4.5 Sonnet + Haiku)"""
-        # VALIDACIÓN FEHACIENTE DE USUARIO (2026):
-        # IDs específicos confirmados por script de validación.
+        """Configurar LLM y embeddings: Stack Baseten (Kimi-K2.5)"""
+        # Usar Baseten con Kimi-K2.5 para RAG y Narrativa
         
-        MODEL_RAG = "claude-haiku-4-5-20251001"      # Haiku 4.5 para RAG (Velocidad)
-        MODEL_WRITER = "claude-sonnet-4-5-20250929"  # Sonnet 4.5 para Narrativa (Inteligencia)
+        MODEL_BASETEN = "moonshotai/Kimi-K2.5"  # Modelo Kimi-K2.5 en Baseten
+        
+        # Cargar API key de Baseten
+        self.baseten_key = os.getenv("BASETEN_API_KEY")
+        if not self.baseten_key:
+            raise ValueError("BASETEN_API_KEY no encontrada en variables de entorno")
         
         if LLAMA_INDEX_NEW:
             # Usar Settings globales (nueva API)
-            # 1. Configurar RAG 
-            Settings.llm = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
+            # 1. Configurar RAG con Baseten (temperatura 0 para respuestas consistentes)
+            Settings.llm = BasetenLLM(
+                api_key=self.baseten_key, 
+                temperature=0.0, 
+                model=MODEL_BASETEN, 
+                max_tokens=4096
+            )
             
             # 2. Embeddings se mantienen con OpenAI
             Settings.embed_model = OpenAIEmbedding(api_key=self.openai_key)
             self.service_context_rag = None
             
-            # 3. Configurar Escritor 
-            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=16000)
+            # 3. Configurar Escritor con Baseten (temperatura más alta para creatividad)
+            self.llm_rewriter = BasetenLLM(
+                api_key=self.baseten_key, 
+                temperature=0.7, 
+                model=MODEL_BASETEN, 
+                max_tokens=16000
+            )
         else:
             # Usar ServiceContext (versión anterior)
-            # 1. Configurar RAG con Claude Haiku
-            self.llm_rag = Anthropic(api_key=self.anthropic_key, temperature=0.0, model=MODEL_RAG, max_tokens=4096)
+            # 1. Configurar RAG con Baseten
+            self.llm_rag = BasetenLLM(
+                api_key=self.baseten_key, 
+                temperature=0.0, 
+                model=MODEL_BASETEN, 
+                max_tokens=4096
+            )
             
-            # 2. Configurar Escritor con Claude Sonnet
-            self.llm_rewriter = Anthropic(api_key=self.anthropic_key, temperature=0.7, model=MODEL_WRITER, max_tokens=16000)
+            # 2. Configurar Escritor con Baseten
+            self.llm_rewriter = BasetenLLM(
+                api_key=self.baseten_key, 
+                temperature=0.7, 
+                model=MODEL_BASETEN, 
+                max_tokens=16000
+            )
             
             # 3. Embeddings OpenAI
             self.embed_model = OpenAIEmbedding(api_key=self.openai_key)

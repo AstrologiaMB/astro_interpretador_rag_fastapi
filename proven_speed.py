@@ -45,7 +45,7 @@ def test_speed():
     print(f"\n✅ Interpretaciones Recuperadas: {len(interpretaciones)}")
     print(f"⚡ Tiempo de Ejecución Motor JSON: {duration_ms:.4f} ms")
     print("-" * 40)
-    print("CONCLUSIÓN: El motor es instantáneo. La demora de ~120s proviene EXCLUSIVAMENTE de la generación narrativa con IA (Claude/GPT).")
+    print("CONCLUSIÓN: El motor es instantáneo. La demora de ~120s proviene EXCLUSIVAMENTE de la generación narrativa con IA (Kimi-K2.5).")
 
 if __name__ == "__main__":
     test_speed()
