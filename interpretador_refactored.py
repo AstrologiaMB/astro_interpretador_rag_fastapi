@@ -153,11 +153,8 @@ class InterpretadorRAG:
             print(f"⚠️ Error inicializando InterpretadorAstrologico: {e}")
             self.interpretador_astrologico = None
 
-        # Configurar LLM y embeddings
-        self._setup_llm_and_embeddings()
-        
-        # Cargar e indexar documentos de interpretaciones
-        self._load_and_index_documents()
+        # LlamaIndex (RAG) se inicializa lazy: solo cuando realmente se necesita
+        self._rag_initialized = False
 
         # [NUEVO] Inicializar InterpretadorAstrologico (Motor JSON) para Calendario
         try:
@@ -176,6 +173,16 @@ class InterpretadorRAG:
         print("✅ InterpretadorRAG refactorizado inicializado correctamente")
         print(f"🔧 Feature Flag - RAGs Separados: {'ACTIVADO' if self.USE_SEPARATE_ENGINES else 'DESACTIVADO (sistema actual)'}")
     
+    def _ensure_rag_initialized(self):
+        """Inicializa LlamaIndex (embeddings + índices) solo la primera vez que se necesita."""
+        if self._rag_initialized:
+            return
+        print("⚡ Inicializando RAG (lazy, primera vez que se necesita)...")
+        self._setup_llm_and_embeddings()
+        self._load_and_index_documents()
+        self._rag_initialized = True
+        print("✅ RAG inicializado correctamente.")
+
     def _setup_llm_and_embeddings(self):
         """Configurar LLM y embeddings: Stack Baseten (Kimi-K2.5)"""
         # Usar Baseten con Kimi-K2.5 para RAG y Narrativa
@@ -556,6 +563,7 @@ class InterpretadorRAG:
             else:
                 # --- FALLBACK RAG (Lógica Original) ---
                 print(f"⚠️ Usando RAG Fallback para carta {tipo_carta} (Interpretador inexistente o tipo no soportado)")
+                self._ensure_rag_initialized()
 
                 # DEBUG: Ver qué datos recibe el RAG system
                 # print(f"🔍 DEBUG PAYLOAD KEYS: {list(carta_natal_data.keys())}")
@@ -1390,6 +1398,7 @@ class InterpretadorRAG:
 
         # Verificar si el título existe en nuestra base de conocimiento
         if self._flexible_title_match(consulta_normalizada):
+            self._ensure_rag_initialized()
             try:
                 # Crear motor de consulta RAG (es rápido, se basa en el índice en memoria)
                 query_engine_rag = self.index.as_query_engine(
