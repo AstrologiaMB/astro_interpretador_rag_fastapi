@@ -155,6 +155,10 @@ class InterpretadorRAG:
 
         # LlamaIndex (RAG) se inicializa lazy: solo cuando realmente se necesita
         self._rag_initialized = False
+        
+        # Inicializar LLM rewriter (siempre necesario, no lazy)
+        # Se usa para generar narrativas en TODAS las cartas (JSON y RAG)
+        self._setup_llm_rewriter()
 
         # [NUEVO] Inicializar InterpretadorAstrologico (Motor JSON) para Calendario
         try:
@@ -183,8 +187,28 @@ class InterpretadorRAG:
         self._rag_initialized = True
         print("✅ RAG inicializado correctamente.")
 
+    def _setup_llm_rewriter(self):
+        """Configurar LLM rewriter (siempre necesario, no lazy).
+        
+        Se usa para generar narrativas en todas las cartas (Tropical/Dracónica JSON y RAG).
+        Este método se llama en __init__, no es lazy.
+        """
+        MODEL_BASETEN = "moonshotai/Kimi-K2.5"
+        
+        self.llm_rewriter = BasetenLLM(
+            api_key=self.baseten_key, 
+            temperature=0.7, 
+            model=MODEL_BASETEN, 
+            max_tokens=16000
+        )
+        print("✅ LLM rewriter inicializado (no lazy)")
+    
     def _setup_llm_and_embeddings(self):
-        """Configurar LLM y embeddings: Stack Baseten (Kimi-K2.5)"""
+        """Configurar LLM y embeddings: Stack Baseten (Kimi-K2.5)
+        
+        Este método es lazy: solo se llama cuando se necesita RAG.
+        No inicializa llm_rewriter (ya está en _setup_llm_rewriter).
+        """
         # Usar Baseten con Kimi-K2.5 para RAG y Narrativa
         
         MODEL_BASETEN = "moonshotai/Kimi-K2.5"  # Modelo Kimi-K2.5 en Baseten
@@ -208,13 +232,7 @@ class InterpretadorRAG:
             Settings.embed_model = OpenAIEmbedding(api_key=self.openai_key)
             self.service_context_rag = None
             
-            # 3. Configurar Escritor con Baseten (temperatura más alta para creatividad)
-            self.llm_rewriter = BasetenLLM(
-                api_key=self.baseten_key, 
-                temperature=0.7, 
-                model=MODEL_BASETEN, 
-                max_tokens=16000
-            )
+            # NOTA: llm_rewriter ya está inicializado en _setup_llm_rewriter() (no lazy)
         else:
             # Usar ServiceContext (versión anterior)
             # 1. Configurar RAG con Baseten
@@ -225,13 +243,7 @@ class InterpretadorRAG:
                 max_tokens=4096
             )
             
-            # 2. Configurar Escritor con Baseten
-            self.llm_rewriter = BasetenLLM(
-                api_key=self.baseten_key, 
-                temperature=0.7, 
-                model=MODEL_BASETEN, 
-                max_tokens=16000
-            )
+            # NOTA: llm_rewriter ya está inicializado en _setup_llm_rewriter() (no lazy)
             
             # 3. Embeddings OpenAI
             self.embed_model = OpenAIEmbedding(api_key=self.openai_key)
