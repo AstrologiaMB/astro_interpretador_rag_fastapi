@@ -483,6 +483,19 @@ class InterpretadorAstrologico:
                        break
         return placements
 
+    def _normalize_key_for_lookup(self, key: str) -> str:
+        """
+        Normaliza key para búsqueda: sin acentos, minúsculas.
+        Elimina 'la' antes de 'casa' para consistencia con JSON.
+        """
+        import unicodedata
+        key = key.lower().strip()
+        key = ''.join(c for c in unicodedata.normalize('NFD', key) 
+                      if unicodedata.category(c) != 'Mn')
+        key = re.sub(r'\bla\s+', '', key)
+        key = ' '.join(key.split())
+        return key
+
     def _extract_simple_events(self, carta: dict) -> list:
         """Genera lista de keys estándar para búsqueda"""
         events = []
@@ -500,9 +513,9 @@ class InterpretadorAstrologico:
             
             # 1. Ángulos (Ascendente)
             if name == "Asc":
-                key = f"ascendente (ángulo) en {sign}"
+                key = f"ascendente (angulo) en {sign}"
                 events.append({
-                    "key": key,
+                    "key": self._normalize_key_for_lookup(key),
                     "titulo": f"Ascendente en {sign.capitalize()}",
                     "tipo": "AnguloEnSigno"
                 })
@@ -516,7 +529,7 @@ class InterpretadorAstrologico:
             if "North Node" in name:
                 key = f"nodo en {sign}"
                 events.append({
-                    "key": key,
+                    "key": self._normalize_key_for_lookup(key),
                     "titulo": f"Nodo en {sign.capitalize()}",
                     "tipo": "PlanetaEnSigno"
                 })
@@ -526,7 +539,7 @@ class InterpretadorAstrologico:
             planet = self._translate_planet(name).lower()
             key = f"{planet} en {sign}"
             events.append({
-                "key": key,
+                "key": self._normalize_key_for_lookup(key),
                 "titulo": f"{planet.capitalize()} en {sign.capitalize()}",
                 "tipo": "PlanetaEnSigno"
             })
@@ -543,17 +556,14 @@ class InterpretadorAstrologico:
                 
                 key = f"{planet} en casa {house}"
                 events.append({
-                    "key": key,
+                    "key": self._normalize_key_for_lookup(key),
                     "titulo": f"{planet.capitalize()} en Casa {house}",
                     "tipo": "PlanetaEnCasa"
                 })
         
         # 2. Si no hubo datos directos, usar calculados
-        # (Para evitar duplicados, verificamos si ya agregamos eventos de casa para este planeta? 
-        #  O simplemente asumimos que si house_placements tiene datos es porque validamos)
         if house_placements:
              for name, house in house_placements.items():
-                # Normalización específica para Nodos en Casas ("nodo en casa X")
                 if "North Node" in name:
                     planet = "nodo"
                 else:
@@ -561,10 +571,10 @@ class InterpretadorAstrologico:
                 
                 key = f"{planet} en casa {house}"
                 
-                # Chequear duplicados muy básico
-                if not any(e['key'] == key for e in events):
+                normalized_key = self._normalize_key_for_lookup(key)
+                if not any(e['key'] == normalized_key for e in events):
                     events.append({
-                        "key": key,
+                        "key": normalized_key,
                         "titulo": f"{planet.capitalize()} en Casa {house}",
                         "tipo": "PlanetaEnCasa"
                     })

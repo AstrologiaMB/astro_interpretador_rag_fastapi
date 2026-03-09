@@ -11,14 +11,17 @@ sys.stdout.reconfigure(encoding='utf-8')
 def _normalize_key(key: str) -> str:
     """
     Normaliza key: minúsculas, sin acentos, espacios limpios.
-    Ej: "Plutón en Casa 12" → "pluton en casa 12"
+    Elimina artículos como 'la' antes de 'casa' para consistencia.
+    Ej: "Plutón en la Casa 12" → "pluton en casa 12"
     """
     # 1. Lowercase
     key = key.lower().strip()
     # 2. Eliminar acentos
     key = ''.join(c for c in unicodedata.normalize('NFD', key) 
                   if unicodedata.category(c) != 'Mn')
-    # 3. Normalizar espacios múltiples
+    # 3. Eliminar 'la ' antes de 'casa' (ej: "en la casa" → "en casa")
+    key = re.sub(r'\bla\s+', '', key)
+    # 4. Normalizar espacios múltiples
     key = ' '.join(key.split())
     return key
 
