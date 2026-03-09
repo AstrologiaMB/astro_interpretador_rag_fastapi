@@ -1,6 +1,7 @@
 import re
 import json
 import os
+import unicodedata
 
 # Configuration
 CONTENT_DIR = "/Users/apple/astrochat/astro_interpretador_rag_fastapi/data/content"
@@ -17,11 +18,19 @@ def normalize_key(text):
     """
     Converts a header text into a standardized snake_case key.
     Example: "Sol en Aries" -> "sol_en_aries"
+    Normaliza sin acentos para matching robusto.
     """
+    # 1. Lowercase y limpiar
     text = text.lower().strip()
-    text = re.sub(r'[*\(\)]', '', text)  # Remove special chars
-    text = re.sub(r'\s+', '_', text)     # Replace spaces with underscores
-    text = re.sub(r'_+', '_', text)      # Deduplicate underscores
+    # 2. Eliminar acentos
+    text = ''.join(c for c in unicodedata.normalize('NFD', text) 
+                   if unicodedata.category(c) != 'Mn')
+    # 3. Remover caracteres especiales
+    text = re.sub(r'[*\(\)]', '', text)
+    # 4. Reemplazar espacios con underscores
+    text = re.sub(r'\s+', '_', text)
+    # 5. Deduplicar underscores
+    text = re.sub(r'_+', '_', text)
     return text.strip('_')
 
 def parse_markdown_file(filepath):

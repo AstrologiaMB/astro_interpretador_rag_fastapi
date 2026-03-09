@@ -19,14 +19,14 @@ class InterpretadorAstrologico:
             
         self.TRANSLATIONS = {
             "sun": "Sol", "moon": "Luna", "mercury": "Mercurio", "venus": "Venus", 
-            "mars": "Marte", "jupiter": "Júpiter", "saturn": "Saturno", 
-            "uranus": "Urano", "neptune": "Neptuno", "pluto": "Plutón",
+            "mars": "Marte", "jupiter": "Jupiter", "saturn": "Saturno", 
+            "uranus": "Urano", "neptune": "Neptuno", "pluto": "Pluton",
             "north node": "Nodo", "northnode": "Nodo", "south node": "Nodo Sur",
             "asc": "Ascendente", "midheaven": "Medio Cielo", "mc": "Medio Cielo",
-            "conjunction": "Conjunción", "opposition": "Oposición", 
-            "square": "Cuadratura", "trine": "Trígono", "sextile": "Sextil",
-            "aries": "Aries", "taurus": "Tauro", "gemini": "Géminis",
-            "cancer": "Cáncer", "leo": "Leo", "virgo": "Virgo",
+            "conjunction": "Conjuncion", "opposition": "Oposicion", 
+            "square": "Cuadratura", "trine": "Trigono", "sextile": "Sextil",
+            "aries": "Aries", "taurus": "Tauro", "gemini": "Geminis",
+            "cancer": "Cancer", "leo": "Leo", "virgo": "Virgo",
             "libra": "Libra", "scorpio": "Escorpio", "sagittarius": "Sagitario",
             "capricorn": "Capricornio", "aquarius": "Acuario", "pisces": "Piscis"
         }
@@ -624,9 +624,9 @@ class InterpretadorAstrologico:
     def _translate_planet(self, english_name: str) -> str:
         mapa = {
             "Sun": "sol", "Moon": "luna", "Mercury": "mercurio", "Venus": "venus", "Mars": "marte",
-            "Jupiter": "júpiter", "Saturn": "saturno", "Uranus": "urano", "Neptune": "neptuno", 
-            "Pluto": "plutón", "North Node": "nodo norte", "South Node": "nodo sur",
-            "Chiron": "quirón", "Lilith": "lilith"
+            "Jupiter": "jupiter", "Saturn": "saturno", "Uranus": "urano", "Neptune": "neptuno", 
+            "Pluto": "pluton", "North Node": "nodo norte", "South Node": "nodo sur",
+            "Chiron": "chiron", "Lilith": "lilith"
         }
         return mapa.get(english_name, english_name.lower())
 
