@@ -1408,6 +1408,16 @@ class InterpretadorRAG:
         # Normalizar el título para la búsqueda
         consulta_normalizada = self._normalize_title(titulo_candidato)
 
+        # [REVISION REALITY CHECK]: Si es un evento lunar con casa, intentar buscar en el mapa natal
+        if not self._flexible_title_match(consulta_normalizada) and "luna" in titulo_candidato and "casa" in titulo_candidato:
+            casa = evento.get("casa_natal")
+            if casa:
+                key_natal = self.interpretador_json._normalize_key_for_lookup(f"luna en la casa {casa}") if self.interpretador_json else None
+                if key_natal and self.interpretador_astrologico and key_natal in self.interpretador_astrologico.natal_map:
+                    print(f"🎯 [NATAL MAP HIT] Usando interpretación natal para evento lunar en Casa {casa}")
+                    res = self.interpretador_astrologico.natal_map[key_natal]
+                    return res.get("texto", res) if isinstance(res, dict) else res
+
         # Verificar si el título existe en nuestra base de conocimiento
         if self._flexible_title_match(consulta_normalizada):
             self._ensure_rag_initialized()
