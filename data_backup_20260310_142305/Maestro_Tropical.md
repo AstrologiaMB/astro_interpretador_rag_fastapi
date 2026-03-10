@@ -1228,7 +1228,7 @@ Esta posición indica que para tu padre el trabajo es muy importante y algo en l
 
 ## **Urano Retrógrado**
 
-**Urano, el planeta de la originalidad y la libertad, está retrógrado en tu Carta**. Esto significa que cuando naciste, su movimiento en el cielo era hacia atrás. Esto hace que anheles encontrar algo distinto y desconocido, aunque sin un vehículo claro para hacerlo. Si no logras canalizarlo, esto se manifestará como irritabilidad, angustia e insatisfacción. Importante: al retomar su movimiento directo por progresiones, esta tendencia se revertirá, y a partir de entonces te será más sencillo darle lugar a tu originalidad. (Atención, al ser lento es posible que no retome el movimiento directo por progresiones en toda la vida del individuo)
+**Urano, el planeta de la originalidad y la libertad, está retrógrado en tu Carta**. Esto significa que cuando naciste, su movimiento en el cielo era hacia atrás. Esto hace que anheles encontrar algo distinto y desconocido, aunque sin un vehículo claro para hacerlo. Si no logras canalizarlo, esto se manifestará como irritabilidad, angustia e insatisfacción. Al retomar su movimiento directo por progresiones, a tus (YYYY) años, esta tendencia se revertirá, y a partir de entonces te será más sencillo darle lugar a tu originalidad. (Atención, al ser lento es posible que no retome el movimiento directo por progresiones en toda la vida del individuo)
 
 ## **La Ubicación de Urano en las Casas**
 
@@ -1381,7 +1381,7 @@ Con **Plutón en la casa once**, la de los grupos, seguramente tengas pocos amig
 
 ### **Plutón en la Casa 12**
 
-Con el intenso **Plutón en casa doce** es normal que muestres interés por lo oculto y reprimido a nivel colectivo, y que te preocupes por ayudar a quienes son despreciados por la comunidad. Cada tanto necesitas retirarte a algún lugar tranquilo para estar en soledad. Otra interpretación de esta posición es que de joven Plutón pasó por el ascendente produciendo cambios y crisis profundas en su vida.  
+Con el intenso **Plutón en casa doce** es normal que muestres interés por lo oculto y reprimido a nivel colectivo, y que te preocupes por ayudar a quienes son despreciados por la comunidad. Cada tanto necesitas retirarte a algún lugar tranquilo para estar en soledad. Otra interpretación de esta posición es que de joven, a tus (YYYY) años, Plutón pasó por el ascendente produciendo cambios y crisis profundas en su vida.  
 Acerca de tu padre, significa que tuvo transformaciones profundas en sus ideas y creencias a lo largo de su vida. Sobre tu madre, sugiere una mujer penetrante, cuyo modo de pensar y comunicarse sufre grandes alteraciones, posiblemente a raíz de experiencias conflictivas con sus hermanos.
 
 # **Aspectos Planetas Transpersonales**
@@ -1554,11 +1554,11 @@ Tu Carta muestra la **Cruz Cósmica**, una figura formada por cuadraturas y opos
 
 ## **Stellium**
 
-El **stellium** es un grupo de planetas ubicados en el mismo signo que influyen unos a otros y al hacerlo concentran gran cantidad de energía. Como tienes un Stellium en tu signo y en una casa específica, a lo largo de tu vida te enfocarás en esta área fundamental de tu vida.
+El **stellium** es un grupo de planetas ubicados en el mismo signo que influyen unos a otros y al hacerlo concentran gran cantidad de energía. Como tienes un Stellium en el signo de (YYYY) y la casa WWW, a lo largo de tu vida te enfocarás en el área de (YYYY).
 
 ## **Yod** 
 
-**El Yod** es una configuración que aparece en la Carta de personas cuyo destino tiende a ser singular, con cambios a lo largo de la vida que deben enfrentar a través de un cambio de conciencia. El planeta focal (o más sensible) dentro de la configuración indica qué energía debe ser corregida y regenerada. El Yod requiere renunciar al pasado para ingresar en una nueva etapa, y su influencia es especialmente fuerte cuando está activado por un tránsito. En tu caso, este tránsito se dio en en su momento. 
+**El Yod** es una configuración que aparece en la Carta de personas cuyo destino tiende a ser singular, con cambios a lo largo de la vida que deben enfrentar a través de un cambio de conciencia. El planeta focal (o más sensible) dentro de la configuración indica qué energía debe ser corregida y regenerada. El Yod requiere renunciar al pasado para ingresar en una nueva etapa, y su influencia es especialmente fuerte cuando está activado por un tránsito. En tu caso, este tránsito se dio en (YYYY). 
 
 ### **El Sol Focal en el Yod**
 
@@ -2334,77 +2334,77 @@ Durante este período sentirás la necesidad de conectarte con la realidad y res
 
 #### **Tránsito de Urano por Casa 2 Natal**
 
-Con **Urano en la casa dos** durante este periodo, necesitas enfrentar cambios en el área de la independencia económica, tu actitud frente al dinero y la forma en que distribuyes tu energía. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con **Urano en la casa dos** desde (YYYY) y hasta (YYYY), necesitas enfrentar cambios en el área de la independencia económica, tu actitud frente al dinero y la forma en que distribuyes tu energía. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 3 Natal**
 
-Con **Urano en la casa tres** durante este periodo, surgen nuevas ideas, estudios y conocimientos que modifican radicalmente tu punto de vista y te hacen más receptivo. Puede que pienses en mudarte para cambiar de ambiente. También pueden darse cambios en el vínculo con tus hermanos. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con **Urano en la casa tres** desde (YYYY) y hasta (YYYY), surgen nuevas ideas, estudios y conocimientos que modifican radicalmente tu punto de vista y te hacen más receptivo. Puede que pienses en mudarte para cambiar de ambiente. También pueden darse cambios en el vínculo con tus hermanos. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 4 Natal**
 
-Con **Urano en la casa cuatro** durante este periodo, tiendes a modificar asuntos relacionados con la familia y el hogar. Puede que tu vida cotidiana sufra cambios bruscos e innovadores que te hagan más independiente. Es probable que durante este tránsito necesites tomar distancia de asuntos familiares o del pasado que te asfixian o limitan tu libertad para cambiar la forma en que te relacionas con tu familia. En ocasiones habrá una mudanza inesperada. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con **Urano en la casa cuatro** desde (YYYY) y hasta (YYYY), tiendes a modificar asuntos relacionados con la familia y el hogar. Puede que tu vida cotidiana sufra cambios bruscos e innovadores que te hagan más independiente. Es probable que durante este tránsito necesites tomar distancia de asuntos familiares o del pasado que te asfixian o limitan tu libertad para cambiar la forma en que te relacionas con tu familia. En ocasiones habrá una mudanza inesperada. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 5 Natal**
 
-Con **Urano en la casa cinco** durante este periodo, aumenta tu creatividad y te sentirás más original. En el área afectiva, seguramente tengas encuentros amorosos inesperados que prosperarán siempre y cuando no te hagan renunciar a tu libertad personal. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con **Urano en la casa cinco** desde (YYYY) y hasta (YYYY), aumenta tu creatividad y te sentirás más original. En el área afectiva, seguramente tengas encuentros amorosos inesperados que prosperarán siempre y cuando no te hagan renunciar a tu libertad personal. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 6 Natal**
 
-Con **Urano en la casa seis** durante este periodo, pasarás por momentos de estrés laboral, ya que necesitas mayor independencia y libertad creativa en el trabajo. Podrían darse conflictos con superiores o subordinados. Con este tránsito suele haber cambios inesperados de empleo, o bien un nuevo enfoque en él. Este tránsito dura unos siete años y se siente con más fuerza al inicio.
+Con **Urano en la casa seis** desde (YYYY) y hasta (YYYY), pasarás por momentos de estrés laboral, ya que necesitas mayor independencia y libertad creativa en el trabajo. Podrían darse conflictos con superiores o subordinados. Con este tránsito suele haber cambios inesperados de empleo, o bien un nuevo enfoque en él. Este tránsito dura unos siete años y se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 7 Natal**
 
-Con **Urano en la casa siete** durante este periodo, aumenta tu necesidad de independencia en las relaciones personales. Es importante que hagas los cambios necesarios para no sentirte limitado en los vínculos; de lo contrario te serán muy difíciles de sostener. A veces, este tránsito supone separaciones y rupturas con la pareja, amigos o socios. En su mejor versión supone la oportunidad de conocer personas originales y libres. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
+Con **Urano en la casa siete** desde (YYYY) y hasta (YYYY), aumenta tu necesidad de independencia en las relaciones personales. Es importante que hagas los cambios necesarios para no sentirte limitado en los vínculos; de lo contrario te serán muy difíciles de sostener. A veces, este tránsito supone separaciones y rupturas con la pareja, amigos o socios. En su mejor versión supone la oportunidad de conocer personas originales y libres. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 8 Natal**
 
-Con **Urano en la casa ocho** durante este periodo, hay cambios en el terreno de lo compartido. Puede traer altibajos en la situación económica del cónyuge, herencias inesperadas o cambios abruptos en la economía debido a negocios con un socio. La casa ocho también es la del sexo, por lo que es posible que haya innovaciones en este ámbito. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
+Con **Urano en la casa ocho** desde (YYYY) y hasta (YYYY), hay cambios en el terreno de lo compartido. Puede traer altibajos en la situación económica del cónyuge, herencias inesperadas o cambios abruptos en la economía debido a negocios con un socio. La casa ocho también es la del sexo, por lo que es posible que haya innovaciones en este ámbito. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 9 Natal**
 
-Con **Urano en la casa nueve** durante este periodo, es probable que entres en contacto con nuevas ideas, tal vez a raíz de un viaje o estudios. Es momento de cambios en las convicciones. 
+Con **Urano en la casa nueve** desde (YYYY) y hasta (YYYY), es probable que entres en contacto con nuevas ideas, tal vez a raíz de un viaje o estudios. Es momento de cambios en las convicciones. 
 
 #### **Tránsito de Urano por Casa 10 Natal**
 
-Con **Urano en la casa diez** durante este periodo, necesitas más independencia y libertad profesional. Este tránsito a veces viene acompañado de roces con las figuras de autoridad ya que hace que te cueste adaptarte a las exigencias y hace que te sientas ahogado por la rutina. Puede que te den ganas de trabajar de manera independiente o de hacer algún cambio en la forma en que te muestras a la sociedad. Es un tránsito que dura unos siete años pero se siente con más fuerza al inicio.
+Con **Urano en la casa diez** desde (YYYY) y hasta (YYYY), necesitas más independencia y libertad profesional. Este tránsito a veces viene acompañado de roces con las figuras de autoridad ya que hace que te cueste adaptarte a las exigencias y hace que te sientas ahogado por la rutina. Puede que te den ganas de trabajar de manera independiente o de hacer algún cambio en la forma en que te muestras a la sociedad. Es un tránsito que dura unos siete años pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 11 Natal**
 
-Con **Urano en la casa once** durante este periodo, puede que conozcas gente nueva y original. Es un período de independencia en las ideas, con nuevos planes sociales o profesionales. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
+Con **Urano en la casa once** desde (YYYY) y hasta (YYYY), puede que conozcas gente nueva y original. Es un período de independencia en las ideas, con nuevos planes sociales o profesionales. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
 
 #### **Tránsito de Urano por Casa 12 Natal**
 
-Con **Urano en la casa doce** durante este periodo, suelen reaparecer situaciones o personas del pasado con quienes tienes asuntos pendientes; es un buen momento para poner las cuentas al día. Si estás vinculado con alguna institución (hospitales, museos, bibliotecas, ONGs, etc.) durante este período aumenta tu insatisfacción y es posible que busques modificar tu entorno. Esta tiende a ser una época de inquietud en la que necesitas cambios pero no estás en condiciones de implementarlos, el momento adecuado será al final del tránsito cuando Urano ingrese en la casa uno.
+Con **Urano en la casa doce** desde (YYYY) y hasta (YYYY), suelen reaparecer situaciones o personas del pasado con quienes tienes asuntos pendientes; es un buen momento para poner las cuentas al día. Si estás vinculado con alguna institución (hospitales, museos, bibliotecas, ONGs, etc.) durante este período aumenta tu insatisfacción y es posible que busques modificar tu entorno. Esta tiende a ser una época de inquietud en la que necesitas cambios pero no estás en condiciones de implementarlos, el momento adecuado será al final del tránsito cuando Urano ingrese en la casa uno.
 
 ### **Tránsitos de Urano Aspectos**
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición al Sol Natal**
 
-Este tránsito hace que **Urano** **toque el Sol** generándote mucha inquietud, ya que se viene un cambio que hace que rompas estructuras, sobre todo en el área de en su momento. Como tienes un lado conservador, los cambios pueden venir de la mano de otras personas que traen innovaciones, nuevas posturas e ideas. Es un tránsito de rupturas, liberaciones y quiebres que barre con ataduras del pasado. 
+Este tránsito hace que **Urano** **toque el Sol** generándote mucha inquietud, ya que se viene un cambio que hace que rompas estructuras, sobre todo en el área de (YYYY). Como tienes un lado conservador, los cambios pueden venir de la mano de otras personas que traen innovaciones, nuevas posturas e ideas. Es un tránsito de rupturas, liberaciones y quiebres que barre con ataduras del pasado. 
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición a Luna Natal**
 
-**El tránsito de Urano a la Luna natal en** en su momento señala que necesitas hacer un cambio en tu vida hogareña, o bien con respecto a tu madre y las mujeres en general. Puede implicar mudanzas, sobre todo si son repentinas e inesperadas. También te puede traer angustia porque necesitas más libertad y desapego. Te sientes invadido, pero al mismo tiempo anhelas conservar aquello que te encierra pues te da un fuerte sentido de pertenencia. Debes encontrar la distancia justa en el vínculo con otros para no sentirte ahogado. Puede que vivas este tránsito como algo ajeno que la vida te trae.
+**El tránsito de Urano a la Luna natal en** (YYYY) señala que necesitas hacer un cambio en tu vida hogareña, o bien con respecto a tu madre y las mujeres en general. Puede implicar mudanzas, sobre todo si son repentinas e inesperadas. También te puede traer angustia porque necesitas más libertad y desapego. Te sientes invadido, pero al mismo tiempo anhelas conservar aquello que te encierra pues te da un fuerte sentido de pertenencia. Debes encontrar la distancia justa en el vínculo con otros para no sentirte ahogado. Puede que vivas este tránsito como algo ajeno que la vida te trae.
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición a Mercurio Natal**
 
-**El tránsito de Urano a Mercurio natal** en en su momento te produce cambios a nivel de la mente, haciendo que aumente tu interés por lo novedoso; es un excelente momento para estudiar cosas nuevas. Verás cómo se transforman tus actitudes y tu modo de ver las cosas: hay más desapego, más libertad y respuestas novedosas a viejos problemas. Como **Mercurio** representa a los hermanos y a los pares, este tránsito puede provocar rupturas y peleas para reajustar estos vínculos. 
+**El tránsito de Urano a Mercurio natal** en (YYYY) te produce cambios a nivel de la mente, haciendo que aumente tu interés por lo novedoso; es un excelente momento para estudiar cosas nuevas. Verás cómo se transforman tus actitudes y tu modo de ver las cosas: hay más desapego, más libertad y respuestas novedosas a viejos problemas. Como **Mercurio** representa a los hermanos y a los pares, este tránsito puede provocar rupturas y peleas para reajustar estos vínculos. 
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición a Venus Natal**
 
-**El tránsito de Urano a Venus natal** en en su momento suele traer cambios en las relaciones haciendo que aquellas que no funcionan y se mantienen por compromiso se caigan. Es momento de experimentar nuevas formas de sentir y vincularte con más libertad, sin tantos condicionamientos. Este tránsito puede provocar enamoramientos fulminantes, inesperados o el inicio de relaciones con gente que conoces de manera extraña. Como Venus es un planeta femenino, durante este tránsito muchos hombres viven los cambios de Urano a través de una mujer; quizás no son ellos los que necesitan libertad sino que una mujer en su vida se los exige.
+**El tránsito de Urano a Venus natal** en (YYYY) suele traer cambios en las relaciones haciendo que aquellas que no funcionan y se mantienen por compromiso se caigan. Es momento de experimentar nuevas formas de sentir y vincularte con más libertad, sin tantos condicionamientos. Este tránsito puede provocar enamoramientos fulminantes, inesperados o el inicio de relaciones con gente que conoces de manera extraña. Como Venus es un planeta femenino, durante este tránsito muchos hombres viven los cambios de Urano a través de una mujer; quizás no son ellos los que necesitan libertad sino que una mujer en su vida se los exige.
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición a Marte Natal**
 
-**Con Urano en tránsito a Marte natal** en en su momento, las circunstancias externas te obligan a dar respuestas originales y a adaptarte a nuevas condiciones de vida. Este contacto te genera mucha impaciencia e irritabilidad.
+**Con Urano en tránsito a Marte natal** en (YYYY), las circunstancias externas te obligan a dar respuestas originales y a adaptarte a nuevas condiciones de vida. Este contacto te genera mucha impaciencia e irritabilidad.
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición a Júpiter Natal**
 
-**Con Urano en tránsito a Júpiter natal** en en su momento cambia tu visión del mundo: es un momento de expansión y cambio pero debes cuidarte de proyectos e ideales utópicos. Surge en tí una necesidad de liberarte de las creencias que te restringen o encierran. Como consecuencia, puede que pierdas contacto con la realidad y hagas cambios demasiado radicales y precipitados. Suele ser una etapa de viajes, sobre todo si son inesperados, repentinos o a lugares exóticos.
+**Con Urano en tránsito a Júpiter natal** en (YYYY) cambia tu visión del mundo: es un momento de expansión y cambio pero debes cuidarte de proyectos e ideales utópicos. Surge en tí una necesidad de liberarte de las creencias que te restringen o encierran. Como consecuencia, puede que pierdas contacto con la realidad y hagas cambios demasiado radicales y precipitados. Suele ser una etapa de viajes, sobre todo si son inesperados, repentinos o a lugares exóticos.
 
 #### **Urano en Tránsito por Conjunción o Cuadratura u Oposición a Saturno Natal**
 
-**Urano en tránsito a Saturno natal** en en su momento produce en tí un encuentro entre lo viejo y lo nuevo. Es momento de que te rebeles contra las circunstancias que soportabas únicamente por deber o culpa o porque te brindan seguridad. Este tránsito hace que te vuelvas más arriesgado y le des lugar a lo nuevo. También implica un momento de tensión al dejar de lado lo conocido sin saber con qué te encontrarás. Puede que sientas que las estructuras que te sostenían se desmoronan, sobre todo si te apoyas demasiado en lo externo en vez de en tí mismo. También puede que se te presenten conflictos con figuras de autoridad como padres o jefes.
+**Urano en tránsito a Saturno natal** en (YYYY) produce en tí un encuentro entre lo viejo y lo nuevo. Es momento de que te rebeles contra las circunstancias que soportabas únicamente por deber o culpa o porque te brindan seguridad. Este tránsito hace que te vuelvas más arriesgado y le des lugar a lo nuevo. También implica un momento de tensión al dejar de lado lo conocido sin saber con qué te encontrarás. Puede que sientas que las estructuras que te sostenían se desmoronan, sobre todo si te apoyas demasiado en lo externo en vez de en tí mismo. También puede que se te presenten conflictos con figuras de autoridad como padres o jefes.
 
 ## **Neptuno en Tránsito**
 
@@ -2418,11 +2418,11 @@ Este tránsito hace que **Urano** **toque el Sol** generándote mucha inquietud,
 
 #### **Tránsito de Neptuno por Casa 3 Natal**
 
-**Con Neptuno en tránsito por la casa tres** en este ciclo sentirás que tu mente se sensibiliza tornándose fácilmente influenciable y que no te es posible fijar límites entre tus pensamientos y los de los demás. Aumentan así la confusión y la desorganización mental, y hay mayor conexión con el mundo onírico. Pueden darse situaciones confusas o engañosas con alguno de tus hermanos, tal vez debas sacrificarte por alguno de ellos. Es un período ideal para que te conectes con tu inconsciente a partir de terapias alternativas.
+**Con Neptuno en tránsito por la casa tres** entre (YYYY) y (YYYY) sentirás que tu mente se sensibiliza tornándose fácilmente influenciable y que no te es posible fijar límites entre tus pensamientos y los de los demás. Aumentan así la confusión y la desorganización mental, y hay mayor conexión con el mundo onírico. Pueden darse situaciones confusas o engañosas con alguno de tus hermanos, tal vez debas sacrificarte por alguno de ellos. Es un período ideal para que te conectes con tu inconsciente a partir de terapias alternativas.
 
 #### **Tránsito de Neptuno por Casa 4 Natal**
 
-**Con Neptuno en tránsito por la casa cuatro** en este ciclo suele aumentar la desorganización en la familia y puede que vivas situaciones caóticas en el hogar. Debes estar atento si vas a realizar negocios inmobiliarios porque este tránsito es bastante propenso a los engaños. Vas a sentirte más sensible, necesitando estar contigo mismo y en silencio.
+**Con Neptuno en tránsito por la casa cuatro** entre (YYYY) y (YYYY) suele aumentar la desorganización en la familia y puede que vivas situaciones caóticas en el hogar. Debes estar atento si vas a realizar negocios inmobiliarios porque este tránsito es bastante propenso a los engaños. Vas a sentirte más sensible, necesitando estar contigo mismo y en silencio.
 
 #### **Tránsito de Neptuno por Casa 5 Natal**
 
@@ -2438,7 +2438,7 @@ Este tránsito hace que **Urano** **toque el Sol** generándote mucha inquietud,
 
 #### **Tránsito de Neptuno por Casa 11 Natal**
 
-**Neptuno en tránsito por la casa once** durante este periodo puede traerte incertidumbre o descontento con respecto a tus objetivos de vida. Es un buen momento para que te conectes con grupos u organizaciones que antes no te interesaban. La casa once está vinculada con la amistad. En su vertiente positiva, Neptuno indica amigos que te brindan su apoyo y te ayudan a ensanchar tu horizonte y abrir los ojos a metas y visiones nuevas, posiblemente de carácter espiritual o metafísico. En su versión negativa, este tránsito indica amigos que te defraudan o abandonan. En este caso, Neptuno exige renunciar a las altas expectativas de la amistad para aprender a ser más tolerante con los demás y a aceptarlos tal como son. 
+**Neptuno en tránsito por la casa once** desde (YYYY) y hasta (YYYY) puede traerte incertidumbre o descontento con respecto a tus objetivos de vida. Es un buen momento para que te conectes con grupos u organizaciones que antes no te interesaban. La casa once está vinculada con la amistad. En su vertiente positiva, Neptuno indica amigos que te brindan su apoyo y te ayudan a ensanchar tu horizonte y abrir los ojos a metas y visiones nuevas, posiblemente de carácter espiritual o metafísico. En su versión negativa, este tránsito indica amigos que te defraudan o abandonan. En este caso, Neptuno exige renunciar a las altas expectativas de la amistad para aprender a ser más tolerante con los demás y a aceptarlos tal como son. 
 
 #### **Tránsito de Neptuno por Casa 12 Natal**
 
@@ -2459,7 +2459,7 @@ En su aspecto positivo, la sensibilidad de Neptuno es ideal para conectarte con 
 
 #### **Neptuno en Tránsito por Conjunción o Cuadratura u Oposición a Venus Natal**
 
-**Con el tránsito de Neptuno por Venus** en en su momento te es difícil tener una visión realista de tu pareja. En caso de empezar una relación durante este tránsito, seguramente idealices demasiado al otro. Si ya estás en pareja, puede que tengas que sacrificarte de algún modo por esa persona o adaptarte a sus necesidades. En su aspecto positivo, este tránsito incrementa tus capacidades artísticas, te vuelve más comprensivo, generoso y menos rígido en tus vínculos.
+**Con el tránsito de Neptuno por Venus** en (YYYY) te es difícil tener una visión realista de tu pareja. En caso de empezar una relación durante este tránsito, seguramente idealices demasiado al otro. Si ya estás en pareja, puede que tengas que sacrificarte de algún modo por esa persona o adaptarte a sus necesidades. En su aspecto positivo, este tránsito incrementa tus capacidades artísticas, te vuelve más comprensivo, generoso y menos rígido en tus vínculos.
 
 #### **Neptuno en Tránsito por Conjunción o Cuadratura u Oposición a Marte Natal**
 
@@ -2467,7 +2467,7 @@ En su aspecto positivo, la sensibilidad de Neptuno es ideal para conectarte con 
 
 #### **Neptuno en Tránsito por Conjunción al Ascendente (ángulo)**
 
-**El tránsito de Neptuno por el ascendente** a partir de en su momento estimula tu deseo de trascender o entregarte a un ideal y suele venir acompañado de experiencias de carácter religioso. Con Neptuno siempre debes discriminar qué ideal o sistema de creencias sostener para no quedarte en una propuesta utópica que te desilusione. En su aspecto positivo, este tránsito te ayuda a disolver los rasgos más rígidos o estructurados de tu personalidad y te permite una apertura hacia lo trascendente.
+**El tránsito de Neptuno por el ascendente** a partir de (YYYY) estimula tu deseo de trascender o entregarte a un ideal y suele venir acompañado de experiencias de carácter religioso. Con Neptuno siempre debes discriminar qué ideal o sistema de creencias sostener para no quedarte en una propuesta utópica que te desilusione. En su aspecto positivo, este tránsito te ayuda a disolver los rasgos más rígidos o estructurados de tu personalidad y te permite una apertura hacia lo trascendente.
 
 ## **Plutón en Tránsito**
 
@@ -2514,7 +2514,7 @@ A lo largo del tránsito, que dura aproximadamente 20 años, los cambios más im
 
 #### **Tránsito de Plutón por Casa 12 Natal**
 
-**Plutón en tránsito por casa doce** a partir de en su momento te permite sacar a la luz aquellos aspectos de tu personalidad que hasta el momento permanecían reprimidos o no reconocías como propios. De este modo, podrás afrontarlos e integrarlos a tu propia identidad. Durante este tránsito puede que se reactiven problemas pasados que quedaron sin resolver, muchas veces a través del reencuentro con personas del pasado.
+**Plutón en tránsito por casa doce** a partir de (YYYY) te permite sacar a la luz aquellos aspectos de tu personalidad que hasta el momento permanecían reprimidos o no reconocías como propios. De este modo, podrás afrontarlos e integrarlos a tu propia identidad. Durante este tránsito puede que se reactiven problemas pasados que quedaron sin resolver, muchas veces a través del reencuentro con personas del pasado.
 
 ### **Tránsitos de Plutón Aspectos**
 
@@ -2532,7 +2532,7 @@ A lo largo del tránsito, que dura aproximadamente 20 años, los cambios más im
 
 #### **Plutón en Tránsito a Mercurio Natal**
 
-Mercurio el planeta que representa cómo pensamos y nos expresamos, así como nuestro vínculo con los pares. Plutón te llama a vivir una transformación a través de una crisis profunda en **Mercurio**. Esto indica que lo que está en proceso de cambio es tu modo de pensar y comunicar. Es normal que durante el tránsito vivas estados mentales obsesivos, pues Plutón necesita tocar fondo para poder resurgir. Puede que salgan a la luz situaciones que estaban ocultas. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso en su momento.
+Mercurio el planeta que representa cómo pensamos y nos expresamos, así como nuestro vínculo con los pares. Plutón te llama a vivir una transformación a través de una crisis profunda en **Mercurio**. Esto indica que lo que está en proceso de cambio es tu modo de pensar y comunicar. Es normal que durante el tránsito vivas estados mentales obsesivos, pues Plutón necesita tocar fondo para poder resurgir. Puede que salgan a la luz situaciones que estaban ocultas. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso (YYYY).
 
 #### **Plutón en Tránsito a Venus Natal**
 
@@ -2540,7 +2540,7 @@ Venus el planeta que representa el placer, explica nuestro modo de encarar las r
 
 #### **Plutón en Tránsito a Marte Natal**
 
-Marte el planeta que representa cómo nos afirmamos en la vida y cómo obtenemos lo que deseamos. Plutón te llama a vivir una transformación a través de una crisis profunda en **Marte**. Esto indica que lo que está en proceso de cambio es la manera de luchar por tu propia vida, de comprometerte contigo mismo, de hacer valer tus derechos ante los otros e ir en pos de tus propios deseos. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso en su momento.
+Marte el planeta que representa cómo nos afirmamos en la vida y cómo obtenemos lo que deseamos. Plutón te llama a vivir una transformación a través de una crisis profunda en **Marte**. Esto indica que lo que está en proceso de cambio es la manera de luchar por tu propia vida, de comprometerte contigo mismo, de hacer valer tus derechos ante los otros e ir en pos de tus propios deseos. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso (YYYY).
 
 #### **Plutón en Tránsito a Saturno Natal**
 
@@ -2788,7 +2788,7 @@ Al entrar en este sector desde (agregar fecha) hasta (agregar fecha)  aproximada
 
 Este comienza cuando tanto el Sol como la Luna progresadas hacen una conjunción partil. Este ciclo dura 29 años y puede comenzar en cualquier momento. En tu caso, empezó en (agregar fecha) y durará hasta (agregar fecha).
 
-**La Luna nueva progresada a partir de** (agregar fecha) marca un surgimiento, la liberación de un nuevo impulso. Hay anhelos de una vida nueva, de empezar un nuevo ciclo, aunque todavía hay confusión y no sabes muy bien hacia dónde ir. Como está en tu casa en su momento, el impulso se da sobre todo en el área de en su momento
+**La Luna nueva progresada a partir de** (agregar fecha) marca un surgimiento, la liberación de un nuevo impulso. Hay anhelos de una vida nueva, de empezar un nuevo ciclo, aunque todavía hay confusión y no sabes muy bien hacia dónde ir. Como está en tu casa (YYYY), el impulso se da sobre todo en el área de (YYYY)
 
 ### **La Luna Nueva Progresada está en Fase de Semicuadratura Creciente (45 Grados)**
 
@@ -2796,23 +2796,23 @@ Es un período de afirmación de lo iniciado durante el nuevo ciclo Sol Luna. El
 
 ### **Con la Luna Nueva Progresada en Fase de Cuarto Creciente (90 Grados)**
 
-Es momento de acción. Queda establecido el rumbo de la etapa iniciada en en su momento, tus impulsos se consolidan, manifestándose en estructuras concretas. 
+Es momento de acción. Queda establecido el rumbo de la etapa iniciada en (YYYY), tus impulsos se consolidan, manifestándose en estructuras concretas. 
 
 ### **Con la Luna Nueva Progresada en Fase Gibosa o de Sesquicuadratura Creciente (135 Grados)**
 
-Es momento de expresar en el mundo aquello que empezó en en su momento y a lo que fuiste dándole forma. Se consolida el proceso como dirección de vida y camino de desarrollo personal.
+Es momento de expresar en el mundo aquello que empezó en (YYYY) y a lo que fuiste dándole forma. Se consolida el proceso como dirección de vida y camino de desarrollo personal.
 
 ### **La Luna Nueva Progresada está en Fase de Luna Llena u Oposición (180 Grados)**
 
-Lo que indica que es un momento de plenitud, de claridad, donde puedes ver todo el camino recorrido desde el inicio del ciclo en en su momento. Tus experiencias se asimilan y puedes ver los frutos de esto. En este momento puede surgir la búsqueda de nuevos significados.
+Lo que indica que es un momento de plenitud, de claridad, donde puedes ver todo el camino recorrido desde el inicio del ciclo en (YYYY). Tus experiencias se asimilan y puedes ver los frutos de esto. En este momento puede surgir la búsqueda de nuevos significados.
 
 ### **La Luna Nueva Progresada está en Fase de Luna Menguante o Sesquicuadratura Menguante (225 Grados)**
 
-En este período tienes la oportunidad de incorporar aquellos aspectos que necesitaste negar para poder darle forma a lo iniciado en en su momento. Puede ser un momento muy enriquecedor pues te ofrece la posibilidad de hacerte cargo de las cosas. Es hora de compartir con otros lo aprendido. 
+En este período tienes la oportunidad de incorporar aquellos aspectos que necesitaste negar para poder darle forma a lo iniciado en (YYYY). Puede ser un momento muy enriquecedor pues te ofrece la posibilidad de hacerte cargo de las cosas. Es hora de compartir con otros lo aprendido. 
 
 ### **La Luna Nueva Progresada está en Fase Balsámica, o de Semicuadratura Menguante (315 Grados)**
 
-Es entonces una etapa de renuncia donde se siente el final de un ciclo que empezó hace casi 30 años. Ya incorporaste a tu vida las cosas que tenías que aprender e inicia así una transición hasta la nueva conjunción Sol Luna progresada a partir de en su momento.
+Es entonces una etapa de renuncia donde se siente el final de un ciclo que empezó hace casi 30 años. Ya incorporaste a tu vida las cosas que tenías que aprender e inicia así una transición hasta la nueva conjunción Sol Luna progresada a partir de (YYYY).
 
 ## **Proluna** 
 
@@ -2822,100 +2822,100 @@ Este tipo de progresión toma períodos de siete años aproximadamente, y las fe
 
 #### **Ingreso Proluna en Aries Natal**
 
-Venías de un período de dispersión y apatía y te pusiste en acción. Aumentó así tu fuerza para darle comienzo a nuevos proyectos y te sientes más entusiasmado en general, con el foco puesto en tí mismo, Aries es un signo sumamente individualista que no siempre tiene en cuenta a los demás. Durante esta proluna selen ser más frecuentes los arrebatos, los enojos e impaciencias. La proluna estará en este signo hasta finalizar esta etapa.
+Venías de un período de dispersión y apatía y te pusiste en acción. Aumentó así tu fuerza para darle comienzo a nuevos proyectos y te sientes más entusiasmado en general, con el foco puesto en tí mismo, Aries es un signo sumamente individualista que no siempre tiene en cuenta a los demás. Durante esta proluna selen ser más frecuentes los arrebatos, los enojos e impaciencias. La proluna estará en este signo hasta los (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Tauro Natal**
 
-En una etapa de tu vida, empezaste a enfocarte en darle forma a lo que habías comenzado con entusiasmo en años anteriores. En esta etapa necesitas sustentar tus impulsos y llevarlos hacia un resultado concreto que perdure en el tiempo. Te vuelves menos fogoso y a la vez más práctico, metódico y rutinario. Debes tener cuidado de que esta búsqueda de estabilidad y seguridad no se transforme en pesadez. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, empezaste a enfocarte en darle forma a lo que habías comenzado con entusiasmo en años anteriores. En esta etapa necesitas sustentar tus impulsos y llevarlos hacia un resultado concreto que perdure en el tiempo. Te vuelves menos fogoso y a la vez más práctico, metódico y rutinario. Debes tener cuidado de que esta búsqueda de estabilidad y seguridad no se transforme en pesadez. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Géminis Natal**
 
- En una etapa de tu vida, dejaste atrás la pesadez y estabilidad anterior para darle lugar a un período en el que predomina lo social. Te sientes mucho más liviano, desapegado, con facilidad para adaptarte a las circunstancias que te tocan. Se acrecienta tu capacidad para comunicar tus ideas y te vuelves más fluido en tu forma de expresarte. Durante esta progresión suelen aumentar los viajes cortos y todo tipo de desplazamientos y contactos. Si llevas la energía geminiana a un extremo corres el riesgo de caer en conductas demasiado superficiales o irresponsables que podrían atentar contra tus vínculos. La proluna estará en este signo hasta completar este ciclo.
+ A tus (YYYY) años aproximadamente, dejaste atrás la pesadez y estabilidad anterior para darle lugar a un período en el que predomina lo social. Te sientes mucho más liviano, desapegado, con facilidad para adaptarte a las circunstancias que te tocan. Se acrecienta tu capacidad para comunicar tus ideas y te vuelves más fluido en tu forma de expresarte. Durante esta progresión suelen aumentar los viajes cortos y todo tipo de desplazamientos y contactos. Si llevas la energía geminiana a un extremo corres el riesgo de caer en conductas demasiado superficiales o irresponsables que podrían atentar contra tus vínculos. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Cáncer Natal**
 
-En una etapa de tu vida, te volviste mucho más selectivo en tus vínculos luego de vivir una etapa geminiana cargada de asociaciones. En este nuevo período buscas relacionarte desde un lugar más profundo e íntimo. Necesitas momentos de retiro y soledad: aumenta en tí la introversión, el interés por el pasado, la familia y las tradiciones.  
-Cáncer es uno de los signos más sensibles y está sujeto a frecuentes altibajos emocionales, por eso durante este período debes cuidarte de no sucumbir a una susceptibilidad extrema y caprichosa. La proluna estará en este signo hasta completar este ciclo.  
+A tus (YYYY) años aproximadamente, te volviste mucho más selectivo en tus vínculos luego de vivir una etapa geminiana cargada de asociaciones. En este nuevo período buscas relacionarte desde un lugar más profundo e íntimo. Necesitas momentos de retiro y soledad: aumenta en tí la introversión, el interés por el pasado, la familia y las tradiciones.  
+Cáncer es uno de los signos más sensibles y está sujeto a frecuentes altibajos emocionales, por eso durante este período debes cuidarte de no sucumbir a una susceptibilidad extrema y caprichosa. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.  
  
 
 #### **Ingreso Proluna en Leo Natal**
 
-En una etapa de tu vida, se produjo un giro notable en tu vida volviéndote mucho más extrovertido, determinado y seguro de tí mismo. Dejaste atrás las susceptibilidades e indecisiones de la etapa anterior para salir del cascarón y así reafirmarte y destacarte frente al entorno. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, se produjo un giro notable en tu vida volviéndote mucho más extrovertido, determinado y seguro de tí mismo. Dejaste atrás las susceptibilidades e indecisiones de la etapa anterior para salir del cascarón y así reafirmarte y destacarte frente al entorno. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Virgo Natal**
 
- En una etapa de tu vida, la extroversión y determinación leoninas dieron lugar a un modo mucho más práctico, adaptable y terrenal en tí. Dejaste atrás tus ilusiones para enfocarte en una realidad objetiva y sacar el mejor provecho de las situaciones. A través de un riguroso autoexamen reconoces tus limitaciones, lo que te lleva a una apreciación más realista y humilde de tí. Corres el riesgo de que tu amor por los detalles y el orden se transforme en una obsesión que termine agobiándote. La proluna estará en este signo hasta completar este ciclo.
+ A tus (YYYY) años aproximadamente, la extroversión y determinación leoninas dieron lugar a un modo mucho más práctico, adaptable y terrenal en tí. Dejaste atrás tus ilusiones para enfocarte en una realidad objetiva y sacar el mejor provecho de las situaciones. A través de un riguroso autoexamen reconoces tus limitaciones, lo que te lleva a una apreciación más realista y humilde de tí. Corres el riesgo de que tu amor por los detalles y el orden se transforme en una obsesión que termine agobiándote. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Libra Natal**
 
-Aproximadamente empezaste a sentir que era hora de liberarte de actitudes fastidiosas y detallistas características de los últimos años. En este nuevo período, más que apoyarte en una rutina metódica y sofocante buscas crear ambientes armónicos y equilibrados. Aumenta tu interés por la vida social. En vez de preocuparte por la utilidad de un objeto, te inclinas por tus cualidades estéticas o artísticas. Te haces más flexible y comprensivo, lo que te permite desplegar ciertas cualidades librianas como la diplomacia, el interés por la cultura y la justicia. La proluna estará en este signo hasta completar este ciclo.
+Aproximadamente a tus (YYYY) años empezaste a sentir que era hora de liberarte de actitudes fastidiosas y detallistas características de los últimos años. En este nuevo período, más que apoyarte en una rutina metódica y sofocante buscas crear ambientes armónicos y equilibrados. Aumenta tu interés por la vida social. En vez de preocuparte por la utilidad de un objeto, te inclinas por tus cualidades estéticas o artísticas. Te haces más flexible y comprensivo, lo que te permite desplegar ciertas cualidades librianas como la diplomacia, el interés por la cultura y la justicia. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Escorpio Natal**
 
-Aproximadamente te embarcaste en un período de crisis y cambios trascendentales. Te volviste más selectivo en los vínculos, cortando ciertas relaciones para poder conectarte de modo más profundo y comprometido. Escorpio es un signo de agua, que hace que aumente durante esta etapa tu sensibilidad. Intenta evitar los extremos y estar del lado del eterno conflicto. De lo contrario, corres el riesgo de quedarte enganchado en situaciones que te traigan resentimiento. Si aprendes a soltar podrás llegar al fondo de cuestiones que te posibilitan un cambio profundo. La proluna estará en este signo hasta completar este ciclo.
+Aproximadamente a tus (YYYY) años te embarcaste en un período de crisis y cambios trascendentales. Te volviste más selectivo en los vínculos, cortando ciertas relaciones para poder conectarte de modo más profundo y comprometido. Escorpio es un signo de agua, que hace que aumente durante esta etapa tu sensibilidad. Intenta evitar los extremos y estar del lado del eterno conflicto. De lo contrario, corres el riesgo de quedarte enganchado en situaciones que te traigan resentimiento. Si aprendes a soltar podrás llegar al fondo de cuestiones que te posibilitan un cambio profundo. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Sagitario Natal**
 
-En una etapa de tu vida empezaste un período de expansión con un anhelo por trascender y encontrar nuevos y más amplios significados. Sagitario es un signo de fuego, y por ende durante esta fase sentirás que se acrecienta tu individualismo y entusiasmo. Suelen estar presentes los viajes y contactos con el extranjero; también puede darse un despertar religioso en tí. Con Sagitario debes resguardarte de las idealizaciones, del exceso de confianza, la falta de moderación y el despilfarro. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente empezaste un período de expansión con un anhelo por trascender y encontrar nuevos y más amplios significados. Sagitario es un signo de fuego, y por ende durante esta fase sentirás que se acrecienta tu individualismo y entusiasmo. Suelen estar presentes los viajes y contactos con el extranjero; también puede darse un despertar religioso en tí. Con Sagitario debes resguardarte de las idealizaciones, del exceso de confianza, la falta de moderación y el despilfarro. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Capricornio Natal**
 
-En una etapa de tu vida, empezaste un período de realismo y austeridad dejando atrás las exageraciones de Sagitario. Durante esta etapa es momento de pagar por la fiesta de optimismo y despilfarro de la fase anterior. Quizás debas asumir nuevas responsabilidades que te hagan renunciar a la libertad y el permisivismo de otros tiempos. Sea cual fuere el caso, pasas de una etapa de expansión a otra de contracción. Comienza un estado vinculado a la búsqueda de seguridad material, te vuelves más precavido y organizado, más forma y maduro. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, empezaste un período de realismo y austeridad dejando atrás las exageraciones de Sagitario. Durante esta etapa es momento de pagar por la fiesta de optimismo y despilfarro de la fase anterior. Quizás debas asumir nuevas responsabilidades que te hagan renunciar a la libertad y el permisivismo de otros tiempos. Sea cual fuere el caso, pasas de una etapa de expansión a otra de contracción. Comienza un estado vinculado a la búsqueda de seguridad material, te vuelves más precavido y organizado, más forma y maduro. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Acuario Natal**
 
-En una etapa de tu vida empezaste un período de alivianamiento donde te liberaste de las exigencias y la rígida rutina de la etapa anterior. Aumentan así tu libertad y tus ganas de relacionarte con gente distinta y aprender cosas nuevas. Es un buen momento para introducir cambios en las situaciones o vínculos que te asfixian e impiden evolucionar. Debes encontrar la distancia justa para que en tus relaciones no se destruya el vínculo ni te sientas atrapado. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente empezaste un período de alivianamiento donde te liberaste de las exigencias y la rígida rutina de la etapa anterior. Aumentan así tu libertad y tus ganas de relacionarte con gente distinta y aprender cosas nuevas. Es un buen momento para introducir cambios en las situaciones o vínculos que te asfixian e impiden evolucionar. Debes encontrar la distancia justa para que en tus relaciones no se destruya el vínculo ni te sientas atrapado. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### **Ingreso Proluna en Piscis Natal**
 
-En una etapa de tu vida empezaste un período de aislamiento e introversión. Al aumentar tu sensibilidad te sientes invadido por el entorno y necesitas momentos de silencio y meditación. Suele ser una etapa angustiante donde prevalece el desorden y la confusión, y la lógica y la voluntad parecen adormecerse. En un aspecto positivo, te vuelves más romántico, compasivo y tolerante con los demás. Es un buen momento para que desarrolles alguna forma de arte que te permita canalizar tu imaginación y sensibilidad. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente empezaste un período de aislamiento e introversión. Al aumentar tu sensibilidad te sientes invadido por el entorno y necesitas momentos de silencio y meditación. Suele ser una etapa angustiante donde prevalece el desorden y la confusión, y la lógica y la voluntad parecen adormecerse. En un aspecto positivo, te vuelves más romántico, compasivo y tolerante con los demás. Es un buen momento para que desarrolles alguna forma de arte que te permita canalizar tu imaginación y sensibilidad. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 ### **Proluna Aspectos**
 
 #### **Proluna Trígono al Sol Natal**
 
-En una etapa de tu vida te trae éxito y reconocimiento del entorno. 
+A tus (YYYY) años aproximadamente te trae éxito y reconocimiento del entorno. 
 
 #### **Proluna Inarmónico al Sol Natal**
 
-En una etapa de tu vida te provoca desvalorización personal y pérdidas de índole material, sentimental o social. 
+A tus (YYYY) años aproximadamente te provoca desvalorización personal y pérdidas de índole material, sentimental o social. 
 
 #### **Proluna Conjunción al Sol Natal**
 
-En una etapa de tu vida señala un nuevo estado en tí, un enfoque novedoso de tu personalidad y de la forma de expresar tus talentos y potencialidades.
+A tus (YYYY) años aproximadamente señala un nuevo estado en tí, un enfoque novedoso de tu personalidad y de la forma de expresar tus talentos y potencialidades.
 
 #### **Proluna Trígono a la Luna Natal**
 
- En una etapa de tu vida ayuda para que los asuntos del hogar, la familia, el cuidado y la nutrición de tu entorno alcancen una expresión óptima. 
+ A tus (YYYY) años aproximadamente ayuda para que los asuntos del hogar, la familia, el cuidado y la nutrición de tu entorno alcancen una expresión óptima. 
 
 #### **Proluna Inarmónico a Luna Natal**
 
-En una etapa de tu vida pudo producir conflictos con tu familia, problemas en el hogar, o emocionalidades desordenadas que dieron lugar a crisis psíquicas.
+A tus (YYYY) años aproximadamente pudo producir conflictos con tu familia, problemas en el hogar, o emocionalidades desordenadas que dieron lugar a crisis psíquicas.
 
 #### **Proluna Conjunción a Luna Natal**
 
-En una etapa de tu vida marca un nuevo punto de partida en tu vida en relación a tu familia y tu hogar y en la manera de cuidar, nutrir y proteger al otro así como de sentirte seguro.
+A tus (YYYY) años aproximadamente marca un nuevo punto de partida en tu vida en relación a tu familia y tu hogar y en la manera de cuidar, nutrir y proteger al otro así como de sentirte seguro.
 
 #### **Proluna Trígono a Mercurio Natal**
 
-En una etapa de tu vida te favoreció en los estudios, la comunicación, los logros intelectuales, el comercio y las relaciones con tus pares.
+A tus (YYYY) años aproximadamente te favoreció en los estudios, la comunicación, los logros intelectuales, el comercio y las relaciones con tus pares.
 
 #### **Proluna Inarmónico a Mercurio Natal**
 
- En una etapa de tu vida te imposibilitó el aprendizaje, la difusión de conocimientos, los proyectos intelectuales, la comunicación, los viajes cortos y los vínculos con tus pares.
+ A tus (YYYY) años aproximadamente te imposibilitó el aprendizaje, la difusión de conocimientos, los proyectos intelectuales, la comunicación, los viajes cortos y los vínculos con tus pares.
 
 #### **Proluna Conjunción a Mercurio Natal**
 
-En una etapa de tu vida señala un nuevo estado en intelectual y en tu manera de comunicarte, así como en tu vínculo con tus pares.
+A tus (YYYY) años aproximadamente señala un nuevo estado en intelectual y en tu manera de comunicarte, así como en tu vínculo con tus pares.
 
 #### **Proluna Armónico a Venus Natal**
 
-En una etapa de tu vida te favorece en los vínculos, dotándote de una vida social activa. Aumenta tu carisma y te vuelve más seductor. 
+A tus (YYYY) años aproximadamente te favorece en los vínculos, dotándote de una vida social activa. Aumenta tu carisma y te vuelve más seductor. 
 
 #### **Proluna Armónico a Marte Natal**
 
-En una etapa de tu vida te favorece en la productividad y te vuelve más activo. Es así como tomas iniciativas, te llenas de entusiasmo y estás más motivado.
+A tus (YYYY) años aproximadamente te favorece en la productividad y te vuelve más activo. Es así como tomas iniciativas, te llenas de entusiasmo y estás más motivado.
 
 #### **Proluna Inarmónico a Marte Natal**
 
-En una etapa de tu vida puede causarte reacciones desmedidas y hasta accidentes. Estás más irascible, reaccionando ante el menor estímulo.   
+A tus (YYYY) años aproximadamente puede causarte reacciones desmedidas y hasta accidentes. Estás más irascible, reaccionando ante el menor estímulo.   

@@ -4,7 +4,7 @@ Urano simboliza lo novedoso, lo distinto, lo que rompe con estructuras tradicion
 
 ## urano retrógrado
 
-Urano, el planeta de la originalidad y la libertad, está retrógrado en tu Carta. Esto significa que cuando naciste, su movimiento en el cielo era hacia atrás. Esto hace que anheles encontrar algo distinto y desconocido, aunque sin un vehículo claro para hacerlo. Si no logras canalizarlo, esto se manifestará como irritabilidad, angustia e insatisfacción. Importante: al retomar su movimiento directo por progresiones, esta tendencia se revertirá, y a partir de entonces te será más sencillo darle lugar a tu originalidad. (Atención, al ser lento es posible que no retome el movimiento directo por progresiones en toda la vida del individuo)
+Urano, el planeta de la originalidad y la libertad, está retrógrado en tu Carta. Esto significa que cuando naciste, su movimiento en el cielo era hacia atrás. Esto hace que anheles encontrar algo distinto y desconocido, aunque sin un vehículo claro para hacerlo. Si no logras canalizarlo, esto se manifestará como irritabilidad, angustia e insatisfacción. Al retomar su movimiento directo por progresiones, a tus (YYYY) años, esta tendencia se revertirá, y a partir de entonces te será más sencillo darle lugar a tu originalidad. (Atención, al ser lento es posible que no retome el movimiento directo por progresiones en toda la vida del individuo)
 
 ## la ubicación de urano en las casas
 

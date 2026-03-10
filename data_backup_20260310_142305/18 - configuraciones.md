@@ -14,8 +14,7 @@ Tu Carta muestra la Cometa Cósmica, una figura que indica intensa actividad men
 
 ## la t cuadrada
 
-Tu Carta muestra una T Cuadrada. Se trata de una figura formada por dos cuadraturas y una oposición, todos estos aspectos de fricción. Por lo general indica inconvenientes o sucesos contradictorios en la vida, lo que explica que sientas que las cosas se obtienen con mucho esfuerzo. Enfrentarte a obstáculos te obligará a desarrollar una gran capacidad de lucha y resistencia así como una determinación que a la larga te facilitarán la realización de tus propósitos. Es por eso que suele decirse que la T Cuadrada es la responsable del éxito en la vida.  
-Como los signos involucrados en esta figura son Aries, Cáncer, Libra y Capricornio, eres sumamente activo y siempre buscas generar nuevos proyectos. Debes cuidar tu impaciencia e impulsividad y al mismo tiempo aprender a organizar mejor tu energía.
+Tu Carta muestra una T Cuadrada. Se trata de una figura formada por dos cuadraturas y una oposición, todos estos aspectos de fricción. Por lo general indica inconvenientes o sucesos contradictorios en la vida, lo que explica que sientas que las cosas se obtienen con mucho esfuerzo. Enfrentarte a obstáculos te obligará a desarrollar una gran capacidad de lucha y resistencia así como una determinación que a la larga te facilitarán la realización de tus propósitos. Es por eso que suele decirse que la T Cuadrada es la responsable del éxito en la vida.  Como los signos involucrados en esta figura son Aries, Cáncer, Libra y Capricornio, eres sumamente activo y siempre buscas generar nuevos proyectos. Debes cuidar tu impaciencia e impulsividad y al mismo tiempo aprender a organizar mejor tu energía.
 
 Como los signos involucrados en esta figura son Tauro, Leo, Escorpio y Acuario, tienes una voluntad firme y resolutiva pero debes aprender que no siempre tendrás el control de todo.
 
@@ -33,11 +32,11 @@ Como los signos involucrados en esta figura son Géminis, Virgo, Sagitario y Pis
 
 ## stellium
 
-El stellium es un grupo de planetas ubicados en el mismo signo que influyen unos a otros y al hacerlo concentran gran cantidad de energía. Como tienes un Stellium en tu signo y en una casa específica, a lo largo de tu vida te enfocarás en esta área fundamental de tu vida.
+El stellium es un grupo de planetas ubicados en el mismo signo que influyen unos a otros y al hacerlo concentran gran cantidad de energía. Como tienes un Stellium en el signo de (YYYY) y la casa WWW, a lo largo de tu vida te enfocarás en el área de (YYYY).
 
 ## yod
 
-El Yod es una configuración que aparece en la Carta de personas cuyo destino tiende a ser singular, con cambios a lo largo de la vida que deben enfrentar a través de un cambio de conciencia. El planeta focal (o más sensible) dentro de la configuración indica qué energía debe ser corregida y regenerada. El Yod requiere renunciar al pasado para ingresar en una nueva etapa, y su influencia es especialmente fuerte cuando está activado por un tránsito. En tu caso, este tránsito se dio en en su momento.
+El Yod es una configuración que aparece en la Carta de personas cuyo destino tiende a ser singular, con cambios a lo largo de la vida que deben enfrentar a través de un cambio de conciencia. El planeta focal (o más sensible) dentro de la configuración indica qué energía debe ser corregida y regenerada. El Yod requiere renunciar al pasado para ingresar en una nueva etapa, y su influencia es especialmente fuerte cuando está activado por un tránsito. En tu caso, este tránsito se dio en (YYYY).
 
 ### el sol focal en el yod
 

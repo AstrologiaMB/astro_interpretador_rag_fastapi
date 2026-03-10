@@ -8,6 +8,23 @@ import unicodedata
 # Asegurar que el encoding sea utf-8 para todo
 sys.stdout.reconfigure(encoding='utf-8')
 
+def _normalize_key(key: str) -> str:
+    """
+    Normaliza key: minúsculas, sin acentos, espacios limpios.
+    Elimina artículos como 'la' antes de 'casa' para consistencia.
+    Ej: "Plutón en la Casa 12" → "pluton en casa 12"
+    """
+    # 1. Lowercase
+    key = key.lower().strip()
+    # 2. Eliminar acentos
+    key = ''.join(c for c in unicodedata.normalize('NFD', key) 
+                  if unicodedata.category(c) != 'Mn')
+    # 3. Eliminar 'la ' antes de 'casa' (ej: "en la casa" → "en casa")
+    key = re.sub(r'\bla\s+', '', key)
+    # 4. Normalizar espacios múltiples
+    key = ' '.join(key.split())
+    return key
+
 def generate_json_from_markdown(data_dir: str = "data"):
     """
     Genera el archivo natal_map.json leyendo TODOS los archivos markdown en la carpeta data.
@@ -48,7 +65,7 @@ def generate_json_from_markdown(data_dir: str = "data"):
                 
                 if match:
                     if current_h3 and current_text:
-                        full_key = current_h3.lower().strip()
+                        full_key = _normalize_key(current_h3)
                         text_content = "\n".join(current_text).strip()
                         
                         if text_content:
@@ -81,7 +98,7 @@ def generate_json_from_markdown(data_dir: str = "data"):
             
             # Procesar el último bloque
             if current_h3 and current_text:
-                full_key = current_h3.lower().strip()
+                full_key = _normalize_key(current_h3)
                 text_content = "\n".join(current_text).strip()
                 if text_content:
                     keys_to_add = _expand_compound_key(full_key)

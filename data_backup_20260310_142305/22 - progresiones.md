@@ -128,7 +128,7 @@ Al entrar en este sector desde (agregar fecha) hasta (agregar fecha)  aproximada
 
 Este comienza cuando tanto el Sol como la Luna progresadas hacen una conjunción partil. Este ciclo dura 29 años y puede comenzar en cualquier momento. En tu caso, empezó en (agregar fecha) y durará hasta (agregar fecha).
 
-La Luna nueva progresada a partir de (agregar fecha) marca un surgimiento, la liberación de un nuevo impulso. Hay anhelos de una vida nueva, de empezar un nuevo ciclo, aunque todavía hay confusión y no sabes muy bien hacia dónde ir. Como está en tu casa en su momento, el impulso se da sobre todo en el área de en su momento
+La Luna nueva progresada a partir de (agregar fecha) marca un surgimiento, la liberación de un nuevo impulso. Hay anhelos de una vida nueva, de empezar un nuevo ciclo, aunque todavía hay confusión y no sabes muy bien hacia dónde ir. Como está en tu casa (YYYY), el impulso se da sobre todo en el área de (YYYY)
 
 ### la luna nueva progresada está en fase de semicuadratura creciente (45 grados)
 
@@ -136,23 +136,23 @@ Es un período de afirmación de lo iniciado durante el nuevo ciclo Sol Luna. El
 
 ### con la luna nueva progresada en fase de cuarto creciente (90 grados)
 
-Es momento de acción. Queda establecido el rumbo de la etapa iniciada en en su momento, tus impulsos se consolidan, manifestándose en estructuras concretas.
+Es momento de acción. Queda establecido el rumbo de la etapa iniciada en (YYYY), tus impulsos se consolidan, manifestándose en estructuras concretas.
 
 ### con la luna nueva progresada en fase gibosa o de sesquicuadratura creciente (135 grados)
 
-Es momento de expresar en el mundo aquello que empezó en en su momento y a lo que fuiste dándole forma. Se consolida el proceso como dirección de vida y camino de desarrollo personal.
+Es momento de expresar en el mundo aquello que empezó en (YYYY) y a lo que fuiste dándole forma. Se consolida el proceso como dirección de vida y camino de desarrollo personal.
 
 ### la luna nueva progresada está en fase de luna llena u oposición (180 grados)
 
-Lo que indica que es un momento de plenitud, de claridad, donde puedes ver todo el camino recorrido desde el inicio del ciclo en en su momento. Tus experiencias se asimilan y puedes ver los frutos de esto. En este momento puede surgir la búsqueda de nuevos significados.
+Lo que indica que es un momento de plenitud, de claridad, donde puedes ver todo el camino recorrido desde el inicio del ciclo en (YYYY). Tus experiencias se asimilan y puedes ver los frutos de esto. En este momento puede surgir la búsqueda de nuevos significados.
 
 ### la luna nueva progresada está en fase de luna menguante o sesquicuadratura menguante (225 grados)
 
-En este período tienes la oportunidad de incorporar aquellos aspectos que necesitaste negar para poder darle forma a lo iniciado en en su momento. Puede ser un momento muy enriquecedor pues te ofrece la posibilidad de hacerte cargo de las cosas. Es hora de compartir con otros lo aprendido.
+En este período tienes la oportunidad de incorporar aquellos aspectos que necesitaste negar para poder darle forma a lo iniciado en (YYYY). Puede ser un momento muy enriquecedor pues te ofrece la posibilidad de hacerte cargo de las cosas. Es hora de compartir con otros lo aprendido.
 
 ### la luna nueva progresada está en fase balsámica, o de semicuadratura menguante (315 grados)
 
-Es entonces una etapa de renuncia donde se siente el final de un ciclo que empezó hace casi 30 años. Ya incorporaste a tu vida las cosas que tenías que aprender e inicia así una transición hasta la nueva conjunción Sol Luna progresada a partir de en su momento.
+Es entonces una etapa de renuncia donde se siente el final de un ciclo que empezó hace casi 30 años. Ya incorporaste a tu vida las cosas que tenías que aprender e inicia así una transición hasta la nueva conjunción Sol Luna progresada a partir de (YYYY).
 
 ## proluna
 
@@ -162,101 +162,101 @@ Este tipo de progresión toma períodos de siete años aproximadamente, y las fe
 
 #### ingreso proluna en aries natal
 
-Venías de un período de dispersión y apatía y te pusiste en acción. Aumentó así tu fuerza para darle comienzo a nuevos proyectos y te sientes más entusiasmado en general, con el foco puesto en tí mismo, Aries es un signo sumamente individualista que no siempre tiene en cuenta a los demás. Durante esta proluna selen ser más frecuentes los arrebatos, los enojos e impaciencias. La proluna estará en este signo hasta finalizar esta etapa.
+Venías de un período de dispersión y apatía y te pusiste en acción. Aumentó así tu fuerza para darle comienzo a nuevos proyectos y te sientes más entusiasmado en general, con el foco puesto en tí mismo, Aries es un signo sumamente individualista que no siempre tiene en cuenta a los demás. Durante esta proluna selen ser más frecuentes los arrebatos, los enojos e impaciencias. La proluna estará en este signo hasta los (YYYY) años aproximadamente.
 
 #### ingreso proluna en tauro natal
 
-En una etapa de tu vida, empezaste a enfocarte en darle forma a lo que habías comenzado con entusiasmo en años anteriores. En esta etapa necesitas sustentar tus impulsos y llevarlos hacia un resultado concreto que perdure en el tiempo. Te vuelves menos fogoso y a la vez más práctico, metódico y rutinario. Debes tener cuidado de que esta búsqueda de estabilidad y seguridad no se transforme en pesadez. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, empezaste a enfocarte en darle forma a lo que habías comenzado con entusiasmo en años anteriores. En esta etapa necesitas sustentar tus impulsos y llevarlos hacia un resultado concreto que perdure en el tiempo. Te vuelves menos fogoso y a la vez más práctico, metódico y rutinario. Debes tener cuidado de que esta búsqueda de estabilidad y seguridad no se transforme en pesadez. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en géminis natal
 
-En una etapa de tu vida, dejaste atrás la pesadez y estabilidad anterior para darle lugar a un período en el que predomina lo social. Te sientes mucho más liviano, desapegado, con facilidad para adaptarte a las circunstancias que te tocan. Se acrecienta tu capacidad para comunicar tus ideas y te vuelves más fluido en tu forma de expresarte. Durante esta progresión suelen aumentar los viajes cortos y todo tipo de desplazamientos y contactos. Si llevas la energía geminiana a un extremo corres el riesgo de caer en conductas demasiado superficiales o irresponsables que podrían atentar contra tus vínculos. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, dejaste atrás la pesadez y estabilidad anterior para darle lugar a un período en el que predomina lo social. Te sientes mucho más liviano, desapegado, con facilidad para adaptarte a las circunstancias que te tocan. Se acrecienta tu capacidad para comunicar tus ideas y te vuelves más fluido en tu forma de expresarte. Durante esta progresión suelen aumentar los viajes cortos y todo tipo de desplazamientos y contactos. Si llevas la energía geminiana a un extremo corres el riesgo de caer en conductas demasiado superficiales o irresponsables que podrían atentar contra tus vínculos. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en cáncer natal
 
-En una etapa de tu vida, te volviste mucho más selectivo en tus vínculos luego de vivir una etapa geminiana cargada de asociaciones. En este nuevo período buscas relacionarte desde un lugar más profundo e íntimo. Necesitas momentos de retiro y soledad: aumenta en tí la introversión, el interés por el pasado, la familia y las tradiciones.
+A tus (YYYY) años aproximadamente, te volviste mucho más selectivo en tus vínculos luego de vivir una etapa geminiana cargada de asociaciones. En este nuevo período buscas relacionarte desde un lugar más profundo e íntimo. Necesitas momentos de retiro y soledad: aumenta en tí la introversión, el interés por el pasado, la familia y las tradiciones.
 
-Cáncer es uno de los signos más sensibles y está sujeto a frecuentes altibajos emocionales, por eso durante este período debes cuidarte de no sucumbir a una susceptibilidad extrema y caprichosa. La proluna estará en este signo hasta completar este ciclo.
+Cáncer es uno de los signos más sensibles y está sujeto a frecuentes altibajos emocionales, por eso durante este período debes cuidarte de no sucumbir a una susceptibilidad extrema y caprichosa. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en leo natal
 
-En una etapa de tu vida, se produjo un giro notable en tu vida volviéndote mucho más extrovertido, determinado y seguro de tí mismo. Dejaste atrás las susceptibilidades e indecisiones de la etapa anterior para salir del cascarón y así reafirmarte y destacarte frente al entorno. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, se produjo un giro notable en tu vida volviéndote mucho más extrovertido, determinado y seguro de tí mismo. Dejaste atrás las susceptibilidades e indecisiones de la etapa anterior para salir del cascarón y así reafirmarte y destacarte frente al entorno. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en virgo natal
 
-En una etapa de tu vida, la extroversión y determinación leoninas dieron lugar a un modo mucho más práctico, adaptable y terrenal en tí. Dejaste atrás tus ilusiones para enfocarte en una realidad objetiva y sacar el mejor provecho de las situaciones. A través de un riguroso autoexamen reconoces tus limitaciones, lo que te lleva a una apreciación más realista y humilde de tí. Corres el riesgo de que tu amor por los detalles y el orden se transforme en una obsesión que termine agobiándote. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, la extroversión y determinación leoninas dieron lugar a un modo mucho más práctico, adaptable y terrenal en tí. Dejaste atrás tus ilusiones para enfocarte en una realidad objetiva y sacar el mejor provecho de las situaciones. A través de un riguroso autoexamen reconoces tus limitaciones, lo que te lleva a una apreciación más realista y humilde de tí. Corres el riesgo de que tu amor por los detalles y el orden se transforme en una obsesión que termine agobiándote. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en libra natal
 
-Aproximadamente empezaste a sentir que era hora de liberarte de actitudes fastidiosas y detallistas características de los últimos años. En este nuevo período, más que apoyarte en una rutina metódica y sofocante buscas crear ambientes armónicos y equilibrados. Aumenta tu interés por la vida social. En vez de preocuparte por la utilidad de un objeto, te inclinas por tus cualidades estéticas o artísticas. Te haces más flexible y comprensivo, lo que te permite desplegar ciertas cualidades librianas como la diplomacia, el interés por la cultura y la justicia. La proluna estará en este signo hasta completar este ciclo.
+Aproximadamente a tus (YYYY) años empezaste a sentir que era hora de liberarte de actitudes fastidiosas y detallistas características de los últimos años. En este nuevo período, más que apoyarte en una rutina metódica y sofocante buscas crear ambientes armónicos y equilibrados. Aumenta tu interés por la vida social. En vez de preocuparte por la utilidad de un objeto, te inclinas por tus cualidades estéticas o artísticas. Te haces más flexible y comprensivo, lo que te permite desplegar ciertas cualidades librianas como la diplomacia, el interés por la cultura y la justicia. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en escorpio natal
 
-Aproximadamente te embarcaste en un período de crisis y cambios trascendentales. Te volviste más selectivo en los vínculos, cortando ciertas relaciones para poder conectarte de modo más profundo y comprometido. Escorpio es un signo de agua, que hace que aumente durante esta etapa tu sensibilidad. Intenta evitar los extremos y estar del lado del eterno conflicto. De lo contrario, corres el riesgo de quedarte enganchado en situaciones que te traigan resentimiento. Si aprendes a soltar podrás llegar al fondo de cuestiones que te posibilitan un cambio profundo. La proluna estará en este signo hasta completar este ciclo.
+Aproximadamente a tus (YYYY) años te embarcaste en un período de crisis y cambios trascendentales. Te volviste más selectivo en los vínculos, cortando ciertas relaciones para poder conectarte de modo más profundo y comprometido. Escorpio es un signo de agua, que hace que aumente durante esta etapa tu sensibilidad. Intenta evitar los extremos y estar del lado del eterno conflicto. De lo contrario, corres el riesgo de quedarte enganchado en situaciones que te traigan resentimiento. Si aprendes a soltar podrás llegar al fondo de cuestiones que te posibilitan un cambio profundo. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en sagitario natal
 
-En una etapa de tu vida empezaste un período de expansión con un anhelo por trascender y encontrar nuevos y más amplios significados. Sagitario es un signo de fuego, y por ende durante esta fase sentirás que se acrecienta tu individualismo y entusiasmo. Suelen estar presentes los viajes y contactos con el extranjero; también puede darse un despertar religioso en tí. Con Sagitario debes resguardarte de las idealizaciones, del exceso de confianza, la falta de moderación y el despilfarro. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente empezaste un período de expansión con un anhelo por trascender y encontrar nuevos y más amplios significados. Sagitario es un signo de fuego, y por ende durante esta fase sentirás que se acrecienta tu individualismo y entusiasmo. Suelen estar presentes los viajes y contactos con el extranjero; también puede darse un despertar religioso en tí. Con Sagitario debes resguardarte de las idealizaciones, del exceso de confianza, la falta de moderación y el despilfarro. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en capricornio natal
 
-En una etapa de tu vida, empezaste un período de realismo y austeridad dejando atrás las exageraciones de Sagitario. Durante esta etapa es momento de pagar por la fiesta de optimismo y despilfarro de la fase anterior. Quizás debas asumir nuevas responsabilidades que te hagan renunciar a la libertad y el permisivismo de otros tiempos. Sea cual fuere el caso, pasas de una etapa de expansión a otra de contracción. Comienza un estado vinculado a la búsqueda de seguridad material, te vuelves más precavido y organizado, más forma y maduro. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente, empezaste un período de realismo y austeridad dejando atrás las exageraciones de Sagitario. Durante esta etapa es momento de pagar por la fiesta de optimismo y despilfarro de la fase anterior. Quizás debas asumir nuevas responsabilidades que te hagan renunciar a la libertad y el permisivismo de otros tiempos. Sea cual fuere el caso, pasas de una etapa de expansión a otra de contracción. Comienza un estado vinculado a la búsqueda de seguridad material, te vuelves más precavido y organizado, más forma y maduro. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en acuario natal
 
-En una etapa de tu vida empezaste un período de alivianamiento donde te liberaste de las exigencias y la rígida rutina de la etapa anterior. Aumentan así tu libertad y tus ganas de relacionarte con gente distinta y aprender cosas nuevas. Es un buen momento para introducir cambios en las situaciones o vínculos que te asfixian e impiden evolucionar. Debes encontrar la distancia justa para que en tus relaciones no se destruya el vínculo ni te sientas atrapado. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente empezaste un período de alivianamiento donde te liberaste de las exigencias y la rígida rutina de la etapa anterior. Aumentan así tu libertad y tus ganas de relacionarte con gente distinta y aprender cosas nuevas. Es un buen momento para introducir cambios en las situaciones o vínculos que te asfixian e impiden evolucionar. Debes encontrar la distancia justa para que en tus relaciones no se destruya el vínculo ni te sientas atrapado. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 #### ingreso proluna en piscis natal
 
-En una etapa de tu vida empezaste un período de aislamiento e introversión. Al aumentar tu sensibilidad te sientes invadido por el entorno y necesitas momentos de silencio y meditación. Suele ser una etapa angustiante donde prevalece el desorden y la confusión, y la lógica y la voluntad parecen adormecerse. En un aspecto positivo, te vuelves más romántico, compasivo y tolerante con los demás. Es un buen momento para que desarrolles alguna forma de arte que te permita canalizar tu imaginación y sensibilidad. La proluna estará en este signo hasta completar este ciclo.
+A tus (YYYY) años aproximadamente empezaste un período de aislamiento e introversión. Al aumentar tu sensibilidad te sientes invadido por el entorno y necesitas momentos de silencio y meditación. Suele ser una etapa angustiante donde prevalece el desorden y la confusión, y la lógica y la voluntad parecen adormecerse. En un aspecto positivo, te vuelves más romántico, compasivo y tolerante con los demás. Es un buen momento para que desarrolles alguna forma de arte que te permita canalizar tu imaginación y sensibilidad. La proluna estará en este signo hasta tus (YYYY) años aproximadamente.
 
 ### proluna aspectos
 
 #### proluna trígono al sol natal
 
-En una etapa de tu vida te trae éxito y reconocimiento del entorno.
+A tus (YYYY) años aproximadamente te trae éxito y reconocimiento del entorno.
 
 #### proluna inarmónico al sol natal
 
-En una etapa de tu vida te provoca desvalorización personal y pérdidas de índole material, sentimental o social.
+A tus (YYYY) años aproximadamente te provoca desvalorización personal y pérdidas de índole material, sentimental o social.
 
 #### proluna conjunción al sol natal
 
-En una etapa de tu vida señala un nuevo estado en tí, un enfoque novedoso de tu personalidad y de la forma de expresar tus talentos y potencialidades.
+A tus (YYYY) años aproximadamente señala un nuevo estado en tí, un enfoque novedoso de tu personalidad y de la forma de expresar tus talentos y potencialidades.
 
 #### proluna trígono a la luna natal
 
-En una etapa de tu vida ayuda para que los asuntos del hogar, la familia, el cuidado y la nutrición de tu entorno alcancen una expresión óptima.
+A tus (YYYY) años aproximadamente ayuda para que los asuntos del hogar, la familia, el cuidado y la nutrición de tu entorno alcancen una expresión óptima.
 
 #### proluna inarmónico a luna natal
 
-En una etapa de tu vida pudo producir conflictos con tu familia, problemas en el hogar, o emocionalidades desordenadas que dieron lugar a crisis psíquicas.
+A tus (YYYY) años aproximadamente pudo producir conflictos con tu familia, problemas en el hogar, o emocionalidades desordenadas que dieron lugar a crisis psíquicas.
 
 #### proluna conjunción a luna natal
 
-En una etapa de tu vida marca un nuevo punto de partida en tu vida en relación a tu familia y tu hogar y en la manera de cuidar, nutrir y proteger al otro así como de sentirte seguro.
+A tus (YYYY) años aproximadamente marca un nuevo punto de partida en tu vida en relación a tu familia y tu hogar y en la manera de cuidar, nutrir y proteger al otro así como de sentirte seguro.
 
 #### proluna trígono a mercurio natal
 
-En una etapa de tu vida te favoreció en los estudios, la comunicación, los logros intelectuales, el comercio y las relaciones con tus pares.
+A tus (YYYY) años aproximadamente te favoreció en los estudios, la comunicación, los logros intelectuales, el comercio y las relaciones con tus pares.
 
 #### proluna inarmónico a mercurio natal
 
-En una etapa de tu vida te imposibilitó el aprendizaje, la difusión de conocimientos, los proyectos intelectuales, la comunicación, los viajes cortos y los vínculos con tus pares.
+A tus (YYYY) años aproximadamente te imposibilitó el aprendizaje, la difusión de conocimientos, los proyectos intelectuales, la comunicación, los viajes cortos y los vínculos con tus pares.
 
 #### proluna conjunción a mercurio natal
 
-En una etapa de tu vida señala un nuevo estado en intelectual y en tu manera de comunicarte, así como en tu vínculo con tus pares.
+A tus (YYYY) años aproximadamente señala un nuevo estado en intelectual y en tu manera de comunicarte, así como en tu vínculo con tus pares.
 
 #### proluna armónico a venus natal
 
-En una etapa de tu vida te favorece en los vínculos, dotándote de una vida social activa. Aumenta tu carisma y te vuelve más seductor.
+A tus (YYYY) años aproximadamente te favorece en los vínculos, dotándote de una vida social activa. Aumenta tu carisma y te vuelve más seductor.
 
 #### proluna armónico a marte natal
 
-En una etapa de tu vida te favorece en la productividad y te vuelve más activo. Es así como tomas iniciativas, te llenas de entusiasmo y estás más motivado.
+A tus (YYYY) años aproximadamente te favorece en la productividad y te vuelve más activo. Es así como tomas iniciativas, te llenas de entusiasmo y estás más motivado.
 
 #### proluna inarmónico a marte natal
 
-En una etapa de tu vida puede causarte reacciones desmedidas y hasta accidentes. Estás más irascible, reaccionando ante el menor estímulo.
+A tus (YYYY) años aproximadamente puede causarte reacciones desmedidas y hasta accidentes. Estás más irascible, reaccionando ante el menor estímulo.
 
