@@ -50,7 +50,7 @@ Con Plutón en la casa once, la de los grupos, seguramente tengas pocos amigos p
 
 ### plutón en la casa 12
 
-Con el intenso Plutón en casa doce es normal que muestres interés por lo oculto y reprimido a nivel colectivo, y que te preocupes por ayudar a quienes son despreciados por la comunidad. Cada tanto necesitas retirarte a algún lugar tranquilo para estar en soledad. Otra interpretación de esta posición es que de joven Plutón pasó por el ascendente produciendo cambios y crisis profundas en su vida.
+Con el intenso Plutón en casa doce es normal que muestres interés por lo oculto y reprimido a nivel colectivo, y que te preocupes por ayudar a quienes son despreciados por la comunidad. Cada tanto necesitas retirarte a algún lugar tranquilo para estar en soledad. Otra interpretación de esta posición es que de joven, a tus (YYYY) años, Plutón pasó por el ascendente produciendo cambios y crisis profundas en su vida.
 
 Acerca de tu padre, significa que tuvo transformaciones profundas en sus ideas y creencias a lo largo de su vida. Sobre tu madre, sugiere una mujer penetrante, cuyo modo de pensar y comunicarse sufre grandes alteraciones, posiblemente a raíz de experiencias conflictivas con sus hermanos.
 

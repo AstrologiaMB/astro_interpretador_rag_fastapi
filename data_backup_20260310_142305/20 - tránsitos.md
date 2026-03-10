@@ -1397,77 +1397,77 @@ Urano pasó por tu ascendente a partir de (indicar fecha) haciéndote impaciente
 
 #### tránsito de urano por casa 2 natal
 
-Con Urano en la casa dos durante este periodo, necesitas enfrentar cambios en el área de la independencia económica, tu actitud frente al dinero y la forma en que distribuyes tu energía. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con Urano en la casa dos desde (YYYY) y hasta (YYYY), necesitas enfrentar cambios en el área de la independencia económica, tu actitud frente al dinero y la forma en que distribuyes tu energía. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 3 natal
 
-Con Urano en la casa tres durante este periodo, surgen nuevas ideas, estudios y conocimientos que modifican radicalmente tu punto de vista y te hacen más receptivo. Puede que pienses en mudarte para cambiar de ambiente. También pueden darse cambios en el vínculo con tus hermanos. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con Urano en la casa tres desde (YYYY) y hasta (YYYY), surgen nuevas ideas, estudios y conocimientos que modifican radicalmente tu punto de vista y te hacen más receptivo. Puede que pienses en mudarte para cambiar de ambiente. También pueden darse cambios en el vínculo con tus hermanos. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 4 natal
 
-Con Urano en la casa cuatro durante este periodo, tiendes a modificar asuntos relacionados con la familia y el hogar. Puede que tu vida cotidiana sufra cambios bruscos e innovadores que te hagan más independiente. Es probable que durante este tránsito necesites tomar distancia de asuntos familiares o del pasado que te asfixian o limitan tu libertad para cambiar la forma en que te relacionas con tu familia. En ocasiones habrá una mudanza inesperada. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con Urano en la casa cuatro desde (YYYY) y hasta (YYYY), tiendes a modificar asuntos relacionados con la familia y el hogar. Puede que tu vida cotidiana sufra cambios bruscos e innovadores que te hagan más independiente. Es probable que durante este tránsito necesites tomar distancia de asuntos familiares o del pasado que te asfixian o limitan tu libertad para cambiar la forma en que te relacionas con tu familia. En ocasiones habrá una mudanza inesperada. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 5 natal
 
-Con Urano en la casa cinco durante este periodo, aumenta tu creatividad y te sentirás más original. En el área afectiva, seguramente tengas encuentros amorosos inesperados que prosperarán siempre y cuando no te hagan renunciar a tu libertad personal. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
+Con Urano en la casa cinco desde (YYYY) y hasta (YYYY), aumenta tu creatividad y te sentirás más original. En el área afectiva, seguramente tengas encuentros amorosos inesperados que prosperarán siempre y cuando no te hagan renunciar a tu libertad personal. Este tránsito dura aproximadamente siete años, pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 6 natal
 
-Con Urano en la casa seis durante este periodo, pasarás por momentos de estrés laboral, ya que necesitas mayor independencia y libertad creativa en el trabajo. Podrían darse conflictos con superiores o subordinados. Con este tránsito suele haber cambios inesperados de empleo, o bien un nuevo enfoque en él. Este tránsito dura unos siete años y se siente con más fuerza al inicio.
+Con Urano en la casa seis desde (YYYY) y hasta (YYYY), pasarás por momentos de estrés laboral, ya que necesitas mayor independencia y libertad creativa en el trabajo. Podrían darse conflictos con superiores o subordinados. Con este tránsito suele haber cambios inesperados de empleo, o bien un nuevo enfoque en él. Este tránsito dura unos siete años y se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 7 natal
 
-Con Urano en la casa siete durante este periodo, aumenta tu necesidad de independencia en las relaciones personales. Es importante que hagas los cambios necesarios para no sentirte limitado en los vínculos; de lo contrario te serán muy difíciles de sostener. A veces, este tránsito supone separaciones y rupturas con la pareja, amigos o socios. En su mejor versión supone la oportunidad de conocer personas originales y libres. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
+Con Urano en la casa siete desde (YYYY) y hasta (YYYY), aumenta tu necesidad de independencia en las relaciones personales. Es importante que hagas los cambios necesarios para no sentirte limitado en los vínculos; de lo contrario te serán muy difíciles de sostener. A veces, este tránsito supone separaciones y rupturas con la pareja, amigos o socios. En su mejor versión supone la oportunidad de conocer personas originales y libres. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 8 natal
 
-Con Urano en la casa ocho durante este periodo, hay cambios en el terreno de lo compartido. Puede traer altibajos en la situación económica del cónyuge, herencias inesperadas o cambios abruptos en la economía debido a negocios con un socio. La casa ocho también es la del sexo, por lo que es posible que haya innovaciones en este ámbito. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
+Con Urano en la casa ocho desde (YYYY) y hasta (YYYY), hay cambios en el terreno de lo compartido. Puede traer altibajos en la situación económica del cónyuge, herencias inesperadas o cambios abruptos en la economía debido a negocios con un socio. La casa ocho también es la del sexo, por lo que es posible que haya innovaciones en este ámbito. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 9 natal
 
-Con Urano en la casa nueve durante este periodo, es probable que entres en contacto con nuevas ideas, tal vez a raíz de un viaje o estudios. Es momento de cambios en las convicciones.
+Con Urano en la casa nueve desde (YYYY) y hasta (YYYY), es probable que entres en contacto con nuevas ideas, tal vez a raíz de un viaje o estudios. Es momento de cambios en las convicciones.
 
 #### tránsito de urano por casa 10 natal
 
-Con Urano en la casa diez durante este periodo, necesitas más independencia y libertad profesional. Este tránsito a veces viene acompañado de roces con las figuras de autoridad ya que hace que te cueste adaptarte a las exigencias y hace que te sientas ahogado por la rutina. Puede que te den ganas de trabajar de manera independiente o de hacer algún cambio en la forma en que te muestras a la sociedad. Es un tránsito que dura unos siete años pero se siente con más fuerza al inicio.
+Con Urano en la casa diez desde (YYYY) y hasta (YYYY), necesitas más independencia y libertad profesional. Este tránsito a veces viene acompañado de roces con las figuras de autoridad ya que hace que te cueste adaptarte a las exigencias y hace que te sientas ahogado por la rutina. Puede que te den ganas de trabajar de manera independiente o de hacer algún cambio en la forma en que te muestras a la sociedad. Es un tránsito que dura unos siete años pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 11 natal
 
-Con Urano en la casa once durante este periodo, puede que conozcas gente nueva y original. Es un período de independencia en las ideas, con nuevos planes sociales o profesionales. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
+Con Urano en la casa once desde (YYYY) y hasta (YYYY), puede que conozcas gente nueva y original. Es un período de independencia en las ideas, con nuevos planes sociales o profesionales. Es un tránsito que dura aproximadamente siete años pero se siente con más fuerza al inicio.
 
 #### tránsito de urano por casa 12 natal
 
-Con Urano en la casa doce durante este periodo, suelen reaparecer situaciones o personas del pasado con quienes tienes asuntos pendientes; es un buen momento para poner las cuentas al día. Si estás vinculado con alguna institución (hospitales, museos, bibliotecas, ONGs, etc.) durante este período aumenta tu insatisfacción y es posible que busques modificar tu entorno. Esta tiende a ser una época de inquietud en la que necesitas cambios pero no estás en condiciones de implementarlos, el momento adecuado será al final del tránsito cuando Urano ingrese en la casa uno.
+Con Urano en la casa doce desde (YYYY) y hasta (YYYY), suelen reaparecer situaciones o personas del pasado con quienes tienes asuntos pendientes; es un buen momento para poner las cuentas al día. Si estás vinculado con alguna institución (hospitales, museos, bibliotecas, ONGs, etc.) durante este período aumenta tu insatisfacción y es posible que busques modificar tu entorno. Esta tiende a ser una época de inquietud en la que necesitas cambios pero no estás en condiciones de implementarlos, el momento adecuado será al final del tránsito cuando Urano ingrese en la casa uno.
 
 ### tránsitos de urano aspectos
 
 #### urano en tránsito por conjunción o cuadratura u oposición al sol natal
 
-Este tránsito hace que Urano toque el Sol generándote mucha inquietud, ya que se viene un cambio que hace que rompas estructuras, sobre todo en el área de en su momento. Como tienes un lado conservador, los cambios pueden venir de la mano de otras personas que traen innovaciones, nuevas posturas e ideas. Es un tránsito de rupturas, liberaciones y quiebres que barre con ataduras del pasado.
+Este tránsito hace que Urano toque el Sol generándote mucha inquietud, ya que se viene un cambio que hace que rompas estructuras, sobre todo en el área de (YYYY). Como tienes un lado conservador, los cambios pueden venir de la mano de otras personas que traen innovaciones, nuevas posturas e ideas. Es un tránsito de rupturas, liberaciones y quiebres que barre con ataduras del pasado.
 
 #### urano en tránsito por conjunción o cuadratura u oposición a luna natal
 
-El tránsito de Urano a la Luna natal en en su momento señala que necesitas hacer un cambio en tu vida hogareña, o bien con respecto a tu madre y las mujeres en general. Puede implicar mudanzas, sobre todo si son repentinas e inesperadas. También te puede traer angustia porque necesitas más libertad y desapego. Te sientes invadido, pero al mismo tiempo anhelas conservar aquello que te encierra pues te da un fuerte sentido de pertenencia. Debes encontrar la distancia justa en el vínculo con otros para no sentirte ahogado. Puede que vivas este tránsito como algo ajeno que la vida te trae.
+El tránsito de Urano a la Luna natal en (YYYY) señala que necesitas hacer un cambio en tu vida hogareña, o bien con respecto a tu madre y las mujeres en general. Puede implicar mudanzas, sobre todo si son repentinas e inesperadas. También te puede traer angustia porque necesitas más libertad y desapego. Te sientes invadido, pero al mismo tiempo anhelas conservar aquello que te encierra pues te da un fuerte sentido de pertenencia. Debes encontrar la distancia justa en el vínculo con otros para no sentirte ahogado. Puede que vivas este tránsito como algo ajeno que la vida te trae.
 
 #### urano en tránsito por conjunción o cuadratura u oposición a mercurio natal
 
-El tránsito de Urano a Mercurio natal en en su momento te produce cambios a nivel de la mente, haciendo que aumente tu interés por lo novedoso; es un excelente momento para estudiar cosas nuevas. Verás cómo se transforman tus actitudes y tu modo de ver las cosas: hay más desapego, más libertad y respuestas novedosas a viejos problemas. Como Mercurio representa a los hermanos y a los pares, este tránsito puede provocar rupturas y peleas para reajustar estos vínculos.
+El tránsito de Urano a Mercurio natal en (YYYY) te produce cambios a nivel de la mente, haciendo que aumente tu interés por lo novedoso; es un excelente momento para estudiar cosas nuevas. Verás cómo se transforman tus actitudes y tu modo de ver las cosas: hay más desapego, más libertad y respuestas novedosas a viejos problemas. Como Mercurio representa a los hermanos y a los pares, este tránsito puede provocar rupturas y peleas para reajustar estos vínculos.
 
 #### urano en tránsito por conjunción o cuadratura u oposición a venus natal
 
-El tránsito de Urano a Venus natal en en su momento suele traer cambios en las relaciones haciendo que aquellas que no funcionan y se mantienen por compromiso se caigan. Es momento de experimentar nuevas formas de sentir y vincularte con más libertad, sin tantos condicionamientos. Este tránsito puede provocar enamoramientos fulminantes, inesperados o el inicio de relaciones con gente que conoces de manera extraña. Como Venus es un planeta femenino, durante este tránsito muchos hombres viven los cambios de Urano a través de una mujer; quizás no son ellos los que necesitan libertad sino que una mujer en su vida se los exige.
+El tránsito de Urano a Venus natal en (YYYY) suele traer cambios en las relaciones haciendo que aquellas que no funcionan y se mantienen por compromiso se caigan. Es momento de experimentar nuevas formas de sentir y vincularte con más libertad, sin tantos condicionamientos. Este tránsito puede provocar enamoramientos fulminantes, inesperados o el inicio de relaciones con gente que conoces de manera extraña. Como Venus es un planeta femenino, durante este tránsito muchos hombres viven los cambios de Urano a través de una mujer; quizás no son ellos los que necesitan libertad sino que una mujer en su vida se los exige.
 
 #### urano en tránsito por conjunción o cuadratura u oposición a marte natal
 
-Con Urano en tránsito a Marte natal en en su momento, las circunstancias externas te obligan a dar respuestas originales y a adaptarte a nuevas condiciones de vida. Este contacto te genera mucha impaciencia e irritabilidad.
+Con Urano en tránsito a Marte natal en (YYYY), las circunstancias externas te obligan a dar respuestas originales y a adaptarte a nuevas condiciones de vida. Este contacto te genera mucha impaciencia e irritabilidad.
 
 #### urano en tránsito por conjunción o cuadratura u oposición a júpiter natal
 
-Con Urano en tránsito a Júpiter natal en en su momento cambia tu visión del mundo: es un momento de expansión y cambio pero debes cuidarte de proyectos e ideales utópicos. Surge en tí una necesidad de liberarte de las creencias que te restringen o encierran. Como consecuencia, puede que pierdas contacto con la realidad y hagas cambios demasiado radicales y precipitados. Suele ser una etapa de viajes, sobre todo si son inesperados, repentinos o a lugares exóticos.
+Con Urano en tránsito a Júpiter natal en (YYYY) cambia tu visión del mundo: es un momento de expansión y cambio pero debes cuidarte de proyectos e ideales utópicos. Surge en tí una necesidad de liberarte de las creencias que te restringen o encierran. Como consecuencia, puede que pierdas contacto con la realidad y hagas cambios demasiado radicales y precipitados. Suele ser una etapa de viajes, sobre todo si son inesperados, repentinos o a lugares exóticos.
 
 #### urano en tránsito por conjunción o cuadratura u oposición a saturno natal
 
-Urano en tránsito a Saturno natal en en su momento produce en tí un encuentro entre lo viejo y lo nuevo. Es momento de que te rebeles contra las circunstancias que soportabas únicamente por deber o culpa o porque te brindan seguridad. Este tránsito hace que te vuelvas más arriesgado y le des lugar a lo nuevo. También implica un momento de tensión al dejar de lado lo conocido sin saber con qué te encontrarás. Puede que sientas que las estructuras que te sostenían se desmoronan, sobre todo si te apoyas demasiado en lo externo en vez de en tí mismo. También puede que se te presenten conflictos con figuras de autoridad como padres o jefes.
+Urano en tránsito a Saturno natal en (YYYY) produce en tí un encuentro entre lo viejo y lo nuevo. Es momento de que te rebeles contra las circunstancias que soportabas únicamente por deber o culpa o porque te brindan seguridad. Este tránsito hace que te vuelvas más arriesgado y le des lugar a lo nuevo. También implica un momento de tensión al dejar de lado lo conocido sin saber con qué te encontrarás. Puede que sientas que las estructuras que te sostenían se desmoronan, sobre todo si te apoyas demasiado en lo externo en vez de en tí mismo. También puede que se te presenten conflictos con figuras de autoridad como padres o jefes.
 
 ## neptuno en tránsito
 
@@ -1481,11 +1481,11 @@ Neptuno en tránsito por la casa dos entre (agregar fecha) y (agregar fecha) te 
 
 #### tránsito de neptuno por casa 3 natal
 
-Con Neptuno en tránsito por la casa tres en este ciclo sentirás que tu mente se sensibiliza tornándose fácilmente influenciable y que no te es posible fijar límites entre tus pensamientos y los de los demás. Aumentan así la confusión y la desorganización mental, y hay mayor conexión con el mundo onírico. Pueden darse situaciones confusas o engañosas con alguno de tus hermanos, tal vez debas sacrificarte por alguno de ellos. Es un período ideal para que te conectes con tu inconsciente a partir de terapias alternativas.
+Con Neptuno en tránsito por la casa tres entre (YYYY) y (YYYY) sentirás que tu mente se sensibiliza tornándose fácilmente influenciable y que no te es posible fijar límites entre tus pensamientos y los de los demás. Aumentan así la confusión y la desorganización mental, y hay mayor conexión con el mundo onírico. Pueden darse situaciones confusas o engañosas con alguno de tus hermanos, tal vez debas sacrificarte por alguno de ellos. Es un período ideal para que te conectes con tu inconsciente a partir de terapias alternativas.
 
 #### tránsito de neptuno por casa 4 natal
 
-Con Neptuno en tránsito por la casa cuatro en este ciclo suele aumentar la desorganización en la familia y puede que vivas situaciones caóticas en el hogar. Debes estar atento si vas a realizar negocios inmobiliarios porque este tránsito es bastante propenso a los engaños. Vas a sentirte más sensible, necesitando estar contigo mismo y en silencio.
+Con Neptuno en tránsito por la casa cuatro entre (YYYY) y (YYYY) suele aumentar la desorganización en la familia y puede que vivas situaciones caóticas en el hogar. Debes estar atento si vas a realizar negocios inmobiliarios porque este tránsito es bastante propenso a los engaños. Vas a sentirte más sensible, necesitando estar contigo mismo y en silencio.
 
 #### tránsito de neptuno por casa 5 natal
 
@@ -1501,7 +1501,7 @@ Con Neptuno en tránsito por la casa cuatro en este ciclo suele aumentar la deso
 
 #### tránsito de neptuno por casa 11 natal
 
-Neptuno en tránsito por la casa once durante este periodo puede traerte incertidumbre o descontento con respecto a tus objetivos de vida. Es un buen momento para que te conectes con grupos u organizaciones que antes no te interesaban. La casa once está vinculada con la amistad. En su vertiente positiva, Neptuno indica amigos que te brindan su apoyo y te ayudan a ensanchar tu horizonte y abrir los ojos a metas y visiones nuevas, posiblemente de carácter espiritual o metafísico. En su versión negativa, este tránsito indica amigos que te defraudan o abandonan. En este caso, Neptuno exige renunciar a las altas expectativas de la amistad para aprender a ser más tolerante con los demás y a aceptarlos tal como son.
+Neptuno en tránsito por la casa once desde (YYYY) y hasta (YYYY) puede traerte incertidumbre o descontento con respecto a tus objetivos de vida. Es un buen momento para que te conectes con grupos u organizaciones que antes no te interesaban. La casa once está vinculada con la amistad. En su vertiente positiva, Neptuno indica amigos que te brindan su apoyo y te ayudan a ensanchar tu horizonte y abrir los ojos a metas y visiones nuevas, posiblemente de carácter espiritual o metafísico. En su versión negativa, este tránsito indica amigos que te defraudan o abandonan. En este caso, Neptuno exige renunciar a las altas expectativas de la amistad para aprender a ser más tolerante con los demás y a aceptarlos tal como son.
 
 #### tránsito de neptuno por casa 12 natal
 
@@ -1523,7 +1523,7 @@ El tránsito de Neptuno por Mercurio desde (agregar fecha) hasta (agregar fecha)
 
 #### neptuno en tránsito por conjunción o cuadratura u oposición a venus natal
 
-Con el tránsito de Neptuno por Venus en en su momento te es difícil tener una visión realista de tu pareja. En caso de empezar una relación durante este tránsito, seguramente idealices demasiado al otro. Si ya estás en pareja, puede que tengas que sacrificarte de algún modo por esa persona o adaptarte a sus necesidades. En su aspecto positivo, este tránsito incrementa tus capacidades artísticas, te vuelve más comprensivo, generoso y menos rígido en tus vínculos.
+Con el tránsito de Neptuno por Venus en (YYYY) te es difícil tener una visión realista de tu pareja. En caso de empezar una relación durante este tránsito, seguramente idealices demasiado al otro. Si ya estás en pareja, puede que tengas que sacrificarte de algún modo por esa persona o adaptarte a sus necesidades. En su aspecto positivo, este tránsito incrementa tus capacidades artísticas, te vuelve más comprensivo, generoso y menos rígido en tus vínculos.
 
 #### neptuno en tránsito por conjunción o cuadratura u oposición a marte natal
 
@@ -1531,7 +1531,7 @@ El tránsito de Neptuno por Marte hace que disuelvas tu voluntad, disminuyas tus
 
 #### neptuno en tránsito por conjunción al ascendente (ángulo)
 
-El tránsito de Neptuno por el ascendente a partir de en su momento estimula tu deseo de trascender o entregarte a un ideal y suele venir acompañado de experiencias de carácter religioso. Con Neptuno siempre debes discriminar qué ideal o sistema de creencias sostener para no quedarte en una propuesta utópica que te desilusione. En su aspecto positivo, este tránsito te ayuda a disolver los rasgos más rígidos o estructurados de tu personalidad y te permite una apertura hacia lo trascendente.
+El tránsito de Neptuno por el ascendente a partir de (YYYY) estimula tu deseo de trascender o entregarte a un ideal y suele venir acompañado de experiencias de carácter religioso. Con Neptuno siempre debes discriminar qué ideal o sistema de creencias sostener para no quedarte en una propuesta utópica que te desilusione. En su aspecto positivo, este tránsito te ayuda a disolver los rasgos más rígidos o estructurados de tu personalidad y te permite una apertura hacia lo trascendente.
 
 ## plutón en tránsito
 
@@ -1579,7 +1579,7 @@ Plutón en tránsito por casa once trae cambios en el área de los amigos y los 
 
 #### tránsito de plutón por casa 12 natal
 
-Plutón en tránsito por casa doce a partir de en su momento te permite sacar a la luz aquellos aspectos de tu personalidad que hasta el momento permanecían reprimidos o no reconocías como propios. De este modo, podrás afrontarlos e integrarlos a tu propia identidad. Durante este tránsito puede que se reactiven problemas pasados que quedaron sin resolver, muchas veces a través del reencuentro con personas del pasado.
+Plutón en tránsito por casa doce a partir de (YYYY) te permite sacar a la luz aquellos aspectos de tu personalidad que hasta el momento permanecían reprimidos o no reconocías como propios. De este modo, podrás afrontarlos e integrarlos a tu propia identidad. Durante este tránsito puede que se reactiven problemas pasados que quedaron sin resolver, muchas veces a través del reencuentro con personas del pasado.
 
 ### tránsitos de plutón aspectos
 
@@ -1597,7 +1597,7 @@ El tránsito de Plutón al regente del ascendente es uno de los más transformad
 
 #### plutón en tránsito a mercurio natal
 
-Mercurio el planeta que representa cómo pensamos y nos expresamos, así como nuestro vínculo con los pares. Plutón te llama a vivir una transformación a través de una crisis profunda en Mercurio. Esto indica que lo que está en proceso de cambio es tu modo de pensar y comunicar. Es normal que durante el tránsito vivas estados mentales obsesivos, pues Plutón necesita tocar fondo para poder resurgir. Puede que salgan a la luz situaciones que estaban ocultas. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso en su momento.
+Mercurio el planeta que representa cómo pensamos y nos expresamos, así como nuestro vínculo con los pares. Plutón te llama a vivir una transformación a través de una crisis profunda en Mercurio. Esto indica que lo que está en proceso de cambio es tu modo de pensar y comunicar. Es normal que durante el tránsito vivas estados mentales obsesivos, pues Plutón necesita tocar fondo para poder resurgir. Puede que salgan a la luz situaciones que estaban ocultas. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso (YYYY).
 
 #### plutón en tránsito a venus natal
 
@@ -1605,7 +1605,7 @@ Venus el planeta que representa el placer, explica nuestro modo de encarar las r
 
 #### plutón en tránsito a marte natal
 
-Marte el planeta que representa cómo nos afirmamos en la vida y cómo obtenemos lo que deseamos. Plutón te llama a vivir una transformación a través de una crisis profunda en Marte. Esto indica que lo que está en proceso de cambio es la manera de luchar por tu propia vida, de comprometerte contigo mismo, de hacer valer tus derechos ante los otros e ir en pos de tus propios deseos. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso en su momento.
+Marte el planeta que representa cómo nos afirmamos en la vida y cómo obtenemos lo que deseamos. Plutón te llama a vivir una transformación a través de una crisis profunda en Marte. Esto indica que lo que está en proceso de cambio es la manera de luchar por tu propia vida, de comprometerte contigo mismo, de hacer valer tus derechos ante los otros e ir en pos de tus propios deseos. Los momentos más fuertes coinciden con el tránsito exacto sobre el planeta, en este caso (YYYY).
 
 #### plutón en tránsito a saturno natal
 
